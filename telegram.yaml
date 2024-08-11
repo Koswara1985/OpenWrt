@@ -1,0 +1,52 @@
+payload:
+  # > Telegram
+  # - PROCESS-NAME,org.telegram.messenger
+  # - PROCESS-NAME,Telegram
+  - DOMAIN-SUFFIX,t.me
+  - DOMAIN-SUFFIX,tx.me
+  - DOMAIN-SUFFIX,tdesktop.com
+  - DOMAIN-SUFFIX,telegra.ph
+  - DOMAIN-SUFFIX,telegram.me
+  - DOMAIN-SUFFIX,telegram.org
+  - IP-CIDR,91.108.4.0/22,no-resolve
+  - IP-CIDR,91.108.8.0/22,no-resolve
+  - IP-CIDR,91.108.12.0/22,no-resolve
+  - IP-CIDR,91.108.16.0/22,no-resolve
+  - IP-CIDR,91.108.56.0/22,no-resolve
+  - IP-CIDR,149.154.160.0/20,no-resolve
+  - IP-CIDR,2001:b28:f23d::/48,no-resolve
+  - IP-CIDR,2001:b28:f23f::/48,no-resolve
+  - IP-CIDR,2001:67c:4e8::/48,no-resolve
+
+  # HAMSTER
+  - DOMAIN-KEYWORD,hamsterkombatgame.io
+  - DOMAIN-SUFFIX,hamsterkombatgame.io
+
+  # FARMIX
+  - DOMAIN-KEYWORD,farmix.biz
+  - DOMAIN-SUFFIX,farmix.biz
+
+  # TON
+  - DOMAIN-KEYWORD,app.tonmax.xyz
+  - DOMAIN-SUFFIX,app.tonmax.xyz
+  - DOMAIN-KEYWORD,app.tonboost.app
+  - DOMAIN-SUFFIX,app.tonboost.app
+  - DOMAIN-KEYWORD,api.tonmax.xyz
+  - DOMAIN-SUFFIX,api.tonmax.xyz
+
+#  xlaxiata.co.id
+  - DOMAIN-KEYWORD,xlaxiata.co.id
+  - DOMAIN-SUFFIX,xlaxiata.co.id
+
+# DOGEX
+  - DOMAIN-KEYWORD,dogex.broker
+  - DOMAIN-SUFFIX,dogex.broker
+
+#Pepe
+  - DOMAIN-KEYWORD,pepe
+  - DOMAIN-SUFFIX,pepe.hivehubs.app
+
+#Coin Egg
+  - DOMAIN-KEYWORD,hivehubs
+  - DOMAIN-SUFFIX,egg-api.hivehubs.app
+  - DOMAIN-KEYWORD,rovex.io

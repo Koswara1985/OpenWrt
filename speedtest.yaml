@@ -1,0 +1,56 @@
+payload:
+  - DOMAIN-SUFFIX,cdnst.net
+  - DOMAIN-SUFFIX,cellmaps.com
+  - DOMAIN-SUFFIX,ekahau.cloud
+  - DOMAIN-SUFFIX,ekahau.com
+  - DOMAIN-SUFFIX,ookla.com
+  - DOMAIN-SUFFIX,ooklaserver.net
+  - DOMAIN-SUFFIX,pingtest.net
+  - DOMAIN-SUFFIX,speedtest.co
+  - DOMAIN-SUFFIX,speedtest.net
+  - DOMAIN-SUFFIX,speedtestcustom.com
+  - DOMAIN-SUFFIX,webtest.net
+  - DOMAIN-SUFFIX,speed.cloudflare.com
+  - DOMAIN-SUFFIX,speed.dler.io
+  - DOMAIN-SUFFIX,openspeedtest.com
+  - DOMAIN-SUFFIX,cachefly.net
+  - DOMAIN-KEYWORD,speedtest
+  - DOMAIN-KEYWORD,speedtestcustom
+  - DOMAIN-KEYWORD,openspeedtest
+  - DST-PORT,8080
+
+# ip widget
+  - DOMAIN-SUFFIX,ipwidget
+  - DOMAIN-KEYWORD,ipwidget
+  - DOMAIN-KEYWORD,ip-widget.net
+  - DOMAIN-SUFFIX,ip-widget.net
+  - DOMAIN-KEYWORD,dieter-thiess.de
+  - DOMAIN-SUFFIX,dieter-thiess.de
+  - DOMAIN-KEYWORD,dieterthiess.de
+  - DOMAIN-SUFFIX,dieterthiess.de
+
+ #  SURF
+  - DOMAIN-KEYWORD,v4.ident.me
+  - DOMAIN-SUFFIX,v4.ident.me
+  - DOMAIN-KEYWORD,api.ipify.org
+  - DOMAIN-SUFFIX,api.ipify.org
+  - DOMAIN-KEYWORD,doh.pub
+  - DOMAIN-SUFFIX,doh.pub
+  - DOMAIN-KEYWORD,ipv4.icanhazip.com
+  - DOMAIN-SUFFIX,ipv4.icanhazip.com
+  - DOMAIN-KEYWORD,edns.ip-api.com
+  - DOMAIN-SUFFIX,edns.ip-api.com
+  - DOMAIN-KEYWORD,validate.getsurfboard.com
+  - DOMAIN-SUFFIX,validate.getsurfboard.com
+
+# IP SCANER
+  - DOMAIN-KEYWORD,ip-api.com
+  - DOMAIN-SUFFIX,ip-api.com
+  - DOMAIN-KEYWORD,fundingchoicesmessages.google.com
+  - DOMAIN-SUFFIX,fundingchoicesmessages.google.com
+
+# IP ADDRESS
+  - DOMAIN-KEYWORD,api.onesignal.com
+  - DOMAIN-SUFFIX,api.onesignal.com
+  - DOMAIN-KEYWORD,api.net.info.az
+  - DOMAIN-SUFFIX,api.net.info.az

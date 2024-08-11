@@ -1,0 +1,15 @@
+payload:
+  # Whatsapp
+  - DOMAIN-SUFFIX,m.me
+  - DOMAIN-SUFFIX,oculus.com
+  - DOMAIN-SUFFIX,oculuscdn.com
+  - DOMAIN-SUFFIX,rocksdb.org
+  - DOMAIN-SUFFIX,whatsapp.com
+  - DOMAIN-SUFFIX,whatsapp.net
+  - DOMAIN-SUFFIX,g.whatsapp.net
+  - DOMAIN-SUFFIX,web.whatsapp.com
+  - DOMAIN-SUFFIX,scontent.whatsapp.net
+  - DOMAIN-SUFFIX,static.whatsapp.net
+  - DOMAIN-SUFFIX,mmg.whatsapp.net
+  - DOMAIN-SUFFIX,media.fbdj2-1.fna.whatsapp.net
+  - DOMAIN-SUFFIX,media-xsp1-2.cdn.whatsapp.net

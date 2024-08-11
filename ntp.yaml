@@ -1,0 +1,4 @@
+payload:
+  # ntp
+  - DOMAIN-KEYWORD,ntp.org
+  - DOMAIN-SUFFIX,ntp.org
