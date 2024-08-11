@@ -106,3 +106,64 @@ proxies:
       headers:
         Host: space.byu.id
     udp: true
+    
+  - name: Rumahweb443
+    server: 162.159.138.78
+    port: 443
+    type: vless
+    uuid: raisXcode
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id.jrflashervpn.my.id
+    network: ws
+    ws-opts:
+      path: ws://id.jrflashervpn.my.id/id1
+      headers:
+        Host: space.byu.id
+    udp: true
+  - name: Rumahweb80
+    server: 162.159.138.78
+    port: 80
+    type: vless
+    uuid: raisXcode
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: space.byu.id
+    network: ws
+    ws-opts:
+      path: ws://id.jrflashervpn.my.id/id1
+      headers:
+        Host: space.byu.id
+    udp: true
+  - name: Oracle Corporation443
+    server: 162.159.138.78
+    port: 443
+    type: vless
+    uuid: raisXcode
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-oracle.jrflashervpn.my.id
+    network: ws
+    ws-opts:
+      path: ws://sg-oracle.jrflashervpn.my.id/oracle1
+      headers:
+        Host: space.byu.id
+    udp: true
+  - name: Oracle Corporation80
+    server: 162.159.138.78
+    port: 80
+    type: vless
+    uuid: raisXcode
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: space.byu.id
+    network: ws
+    ws-opts:
+      path: ws://sg-oracle.jrflashervpn.my.id/oracle1
+      headers:
+        Host: space.byu.id
+    udp: true
