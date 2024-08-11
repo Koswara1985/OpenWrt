@@ -1,0 +1,108 @@
+proxies:
+  - name: WS-nTLS BYU 80
+    server: 162.159.138.78
+    port: 80
+    type: vless
+    uuid: 47f5ab29-37cb-4f1a-8638-765c59774836
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: space.byu.id
+    network: ws
+    ws-opts:
+      path: ws://sg.vless.sbs/vless
+      headers:
+        Host: space.byu.id
+    udp: true
+  - name: WS-TLS BYU 443
+    server: 162.159.138.78
+    port: 443
+    type: vless
+    uuid: 47f5ab29-37cb-4f1a-8638-765c59774836
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg.vless.sbs
+    network: ws
+    ws-opts:
+      path: ws://sg.vless.sbs/vless
+      headers:
+        Host: space.byu.id
+    udp: true
+  - name: Byu 80
+    server: 162.159.138.78
+    port: 80
+    type: vmess
+    uuid: e620d600-ee19-4012-a96c-968e85a52de9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: space.byu.id
+    network: ws
+    ws-opts:
+      path: ws://vmess-sg1.sshkit.org/sshkit/1788762246/669a6f2ad19f3/
+      headers:
+        Host: space.byu.id
+    udp: true
+  - name: Byu 443
+    server: 162.159.138.78
+    port: 443
+    type: vmess
+    uuid: e620d600-ee19-4012-a96c-968e85a52de9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vmess-sg1.sshkit.org
+    network: ws
+    ws-opts:
+      path: ws://vmess-sg1.sshkit.org/sshkit/1788762246/669a6f2ad19f3/
+      headers:
+        Host: space.byu.id
+    udp: true
+  - name: VLESS
+    server: 104.16.106.96
+    port: 80
+    type: vless
+    uuid: 515700ce-11c1-42d4-b660-dcf89237e75f
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: test01.airi.buzz
+    network: ws
+    ws-opts:
+      path: /custompath
+      headers:
+        Host: test01.airi.buzz
+    udp: true
+  - name: VLESS BYU 80
+    server: 162.159.138.78
+    port: 80
+    type: vless
+    uuid: 515700ce-11c1-42d4-b660-dcf89237e75f
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: space.byu.id
+    network: ws
+    ws-opts:
+      path: ws://test01.airi.buzz/vless
+      headers:
+        Host: space.byu.id
+    udp: true
+  - name: VLESS BYU 443
+    server: 162.159.138.78
+    port: 443
+    type: vless
+    uuid: 515700ce-11c1-42d4-b660-dcf89237e75f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: test01.airi.buzz
+    network: ws
+    ws-opts:
+      path: ws://test01.airi.buzz/vless
+      headers:
+        Host: space.byu.id
+    udp: true
