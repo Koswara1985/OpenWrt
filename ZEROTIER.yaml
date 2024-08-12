@@ -1,81 +1,14 @@
-PATH:
-  - &path1 /howdy
-
-Type:
-  - &type1 trojan
-
-HOST:
-  - &host1 sg3-trojan.bonds.id
-
-UUID:
-  - &UUID1 0c425a50-36d1-11ef-b832-1239d0255272
-
-INTERFACE:
-  - &i eth2
-  - &i2 eth2
-BUG:
-  - &bug1 104.16.106.96
-  - &bug2 graph.facebook.com
-  - &bug3 api.ovo.id
-  - &bug4 104.26.6.171
-
 proxies:
-  - name: SSL TROJAN
-    server: *host1
-    port: 443
-    type: trojan
-    password: *UUID1
-    skip-cert-verify: true
-    sni: *bug2
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: *host1
-    udp: true
-    interface-name: *i
-
-  - name: PROXY
-    server: *bug1
-    port: 443
-    type: trojan
-    password: *UUID1
-    skip-cert-verify: true
-    sni: *host1
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: *host1
-    udp: true
-    interface-name: *i
-
-  - name: OPOK
-    server: *bug3
-    port: 443
-    type: trojan
-    password: *UUID1
-    skip-cert-verify: true
-    sni: *host1
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: *host1
-    udp: true
-    interface-name: *i
-
-  - name: ILPED TROJAN
-    server: *bug4
-    port: 443
-    type: trojan
-    password: *UUID1
-    skip-cert-verify: true
-    sni: *host1
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: *host1
-    udp: true
-    interface-name: *i2
+- name: sghe3
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: b736e920-5258-11ef-afd8-1239d0255272
+  skip-cert-verify: true
+  sni: sg3-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg3-trojan.bonds.id
+  udp: true

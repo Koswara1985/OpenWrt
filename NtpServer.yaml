@@ -1,91 +1,17 @@
-PATH:
-  - &path1 /sshkit/1788762246/669a6f2ad19f3/
-Type:
-  - &type1 vmess
-HOST:
-  - &host1 vmess-sg1.sshkit.org
-UUID:
-  - &UUID1 e620d600-ee19-4012-a96c-968e85a52de9
-INTERFACE:
-  - &i eth2
-  - &i2 eth2
-BUG:
-  - &bug1 104.16.106.96
-  - &bug2 graph.facebook.com
-  - &bug3 api.ovo.id
-  - &bug4 104.26.6.171
-
-# Account valid until 2024-08-18
-
 proxies:
-  - name: AXIS GAME
-    server: *bug1
+  - name: vmess-sg1.sshkit.org 2024-08-18
+    server: 104.26.6.171
     port: 80
-    type: *type1
-    uuid: *UUID1
+    type: vmess
+    uuid: e620d600-ee19-4012-a96c-968e85a52de9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: *host1
+    servername: vmess-sg1.sshkit.org
     network: ws
     ws-opts:
-      path: *path1
+      path: /sshkit/1788762246/669a6f2ad19f3/
       headers:
-        Host: *host1
+        Host: vmess-sg1.sshkit.org
     udp: true
-    interface-name: *i
-
-  - name: AXIS GAME SSL
-    server: *host1
-    port: 443
-    type: *type1
-    uuid: *UUID1
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: *bug2
-    network: ws
-    ws-opts:
-      path: *path1
-      headers:
-        Host: *host1
-    udp: true
-    interface-name: *i
-
-  - name: AXIS OPOK
-    server: *bug3
-    port: 80
-    type: *type1
-    uuid: *UUID1
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: *host1
-    network: ws
-    ws-opts:
-      path: *path1
-      headers:
-        Host: *host1
-    udp: true
-    interface-name: *i
-
-  - name: ILPED
-    server: *bug4
-    port: 80
-    type: *type1
-    uuid: *UUID1
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: *host1
-    network: ws
-    ws-opts:
-      path: *path1
-      headers:
-        Host: *host1
-    udp: true
-    interface-name: *i2

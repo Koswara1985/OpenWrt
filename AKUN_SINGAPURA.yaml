@@ -1,11 +1,6 @@
-BUG:
-  - &bug1 104.26.6.171 #ruangguru
-INTERFACE:
-  - &i eth2
-
 proxies:
-  - name: ddng1.pages.dev
-    server: *bug1
+  - name: ddng1.pages.dev2
+    server: 104.26.6.171
     port: 443
     type: vless
     uuid: 989d33c1-7671-48c5-8a9e-88d891f42ac8
@@ -15,14 +10,12 @@ proxies:
     servername: ddng1.pages.dev
     network: ws
     ws-opts:
-      path: /kwetiaw
+      path: /vless
       headers:
         Host: ddng1.pages.dev
     udp: true
-    interface-name: *i
-
-  - name: do.ddng1.pages.dev 443
-    server: *bug1
+  - name: do.ddng1.pages.dev
+    server: 104.26.6.171
     port: 443
     type: vless
     uuid: 989d33c1-7671-48c5-8a9e-88d891f42ac8
@@ -36,10 +29,8 @@ proxies:
       headers:
         Host: do.ddng1.pages.dev
     udp: true
-    interface-name: *i
-
-  - name: vultr.ddng1.pages.dev 443
-    server: *bug1
+  - name: vultr.ddng1.pages.dev
+    server: 104.26.6.171
     port: 443
     type: vless
     uuid: 989d33c1-7671-48c5-8a9e-88d891f42ac8
@@ -53,10 +44,8 @@ proxies:
       headers:
         Host: vultr.ddng1.pages.dev
     udp: true
-    interface-name: *i
-
-  - name: amz.ddng1.pages.dev 443
-    server: *bug1
+  - name: amz.ddng1.pages.dev
+    server: 104.26.6.171
     port: 443
     type: vless
     uuid: 989d33c1-7671-48c5-8a9e-88d891f42ac8
@@ -70,27 +59,8 @@ proxies:
       headers:
         Host: amz.ddng1.pages.dev
     udp: true
-    interface-name: *i
-
-  - name: alb.ddng1.pages.dev 443
-    server: *bug1
-    port: 443
-    type: vless
-    uuid: 989d33c1-7671-48c5-8a9e-88d891f42ac8
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: alb.ddng1.pages.dev
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: alb.ddng1.pages.dev
-    udp: true
-    interface-name: *i
-
-  - name: blnt.ddng1.pages.dev 443
-    server: *bug1
+  - name: blnt.ddng1.pages.dev
+    server: 104.26.6.171
     port: 443
     type: vless
     uuid: 989d33c1-7671-48c5-8a9e-88d891f42ac8
@@ -104,191 +74,111 @@ proxies:
       headers:
         Host: blnt.ddng1.pages.dev
     udp: true
-    interface-name: *i
-
-  - name: ars4.gandariavpn.biz.id
-    server: *bug1
+  - name: alb.ddng1.pages.dev
+    server: 104.26.6.171
     port: 443
     type: vless
-    uuid: 7911a4af-b040-4bdb-ae6d-dd05e8e79c08
+    uuid: 989d33c1-7671-48c5-8a9e-88d891f42ac8
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ars4.gandariavpn.biz.id
+    servername: alb.ddng1.pages.dev
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: alb.ddng1.pages.dev
+    udp: true
+  - name: melbi.ddng3.pages.dev
+    server: 104.26.6.171
+    port: 443
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: melbi.ddng3.pages.dev
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: ars4.gandariavpn.biz.id
+        Host: melbi.ddng3.pages.dev
     udp: true
-    interface-name: *i
-
-  - name: bapakmu.pages.dev
-    server: *bug1
+  - name: amazon.ddng5.pages.dev
+    server: 104.26.6.171
     port: 443
     type: vless
-    uuid: 2a4fc8ac-3ac8-4bed-8a99-d6a243b46b5b
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: bapakmu.pages.dev
-    network: ws
-    ws-opts:
-      path: /ndasmu
-      headers:
-        Host: bapakmu.pages.dev
-    udp: true
-    interface-name: *i
-
-  - name: sg43.pages.dev
-    server: *bug1
-    port: 443
-    type: vless
-    uuid: c91e4295-e634-47e9-8de0-bc7c30bb7e88
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg43.pages.dev
+    servername: amazon.ddng5.pages.dev
     network: ws
     ws-opts:
       path: /?ed=2048
       headers:
-        Host: sg43.pages.dev
+        Host: amazon.ddng5.pages.dev
     udp: true
-    interface-name: *i
-
-  - name: ID 80
-    server: *bug1
-    port: 80
-    type: vless
-    uuid: b2c3bf93-5349-4d5f-bfd7-3960e86d60ff
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: id.vless.sbs
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: id.vless.sbs
-    udp: true
-
-  - name: ID 443
-    server: *bug1
+  - name: google.ddng4.pages.dev
+    server: 104.26.6.171
     port: 443
     type: vless
-    uuid: b2c3bf93-5349-4d5f-bfd7-3960e86d60ff
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id.vless.sbs
+    servername: google.ddng4.pages.dev
     network: ws
     ws-opts:
-      path: /vless
+      path: /?ed=2048
       headers:
-        Host: id.vless.sbs
+        Host: google.ddng4.pages.dev
     udp: true
-    interface-name: *i
 
-  - name: SG 80
-    server: *bug1
+#BARU
+
+  - name: ORACLE-1 🇸🇬
+    server: 104.26.6.171
     port: 80
     type: vless
-    uuid: 47f5ab29-37cb-4f1a-8638-765c59774836
+    uuid: raisXcode
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: sg.vless.sbs
+    servername: sg-oracle.jrflashervpn.my.id	
     network: ws
     ws-opts:
-      path: /vless
+      path: /oracle1
       headers:
-        Host: sg.vless.sbs
+        Host: sg-oracle.jrflashervpn.my.id
     udp: true
-    interface-name: *i
-
-  - name: SG 443
-    server: *bug1
-    port: 443
-    type: vless
-    uuid: 47f5ab29-37cb-4f1a-8638-765c59774836
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg.vless.sbs
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sg.vless.sbs
-    udp: true
-    interface-name: *i
-
-  - name: id.vlcfpages.my.id
-    server: *bug1
-    port: 443
-    type: vless
-    uuid: 0bc51b14-02aa-40db-aeba-8a9569a7244d
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id.vlcfpages.my.id
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: id.vlcfpages.my.id
-    udp: true
-    interface-name: *i
-
-  - name: sg.vlcfpages.my.id
-    server: *bug1
-    port: 443
-    type: vless
-    uuid: f69a85fe-4a6e-40f3-bcd0-f3c800388b58
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg.vlcfpages.my.id
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sg.vlcfpages.my.id
-    udp: true
-    interface-name: *i
-
-  - name: VLESS
-    server: *bug1
+  - name: DIGITAL OCEAN-1 🇸🇬
+    server: 104.26.6.171
     port: 80
     type: vless
-    uuid: 515700ce-11c1-42d4-b660-dcf89237e75f
+    uuid: raisXcode
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: test01.airi.buzz
+    servername: sg-do.jrflashervpn.my.id	
     network: ws
     ws-opts:
-      path: /custompath
+      path: /sgdo1
       headers:
-        Host: test01.airi.buzz
+        Host: sg-do.jrflashervpn.my.id
     udp: true
-    interface-name: *i
-
-  - name: VMESS
-    server: *bug1
+  - name: NKRI-1 🇮🇩
+    server: 104.26.6.171
     port: 80
-    type: vmess
-    uuid: 515700ce-11c1-42d4-b660-dcf89237e75f
-    alterId: 0
+    type: vless
+    uuid: raisXcode
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: test01.airi.buzz
+    servername: id.jrflashervpn.my.id	
     network: ws
     ws-opts:
-      path: /vmess-ws
+      path: /id5
       headers:
-        Host: test01.airi.buzz
+        Host: id.jrflashervpn.my.id
     udp: true
-    interface-name: *i
