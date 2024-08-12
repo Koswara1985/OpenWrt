@@ -1,24 +1,21 @@
 PATH:
   - &path1 /vless
-  - &path2 ws://test01.airi.buzz/vless
+  - &path2 ws://id.vless.sbs/vless
 
 Type:
   - &type1 vless
 
 HOST:
-  - &host1 test01.airi.buzz
-  - &host2 test01.airi.buzz
+  - &host1 ddng1.pages.dev
+  - &host2 space.byu.id
 
 UUID:
-  - &UUID1 515700ce-11c1-42d4-b660-dcf89237e75f
+  - &UUID1 989d33c1-7671-48c5-8a9e-88d891f42ac8
 
 INTERFACE:
   - &i eth1
   - &i2 eth2
   - &i3 wlan0
-
-# Expired 09 Sep 2023
-
 
 
 BUG:
