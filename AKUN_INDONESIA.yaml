@@ -1,0 +1,93 @@
+proxies:
+  - name: SG-HE 3 Trojan
+    server: 104.16.106.96
+    port: 443
+    type: trojan
+    password: 4f060df0-57f9-11ef-a67b-1239d0255272
+    skip-cert-verify: true
+    sni: sg3-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3-trojan.bonds.id
+    udp: true
+
+  - name: SG Trojan Melbi
+    server: sg-4.test3.net
+    port: 443
+    type: trojan
+    password: d4cb2e40-57f8-11ef-9d4d-1239d0255272
+    skip-cert-verify: true
+    sni: graph.facebook.com
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+
+  - name: SG Trojan Melbi 2
+    server: 104.16.106.96
+    port: 443
+    type: trojan
+    password: d4cb2e40-57f8-11ef-9d4d-1239d0255272
+    skip-cert-verify: true
+    sni: sg-4.test3.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg-4.test3.net
+    udp: true
+
+  - name: vmess-sg1.sshkit.org 2024-08-18
+    server: 104.16.106.96
+    port: 80
+    type: vmess
+    uuid: e620d600-ee19-4012-a96c-968e85a52de9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vmess-sg1.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1788762246/669a6f2ad19f3/
+      headers:
+        Host: vmess-sg1.sshkit.org
+    udp: true
+
+  - name: VMESS
+    server: 104.16.106.96
+    port: 80
+    type: vmess
+    uuid: 515700ce-11c1-42d4-b660-dcf89237e75f
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: test01.airi.buzz
+    network: ws
+    ws-opts:
+      path: /vmess-ws
+      headers:
+        Host: test01.airi.buzz
+    udp: true
+
+  - name: SG+VMESS-WS NTLS(2024-08-16)
+    server: 104.16.106.96
+    port: 80
+    type: vmess
+    uuid: 2eb43b00-5641-11ef-adbe-1239d0255272
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg3.socifiles.com
+    network: ws
+    ws-opts:
+      path: /vmws
+      headers:
+        Host: sg3.socifiles.com
+    udp: true
