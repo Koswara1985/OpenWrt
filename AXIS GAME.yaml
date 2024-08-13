@@ -196,8 +196,7 @@ proxies:
       path: /vless-ws
       headers:
         Host: 1rw.kinamori.xyz
-    udp: trueBUG:
-  - &bug 104.26.6.171 # ILPED
+    udp: true
 
   - name: ddng1.pages.dev2
     server: *bug
@@ -214,6 +213,7 @@ proxies:
       headers:
         Host: ddng1.pages.dev
     udp: true
+
   - name: do.ddng1.pages.dev
     server: *bug
     port: 443
@@ -229,6 +229,7 @@ proxies:
       headers:
         Host: do.ddng1.pages.dev
     udp: true
+
   - name: vultr.ddng1.pages.dev
     server: *bug
     port: 443
@@ -244,6 +245,7 @@ proxies:
       headers:
         Host: vultr.ddng1.pages.dev
     udp: true
+
   - name: amz.ddng1.pages.dev
     server: *bug
     port: 443
@@ -259,6 +261,7 @@ proxies:
       headers:
         Host: amz.ddng1.pages.dev
     udp: true
+
   - name: blnt.ddng1.pages.dev
     server: *bug
     port: 443
@@ -274,6 +277,7 @@ proxies:
       headers:
         Host: blnt.ddng1.pages.dev
     udp: true
+
   - name: alb.ddng1.pages.dev
     server: *bug
     port: 443
@@ -289,6 +293,7 @@ proxies:
       headers:
         Host: alb.ddng1.pages.dev
     udp: true
+
   - name: melbi.ddng3.pages.dev
     server: *bug
     port: 443
@@ -304,6 +309,7 @@ proxies:
       headers:
         Host: melbi.ddng3.pages.dev
     udp: true
+
   - name: amazon.ddng5.pages.dev
     server: *bug
     port: 443
@@ -319,6 +325,7 @@ proxies:
       headers:
         Host: amazon.ddng5.pages.dev
     udp: true
+
   - name: google.ddng4.pages.dev
     server: *bug
     port: 443
@@ -335,8 +342,6 @@ proxies:
         Host: google.ddng4.pages.dev
     udp: true
 
-#BARU
-
   - name: ORACLE-1 🇸🇬
     server: *bug
     port: 80
@@ -352,6 +357,7 @@ proxies:
       headers:
         Host: sg-oracle.jrflashervpn.my.id
     udp: true
+
   - name: DIGITAL OCEAN-1 🇸🇬
     server: *bug
     port: 80
@@ -367,6 +373,7 @@ proxies:
       headers:
         Host: sg-do.jrflashervpn.my.id
     udp: true
+
   - name: NKRI-1 🇮🇩
     server: *bug
     port: 80
@@ -398,6 +405,7 @@ proxies:
       headers:
         Host: vless.cfw-config.us.kg
     udp: true
+
   - name: Google LLC (ID)
     server: *bug
     port: 80
@@ -413,6 +421,7 @@ proxies:
       headers:
         Host: vless.cfw-config.us.kg
     udp: true
+
   - name: HOSTKEY B.V. (ID)
     server: *bug
     port: 80
@@ -428,6 +437,7 @@ proxies:
       headers:
         Host: vless.cfw-config.us.kg
     udp: true
+
   - name: Akamai International B.V. (ID)
     server: *bug
     port: 80
@@ -443,6 +453,7 @@ proxies:
       headers:
         Host: vless.cfw-config.us.kg
     udp: true
+
   - name: TM TECHNOLOGY SERVICES SDN BHD (MY)
     server: *bug
     port: 80
@@ -458,6 +469,7 @@ proxies:
       headers:
         Host: vless.cfw-config.us.kg
     udp: true
+
   - name: Evoxt Enterprise (MY)
     server: *bug
     port: 80
@@ -473,6 +485,7 @@ proxies:
       headers:
         Host: vless.cfw-config.us.kg
     udp: true
+
   - name: Alibaba us Technology Co., Ltd. (SG)
     server: *bug
     port: 80
@@ -488,6 +501,7 @@ proxies:
       headers:
         Host: vless.cfw-config.us.kg
     udp: true
+
   - name: Oracle Corporation (SG)
     server: *bug
     port: 80
@@ -503,6 +517,7 @@ proxies:
       headers:
         Host: vless.cfw-config.us.kg
     udp: true
+
   - name: Digitalocean, LLC (SG)
     server: *bug
     port: 80
@@ -518,6 +533,7 @@ proxies:
       headers:
         Host: vless.cfw-config.us.kg
     udp: true
+
   - name: Amazon.com, Inc. (SG)
     server: *bug
     port: 80
@@ -533,6 +549,7 @@ proxies:
       headers:
         Host: vless.cfw-config.us.kg
     udp: true
+
   - name: OVH SAS (SG)
     server: *bug
     port: 80
@@ -548,6 +565,7 @@ proxies:
       headers:
         Host: vless.cfw-config.us.kg
     udp: true
+
   - name: Akamai International B.V. (SG)
     server: *bug
     port: 80
@@ -563,6 +581,7 @@ proxies:
       headers:
         Host: vless.cfw-config.us.kg
     udp: true
+
   - name: ROTATE PROXY
     server: *bug
     port: 80
