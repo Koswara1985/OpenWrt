@@ -1,6 +1,9 @@
+BUG:
+  - &bug 104.26.6.171 # ILPED
+
 proxies:
   - name: ddng1.pages.dev2
-    server: 104.26.6.171
+    server: *bug
     port: 443
     type: vless
     uuid: 989d33c1-7671-48c5-8a9e-88d891f42ac8
@@ -15,7 +18,7 @@ proxies:
         Host: ddng1.pages.dev
     udp: true
   - name: do.ddng1.pages.dev
-    server: 104.26.6.171
+    server: *bug
     port: 443
     type: vless
     uuid: 989d33c1-7671-48c5-8a9e-88d891f42ac8
@@ -30,7 +33,7 @@ proxies:
         Host: do.ddng1.pages.dev
     udp: true
   - name: vultr.ddng1.pages.dev
-    server: 104.26.6.171
+    server: *bug
     port: 443
     type: vless
     uuid: 989d33c1-7671-48c5-8a9e-88d891f42ac8
@@ -45,7 +48,7 @@ proxies:
         Host: vultr.ddng1.pages.dev
     udp: true
   - name: amz.ddng1.pages.dev
-    server: 104.26.6.171
+    server: *bug
     port: 443
     type: vless
     uuid: 989d33c1-7671-48c5-8a9e-88d891f42ac8
@@ -60,7 +63,7 @@ proxies:
         Host: amz.ddng1.pages.dev
     udp: true
   - name: blnt.ddng1.pages.dev
-    server: 104.26.6.171
+    server: *bug
     port: 443
     type: vless
     uuid: 989d33c1-7671-48c5-8a9e-88d891f42ac8
@@ -75,7 +78,7 @@ proxies:
         Host: blnt.ddng1.pages.dev
     udp: true
   - name: alb.ddng1.pages.dev
-    server: 104.26.6.171
+    server: *bug
     port: 443
     type: vless
     uuid: 989d33c1-7671-48c5-8a9e-88d891f42ac8
@@ -90,7 +93,7 @@ proxies:
         Host: alb.ddng1.pages.dev
     udp: true
   - name: melbi.ddng3.pages.dev
-    server: 104.26.6.171
+    server: *bug
     port: 443
     type: vless
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
@@ -105,7 +108,7 @@ proxies:
         Host: melbi.ddng3.pages.dev
     udp: true
   - name: amazon.ddng5.pages.dev
-    server: 104.26.6.171
+    server: *bug
     port: 443
     type: vless
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
@@ -120,7 +123,7 @@ proxies:
         Host: amazon.ddng5.pages.dev
     udp: true
   - name: google.ddng4.pages.dev
-    server: 104.26.6.171
+    server: *bug
     port: 443
     type: vless
     uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
@@ -138,7 +141,7 @@ proxies:
 #BARU
 
   - name: ORACLE-1 🇸🇬
-    server: 104.26.6.171
+    server: *bug
     port: 80
     type: vless
     uuid: raisXcode
@@ -153,7 +156,7 @@ proxies:
         Host: sg-oracle.jrflashervpn.my.id
     udp: true
   - name: DIGITAL OCEAN-1 🇸🇬
-    server: 104.26.6.171
+    server: *bug
     port: 80
     type: vless
     uuid: raisXcode
@@ -168,7 +171,7 @@ proxies:
         Host: sg-do.jrflashervpn.my.id
     udp: true
   - name: NKRI-1 🇮🇩
-    server: 104.26.6.171
+    server: *bug
     port: 80
     type: vless
     uuid: raisXcode
@@ -181,4 +184,200 @@ proxies:
       path: /id5
       headers:
         Host: id.jrflashervpn.my.id
+    udp: true
+
+  - name: Rumahweb (ID)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 093b5805-70a8-4f63-89b8-c8386f48b2df
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /id1
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: Google LLC (ID)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: b89f8021-aea2-4e12-9800-139fcaeb2b38
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /id2
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: HOSTKEY B.V. (ID)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: e920b10b-9857-4a4d-a79a-827fce23caa2
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /id3
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: Akamai International B.V. (ID)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 66d5c294-3667-4a79-a2c6-4c927122da6f
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /id4
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: TM TECHNOLOGY SERVICES SDN BHD (MY)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: cb8bd2fe-4af3-41e5-8310-1d9632a3ef02
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /my1
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: Evoxt Enterprise (MY)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: b115205e-3790-446b-969c-513f5913edf6
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /my2
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: Alibaba us Technology Co., Ltd. (SG)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 67bcdd1d-a9f9-4768-b837-ca40bff702c1
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /sg1
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: Oracle Corporation (SG)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 4b44f4ff-d864-4d19-a491-75e741259bc5
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /sg2
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: Digitalocean, LLC (SG)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: f19bc148-d9b0-4aa5-88b5-282359a79387
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /sg3
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: Amazon.com, Inc. (SG)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 072bdf69-6f30-405a-bb99-d7ed1cabf98c
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /sg4
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: OVH SAS (SG)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: bb0d4b66-a551-4d27-8dbf-052bf64c45a7
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /sg5
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: Akamai International B.V. (SG)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 485b4cf6-5d39-480e-b79d-e47a56300c1f
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /sg6
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: ROTATE PROXY
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 844fcd98-a8bf-4b69-a82a-a1194f14f34b
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /rotate
+      headers:
+        Host: vless.cfw-config.us.kg
     udp: true

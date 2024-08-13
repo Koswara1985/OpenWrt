@@ -1,6 +1,9 @@
+BUG:
+  - &bug 104.26.6.171 # ILPED
+
 proxies:
   - name: VMESS1
-    server: 104.26.6.171
+    server: *bug
     port: 80
     type: vmess
     uuid: 515700ce-11c1-42d4-b660-dcf89237e75f
@@ -15,8 +18,9 @@ proxies:
       headers:
         Host: test01.airi.buzz
     udp: true
+
   - name: VLESS1
-    server: 104.26.6.171
+    server: *bug
     port: 80
     type: vless
     uuid: 515700ce-11c1-42d4-b660-dcf89237e75f
@@ -30,8 +34,9 @@ proxies:
       headers:
         Host: test01.airi.buzz
     udp: true
+
   - name: WS-nTLS
-    server: 104.26.6.171
+    server: *bug
     port: 80
     type: vless
     uuid: 47f5ab29-37cb-4f1a-8638-765c59774836
@@ -45,8 +50,9 @@ proxies:
       headers:
         Host: sg.vless.sbs
     udp: true
+
   - name: vmess-sg1.sshkit.org 2024-08-18
-    server: 104.26.6.171
+    server: *bug
     port: 80
     type: vmess
     uuid: e620d600-ee19-4012-a96c-968e85a52de9
@@ -60,4 +66,134 @@ proxies:
       path: /sshkit/1788762246/669a6f2ad19f3/
       headers:
         Host: vmess-sg1.sshkit.org
+    udp: true
+
+#AKUN CF
+
+  - name: SERVER SG4 [FSL] (80)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 476802d2-2072-4316-8dd0-cf1dd4a9c791
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: fsl2.kadanahija.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: fsl2.kadanahija.xyz
+    udp: true
+
+  - name: SERVER SG3 [REGXA] (80)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 476802d2-2072-4316-8dd0-cf1dd4a9c791
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: rgx2.kadanahija.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: rgx2.kadanahija.xyz
+    udp: true
+
+  - name: SERVER SG2 [CONSTANT] (80)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 476802d2-2072-4316-8dd0-cf1dd4a9c791
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: csg1.hinamori.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: csg1.hinamori.xyz
+    udp: true
+
+  - name: SERVER SG1 [BYTEVIRT] (80)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 476802d2-2072-4316-8dd0-cf1dd4a9c791
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: bsg1.hinamori.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: bsg1.hinamori.xyz
+    udp: true
+
+  - name: SERVER ID4 [RUMAH-WEB] (80)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 476802d2-2072-4316-8dd0-cf1dd4a9c791
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 2rw.hanatabata.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: 2rw.hanatabata.xyz
+    udp: true
+
+  - name: SERVER ID3 [GCP] (80)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 476802d2-2072-4316-8dd0-cf1dd4a9c791
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: gcp.hanatabata.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: gcp.hanatabata.xyz
+    udp: true
+
+  - name: SERVER ID2 [ZENLAYER] (80)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 476802d2-2072-4316-8dd0-cf1dd4a9c791
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: z129.kinamori.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: z129.kinamori.xyz
+    udp: true
+
+  - name: SERVER ID1 [RUMAH-WEB] (80)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 476802d2-2072-4316-8dd0-cf1dd4a9c791
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 1rw.kinamori.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: 1rw.kinamori.xyz
     udp: true
