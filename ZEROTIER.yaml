@@ -1,14 +1,14 @@
 proxies:
-- name: sghe3
-  server: 104.26.6.171
-  port: 443
-  type: trojan
-  password: b736e920-5258-11ef-afd8-1239d0255272
-  skip-cert-verify: true
-  sni: sg3-trojan.bonds.id
-  network: ws
-  ws-opts:
-    path: /howdy
-    headers:
-      Host: sg3-trojan.bonds.id
-  udp: true
+  - name: SG-HE 1 Trojan VPN
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: fa6a2560-5a68-11ef-9c6b-1239d0255272
+    skip-cert-verify: true
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg1-trojan.bonds.id
+    udp: true
