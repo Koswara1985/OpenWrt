@@ -68,3 +68,7 @@ payload:
   # > BLUESTACK
   - DOMAIN-SUFFIX,cloud.bluestacks.com
   - DOMAIN-SUFFIX,cdn3.bluestacks.com
+  
+  # github
+  - DOMAIN-KEYWORD,github
+  - DOMAIN-SUFFIX,github.com
