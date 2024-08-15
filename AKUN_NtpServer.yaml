@@ -1,0 +1,17 @@
+proxies:
+  - name: vmess-sg1.sshkit.org 2024-08-18
+    server: 104.26.6.171
+    port: 80
+    type: vmess
+    uuid: e620d600-ee19-4012-a96c-968e85a52de9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vmess-sg1.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1788762246/669a6f2ad19f3/
+      headers:
+        Host: vmess-sg1.sshkit.org
+    udp: true

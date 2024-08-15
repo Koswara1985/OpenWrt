@@ -1,0 +1,14 @@
+proxies:
+- name: TROJAN SG3
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: b736e920-5258-11ef-afd8-1239d0255272
+  skip-cert-verify: true
+  sni: sg3-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg3-trojan.bonds.id
+  udp: true
