@@ -180,3 +180,35 @@ proxies:
       headers:
         Host: 1rw.kinamori.xyz
     udp: true
+
+  - name: Akari Networks (SG) Ntls
+    server: *bug
+    port: 80
+    type: vless
+    uuid: e5ee520c-ae03-41ee-8c00-526db2a50037
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.kominfo.us.kg
+    network: ws
+    ws-opts:
+      path: /210.87.110.230
+      headers:
+        Host: vless.kominfo.us.kg
+    udp: true
+    
+  - name: Alibaba us Technology Co., Ltd. (SG) Ntls
+    server: *bug
+    port: 80
+    type: vless
+    uuid: d7c5d42c-94d9-45ad-9750-533f68b3b5fe
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.kominfo.us.kg
+    network: ws
+    ws-opts:
+      path: /8.219.98.13
+      headers:
+        Host: vless.kominfo.us.kg
+    udp: true
