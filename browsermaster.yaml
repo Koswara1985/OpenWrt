@@ -72,3 +72,7 @@ payload:
   # github
   - DOMAIN-KEYWORD,github
   - DOMAIN-SUFFIX,github.com
+  
+  # sfile
+  - DOMAIN-KEYWORD,sfile.mobi
+  - DOMAIN-SUFFIX,sfile.mobi
