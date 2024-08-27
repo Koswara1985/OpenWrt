@@ -1,5 +1,5 @@
 BUG:
-  - &bug ruangguru.com # RG
+  - &bug 104.20.74.141 # RG
 
 proxies:
   - name: VMESS1
