@@ -75,4 +75,5 @@ payload:
   
   # sfile
   - DOMAIN-KEYWORD,sfile.mobi
+  - DOMAIN-KEYWORD,.sfile.mobi
   - DOMAIN-SUFFIX,sfile.mobi
