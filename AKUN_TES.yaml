@@ -6,11 +6,11 @@ Type:
   - &type1 vless
 
 HOST:
-  - &host1 ddng1.pages.dev
+  - &host1 bapakmu.pages.dev
   - &host2 space.byu.id
 
 UUID:
-  - &UUID1 989d33c1-7671-48c5-8a9e-88d891f42ac8
+  - &UUID1 2a4fc8ac-3ac8-4bed-8a99-d6a243b46b5b
 
 BUG:
   - &ssl1 graph.facebook.com
