@@ -1,16 +1,16 @@
 PATH:
-  - &path1 /vless
-  - &path2 ws://id.vless.sbs/vless
+  - &path1 /sg6
+  - &path2 ws://vless.cfw-config.us.kg/sg6
 
 Type:
   - &type1 vless
 
 HOST:
-  - &host1 bapakmu.pages.dev
+  - &host1 vless.cfw-config.us.kg
   - &host2 space.byu.id
 
 UUID:
-  - &UUID1 2a4fc8ac-3ac8-4bed-8a99-d6a243b46b5b
+  - &UUID1 1700f2e4-4585-493f-92ea-a1766105e76e
 
 BUG:
   - &ssl1 graph.facebook.com
@@ -190,7 +190,7 @@ BUG:
 
 # Expired 09 Sep 2023
 proxies:
-  - name: bug1
+  - name: bug1ak
     server: *bug1
     port: 443
     type: *type1
