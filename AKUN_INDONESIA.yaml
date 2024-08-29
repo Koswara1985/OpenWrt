@@ -1,0 +1,580 @@
+BUG:
+  - &bug 104.26.6.171 # ILPED
+
+proxies:
+
+  - name: ddng1.pages.dev2
+    server: *bug
+    port: 443
+    type: vless
+    uuid: 989d33c1-7671-48c5-8a9e-88d891f42ac8
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ddng1.pages.dev
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: ddng1.pages.dev
+    udp: true
+  - name: do.ddng1.pages.dev
+    server: *bug
+    port: 443
+    type: vless
+    uuid: 989d33c1-7671-48c5-8a9e-88d891f42ac8
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: do.ddng1.pages.dev
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: do.ddng1.pages.dev
+    udp: true
+  - name: vultr.ddng1.pages.dev
+    server: *bug
+    port: 443
+    type: vless
+    uuid: 989d33c1-7671-48c5-8a9e-88d891f42ac8
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vultr.ddng1.pages.dev
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: vultr.ddng1.pages.dev
+    udp: true
+  - name: amz.ddng1.pages.dev
+    server: *bug
+    port: 443
+    type: vless
+    uuid: 989d33c1-7671-48c5-8a9e-88d891f42ac8
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: amz.ddng1.pages.dev
+    network: ws
+    ws-opts:
+      path: /kwetiaw
+      headers:
+        Host: amz.ddng1.pages.dev
+    udp: true
+  - name: blnt.ddng1.pages.dev
+    server: *bug
+    port: 443
+    type: vless
+    uuid: 989d33c1-7671-48c5-8a9e-88d891f42ac8
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: blnt.ddng1.pages.dev
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: blnt.ddng1.pages.dev
+    udp: true
+  - name: alb.ddng1.pages.dev
+    server: *bug
+    port: 443
+    type: vless
+    uuid: 989d33c1-7671-48c5-8a9e-88d891f42ac8
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: alb.ddng1.pages.dev
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: alb.ddng1.pages.dev
+    udp: true
+  - name: melbi.ddng3.pages.dev
+    server: *bug
+    port: 443
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: melbi.ddng3.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: melbi.ddng3.pages.dev
+    udp: true
+  - name: amazon.ddng5.pages.dev
+    server: *bug
+    port: 443
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: amazon.ddng5.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: amazon.ddng5.pages.dev
+    udp: true
+  - name: google.ddng4.pages.dev
+    server: *bug
+    port: 443
+    type: vless
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: google.ddng4.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: google.ddng4.pages.dev
+    udp: true
+
+#BARU
+
+  - name: ORACLE-1 🇸🇬
+    server: *bug
+    port: 80
+    type: vless
+    uuid: raisXcode
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg-oracle.jrflashervpn.my.id	
+    network: ws
+    ws-opts:
+      path: /oracle1
+      headers:
+        Host: sg-oracle.jrflashervpn.my.id
+    udp: true
+  - name: DIGITAL OCEAN-1 🇸🇬
+    server: *bug
+    port: 80
+    type: vless
+    uuid: raisXcode
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg-do.jrflashervpn.my.id	
+    network: ws
+    ws-opts:
+      path: /sgdo1
+      headers:
+        Host: sg-do.jrflashervpn.my.id
+    udp: true
+  - name: NKRI-1 🇮🇩
+    server: *bug
+    port: 80
+    type: vless
+    uuid: raisXcode
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: id.jrflashervpn.my.id	
+    network: ws
+    ws-opts:
+      path: /id5
+      headers:
+        Host: id.jrflashervpn.my.id
+    udp: true
+
+  - name: Rumahweb (ID)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 093b5805-70a8-4f63-89b8-c8386f48b2df
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /id1
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: Google LLC (ID)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: b89f8021-aea2-4e12-9800-139fcaeb2b38
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /id2
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: HOSTKEY B.V. (ID)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: e920b10b-9857-4a4d-a79a-827fce23caa2
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /id3
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: Akamai International B.V. (ID)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 66d5c294-3667-4a79-a2c6-4c927122da6f
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /id4
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: TM TECHNOLOGY SERVICES SDN BHD (MY)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: cb8bd2fe-4af3-41e5-8310-1d9632a3ef02
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /my1
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: Evoxt Enterprise (MY)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: b115205e-3790-446b-969c-513f5913edf6
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /my2
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: Alibaba us Technology Co., Ltd. (SG)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 67bcdd1d-a9f9-4768-b837-ca40bff702c1
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /sg1
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: Oracle Corporation (SG)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 4b44f4ff-d864-4d19-a491-75e741259bc5
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /sg2
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: Digitalocean, LLC (SG)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: f19bc148-d9b0-4aa5-88b5-282359a79387
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /sg3
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: Amazon.com, Inc. (SG)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 072bdf69-6f30-405a-bb99-d7ed1cabf98c
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /sg4
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: OVH SAS (SG)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: bb0d4b66-a551-4d27-8dbf-052bf64c45a7
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /sg5
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: Akamai International B.V. (SG)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 485b4cf6-5d39-480e-b79d-e47a56300c1f
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /sg6
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+  - name: ROTATE PROXY
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 844fcd98-a8bf-4b69-a82a-a1194f14f34b
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /rotate
+      headers:
+        Host: vless.cfw-config.us.kg
+    udp: true
+
+  - name: VMESS1
+    server: *bug
+    port: 80
+    type: vmess
+    uuid: 515700ce-11c1-42d4-b660-dcf89237e75f
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: test01.airi.buzz
+    network: ws
+    ws-opts:
+      path: /vmess-ws
+      headers:
+        Host: test01.airi.buzz
+    udp: true
+
+  - name: VLESS1
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 515700ce-11c1-42d4-b660-dcf89237e75f
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: test01.airi.buzz
+    network: ws
+    ws-opts:
+      path: /custompath
+      headers:
+        Host: test01.airi.buzz
+    udp: true
+
+  - name: WS-nTLS
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 47f5ab29-37cb-4f1a-8638-765c59774836
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg.vless.sbs
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sg.vless.sbs
+    udp: true
+
+  - name: vmess-sg1.sshkit.org 2024-08-18
+    server: *bug
+    port: 80
+    type: vmess
+    uuid: e620d600-ee19-4012-a96c-968e85a52de9
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: vmess-sg1.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/1788762246/669a6f2ad19f3/
+      headers:
+        Host: vmess-sg1.sshkit.org
+    udp: true
+
+#AKUN CF
+
+  - name: SERVER SG4 [FSL] (80)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 476802d2-2072-4316-8dd0-cf1dd4a9c791
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: fsl2.kadanahija.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: fsl2.kadanahija.xyz
+    udp: true
+
+  - name: SERVER SG3 [REGXA] (80)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 476802d2-2072-4316-8dd0-cf1dd4a9c791
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: rgx2.kadanahija.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: rgx2.kadanahija.xyz
+    udp: true
+
+  - name: SERVER SG2 [CONSTANT] (80)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 476802d2-2072-4316-8dd0-cf1dd4a9c791
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: csg1.hinamori.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: csg1.hinamori.xyz
+    udp: true
+
+  - name: SERVER SG1 [BYTEVIRT] (80)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 476802d2-2072-4316-8dd0-cf1dd4a9c791
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: bsg1.hinamori.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: bsg1.hinamori.xyz
+    udp: true
+
+  - name: SERVER ID4 [RUMAH-WEB] (80)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 476802d2-2072-4316-8dd0-cf1dd4a9c791
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 2rw.hanatabata.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: 2rw.hanatabata.xyz
+    udp: true
+
+  - name: SERVER ID3 [GCP] (80)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 476802d2-2072-4316-8dd0-cf1dd4a9c791
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: gcp.hanatabata.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: gcp.hanatabata.xyz
+    udp: true
+
+  - name: SERVER ID2 [ZENLAYER] (80)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 476802d2-2072-4316-8dd0-cf1dd4a9c791
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: z129.kinamori.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: z129.kinamori.xyz
+    udp: true
+
+  - name: SERVER ID1 [RUMAH-WEB] (80)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 476802d2-2072-4316-8dd0-cf1dd4a9c791
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 1rw.kinamori.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: 1rw.kinamori.xyz
+    udp: true
