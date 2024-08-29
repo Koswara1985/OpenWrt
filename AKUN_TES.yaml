@@ -1,20 +1,21 @@
 PATH:
   - &path1 /vless
+  - &path2 ws://id.vless.sbs/vless
 
 Type:
   - &type1 vless
 
 HOST:
-  - &host1 blnt.ddng1.pages.dev
+  - &host1 ddng1.pages.dev
+  - &host2 space.byu.id
 
 UUID:
   - &UUID1 989d33c1-7671-48c5-8a9e-88d891f42ac8
 
-INTERFACE:
-  - &i eth1
-
 BUG:
-
+  - &ssl1 graph.facebook.com
+  - &ssl2 event.mobilelegends.com
+  - &ssl3 play.mobilelegends.com
   - &bug1 104.16.106.96
   - &bug2 104.16.51.111
   - &bug3 162.159.128.7
@@ -205,7 +206,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug2
     server: *bug2
@@ -223,7 +224,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug3
     server: *bug3
@@ -241,7 +242,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug4
     server: *bug4
@@ -259,7 +260,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug5
     server: *bug5
@@ -277,7 +278,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug6
     server: *bug6
@@ -295,7 +296,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug7
     server: *bug7
@@ -313,7 +314,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug8
     server: *bug8
@@ -331,7 +332,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug9
     server: *bug9
@@ -349,7 +350,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug10
     server: *bug10
@@ -367,7 +368,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 #===========================10=========================
 
   - name: bug11
@@ -386,7 +387,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug12
     server: *bug12
@@ -404,7 +405,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug13
     server: *bug13
@@ -422,7 +423,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug14
     server: *bug14
@@ -440,7 +441,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug15
     server: *bug15
@@ -458,7 +459,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug16
     server: *bug16
@@ -476,7 +477,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug17
     server: *bug17
@@ -494,7 +495,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug18
     server: *bug18
@@ -512,7 +513,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug19
     server: *bug19
@@ -530,7 +531,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 #========================20==========================
   - name: bug20
     server: *bug20
@@ -548,7 +549,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug21
     server: *bug21
@@ -566,7 +567,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug22
     server: *bug22
@@ -584,7 +585,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug23
     server: *bug23
@@ -602,7 +603,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug24
     server: *bug24
@@ -620,7 +621,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug25
     server: *bug25
@@ -638,7 +639,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug26
     server: *bug26
@@ -656,7 +657,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug27
     server: *bug27
@@ -674,7 +675,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug28
     server: *bug28
@@ -692,7 +693,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug29
     server: *bug29
@@ -710,7 +711,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 #==============================30======================
   - name: bug30
     server: *bug30
@@ -728,7 +729,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug31
     server: *bug31
@@ -746,7 +747,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug32
     server: *bug32
@@ -764,7 +765,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug33
@@ -783,7 +784,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug34
@@ -802,7 +803,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug35
@@ -821,7 +822,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug36
@@ -840,7 +841,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug37
@@ -859,7 +860,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug38
@@ -878,7 +879,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug39
@@ -897,7 +898,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 #=========================40======================$$
   - name: bug40
@@ -916,7 +917,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug41
@@ -935,7 +936,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug42
@@ -954,7 +955,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug43
@@ -973,7 +974,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug44
@@ -992,7 +993,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug45
@@ -1011,7 +1012,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug46
@@ -1030,7 +1031,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug47
@@ -1049,7 +1050,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug48
@@ -1068,7 +1069,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug49
@@ -1087,7 +1088,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 #=========================50===================
   - name: bug50
     server: *bug50
@@ -1105,7 +1106,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug51
     server: *bug51
@@ -1123,7 +1124,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug52
     server: *bug52
@@ -1141,7 +1142,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug53
     server: *bug53
@@ -1159,7 +1160,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug54
     server: *bug54
@@ -1177,7 +1178,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug55
     server: *bug55
@@ -1195,7 +1196,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug56
     server: *bug56
@@ -1213,7 +1214,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug57
     server: *bug57
@@ -1231,7 +1232,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug58
     server: *bug58
@@ -1249,7 +1250,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug59
     server: *bug59
@@ -1267,7 +1268,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 #=========================60========================
   - name: bug60
     server: *bug60
@@ -1285,7 +1286,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug61
@@ -1304,7 +1305,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug62
@@ -1323,7 +1324,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug63
@@ -1342,7 +1343,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug64
@@ -1361,7 +1362,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug65
@@ -1380,7 +1381,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug66
@@ -1399,7 +1400,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug67
@@ -1418,7 +1419,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug68
@@ -1437,7 +1438,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug69
@@ -1456,7 +1457,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 #==========================70======================
   - name: bug70
@@ -1475,7 +1476,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug71
     server: *bug71
@@ -1493,7 +1494,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug72
     server: *bug72
@@ -1511,7 +1512,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug73
     server: *bug73
@@ -1529,7 +1530,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug74
     server: *bug74
@@ -1547,7 +1548,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug75
     server: *bug75
@@ -1565,7 +1566,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug76
     server: *bug76
@@ -1583,7 +1584,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug77
     server: *bug77
@@ -1601,7 +1602,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug78
     server: *bug78
@@ -1619,7 +1620,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug79
     server: *bug79
@@ -1637,7 +1638,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 #==============================80=====================
   - name: bug80
     server: *bug80
@@ -1655,7 +1656,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug81
     server: *bug81
@@ -1673,7 +1674,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug82
     server: *bug82
@@ -1691,7 +1692,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug83
     server: *bug83
@@ -1709,7 +1710,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug84
     server: *bug84
@@ -1727,7 +1728,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug85
     server: *bug85
@@ -1745,7 +1746,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug86
     server: *bug86
@@ -1763,7 +1764,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug87
     server: *bug87
@@ -1781,7 +1782,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug88
     server: *bug88
@@ -1799,7 +1800,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug89
     server: *bug89
@@ -1817,7 +1818,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 #========================90===============
 
   - name: bug90
@@ -1836,7 +1837,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug91
     server: *bug91
@@ -1854,7 +1855,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug92
     server: *bug92
@@ -1872,7 +1873,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug93
     server: *bug93
@@ -1890,7 +1891,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug94
     server: *bug94
@@ -1908,7 +1909,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug95
     server: *bug95
@@ -1926,7 +1927,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug96
     server: *bug96
@@ -1944,7 +1945,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug97
     server: *bug97
@@ -1962,7 +1963,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug98
     server: *bug98
@@ -1980,7 +1981,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug99
     server: *bug99
@@ -1998,7 +1999,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 #==========================100===================
 
   - name: bug100
@@ -2017,7 +2018,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug101
     server: *bug101
@@ -2035,7 +2036,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug102
     server: *bug102
@@ -2053,7 +2054,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug103
     server: *bug103
@@ -2071,7 +2072,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug104
     server: *bug104
@@ -2089,7 +2090,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug105
     server: *bug105
@@ -2107,7 +2108,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug106
     server: *bug106
@@ -2125,7 +2126,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug107
     server: *bug107
@@ -2143,7 +2144,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug108
     server: *bug108
@@ -2161,7 +2162,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug109
     server: *bug109
@@ -2179,7 +2180,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 #=========================110====================
 
   - name: bug110
@@ -2198,7 +2199,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug111
     server: *bug111
@@ -2216,7 +2217,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug112
     server: *bug112
@@ -2234,7 +2235,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug113
     server: *bug113
@@ -2252,7 +2253,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug114
     server: *bug114
@@ -2270,7 +2271,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug115
     server: *bug115
@@ -2288,7 +2289,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug116
     server: *bug116
@@ -2306,7 +2307,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug117
     server: *bug117
@@ -2324,7 +2325,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug118
     server: *bug118
@@ -2342,7 +2343,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug119
     server: *bug119
@@ -2360,7 +2361,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 #====================120==============================
 
@@ -2380,7 +2381,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug121
     server: *bug121
@@ -2398,7 +2399,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug122
@@ -2417,7 +2418,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug123
@@ -2436,7 +2437,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug124
@@ -2455,7 +2456,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug125
@@ -2474,7 +2475,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug126
@@ -2493,7 +2494,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug127
@@ -2512,7 +2513,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug128
@@ -2531,7 +2532,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 
   - name: bug129
@@ -2550,7 +2551,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
 #====================130==================
   - name: bug130
@@ -2569,7 +2570,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug131
     server: *bug131
@@ -2587,7 +2588,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug132
     server: *bug132
@@ -2605,7 +2606,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug133
     server: *bug133
@@ -2623,7 +2624,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug134
     server: *bug134
@@ -2641,7 +2642,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug135
     server: *bug135
@@ -2659,7 +2660,7 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
 
   - name: bug136
     server: *bug136
@@ -2677,4 +2678,4 @@ proxies:
       headers:
         Host: *host1
     udp: true
-    interface-name: *i
+    
