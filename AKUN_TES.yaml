@@ -1,0 +1,15 @@
+proxies:
+- name: bapakmu.pages.dev test
+  server: 104.26.7.171
+  type: vless
+  port: 443
+  uuid: 2a4fc8ac-3ac8-4bed-8a99-d6a243b46b5b
+  tls: true
+  skip-cert-verify: true
+  servername: bapakmu.pages.dev
+  network: ws
+  ws-opts:
+    path: /ndasmu
+    headers:
+      Host: bapakmu.pages.dev
+  udp: true
