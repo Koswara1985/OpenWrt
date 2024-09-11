@@ -2,3 +2,6 @@ payload:
   # ntp
   - DOMAIN-KEYWORD,ntp.org
   - DOMAIN-SUFFIX,ntp.org
+  # cnn
+  - DOMAIN-KEYWORD,cnnindonesia.com
+  - DOMAIN-KEYWORD,tvonenews.com
