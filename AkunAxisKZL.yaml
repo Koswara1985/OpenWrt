@@ -1,0 +1,286 @@
+proxies:
+  - name: Akamai Technologies, Inc. (ID)
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 765e5bee-afec-410b-ad82-3e94d45e3e56
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.agustus.jrflashervpn.my.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: ava.game.naver.com.agustus.jrflashervpn.my.id
+    udp: true
+  - name: HOSTKEY B.V. (ID)
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 765e5bee-afec-410b-ad82-3e94d45e3e56
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.agustus.jrflashervpn.my.id
+    network: ws
+    ws-opts:
+      path: /ID2
+      headers:
+        Host: ava.game.naver.com.agustus.jrflashervpn.my.id
+    udp: true
+  - name: The Constant Company, LLC (SG)
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 765e5bee-afec-410b-ad82-3e94d45e3e56
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.agustus.jrflashervpn.my.id
+    network: ws
+    ws-opts:
+      path: /SG1
+      headers:
+        Host: ava.game.naver.com.agustus.jrflashervpn.my.id
+    udp: true
+  - name: Digitalocean, LLC (SG)
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 765e5bee-afec-410b-ad82-3e94d45e3e56
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.agustus.jrflashervpn.my.id
+    network: ws
+    ws-opts:
+      path: /SG2
+      headers:
+        Host: ava.game.naver.com.agustus.jrflashervpn.my.id
+    udp: true
+  - name: Akamai Technologies, Inc. (JP)
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 765e5bee-afec-410b-ad82-3e94d45e3e56
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.agustus.jrflashervpn.my.id
+    network: ws
+    ws-opts:
+      path: /JP1
+      headers:
+        Host: ava.game.naver.com.agustus.jrflashervpn.my.id
+    udp: true
+  - name: Shenzhen Tencent Computer Systems Company Limited (JP)
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 765e5bee-afec-410b-ad82-3e94d45e3e56
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.agustus.jrflashervpn.my.id
+    network: ws
+    ws-opts:
+      path: /JP2
+      headers:
+        Host: ava.game.naver.com.agustus.jrflashervpn.my.id
+    udp: true
+  - name: Evoxt Enterprise (MY)
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 765e5bee-afec-410b-ad82-3e94d45e3e56
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.agustus.jrflashervpn.my.id
+    network: ws
+    ws-opts:
+      path: /MY1
+      headers:
+        Host: ava.game.naver.com.agustus.jrflashervpn.my.id
+    udp: true
+  - name: TM TECHNOLOGY SERVICES SDN BHD (MY)
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 765e5bee-afec-410b-ad82-3e94d45e3e56
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.agustus.jrflashervpn.my.id
+    network: ws
+    ws-opts:
+      path: /MY2
+      headers:
+        Host: ava.game.naver.com.agustus.jrflashervpn.my.id
+    udp: true
+  - name: Amazon.com, Inc. (HK)
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 765e5bee-afec-410b-ad82-3e94d45e3e56
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.agustus.jrflashervpn.my.id
+    network: ws
+    ws-opts:
+      path: /HK1
+      headers:
+        Host: ava.game.naver.com.agustus.jrflashervpn.my.id
+    udp: true
+  - name: Hytron Network Services Limited (HK)
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 765e5bee-afec-410b-ad82-3e94d45e3e56
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.agustus.jrflashervpn.my.id
+    network: ws
+    ws-opts:
+      path: /HK2
+      headers:
+        Host: ava.game.naver.com.agustus.jrflashervpn.my.id
+    udp: true
+  - name: Oracle Corporation (US)
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 765e5bee-afec-410b-ad82-3e94d45e3e56
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.agustus.jrflashervpn.my.id
+    network: ws
+    ws-opts:
+      path: /US1
+      headers:
+        Host: ava.game.naver.com.agustus.jrflashervpn.my.id
+    udp: true
+  - name: Oracle Corporation (US) 2
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 765e5bee-afec-410b-ad82-3e94d45e3e56
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.agustus.jrflashervpn.my.id
+    network: ws
+    ws-opts:
+      path: /US2
+      headers:
+        Host: ava.game.naver.com.agustus.jrflashervpn.my.id
+    udp: true
+  - name: ROTATE PROXY
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 844fcd98-a8bf-4b69-a82a-a1194f14f34b
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /rotate
+      headers:
+        Host: ava.game.naver.com.vless.cfw-config.us.kg
+    udp: true
+  - name: Akari Networks (SG) Tls
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: e5eb0147-8a9a-4286-83a1-7f8d0fecc271
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.vless.kominfo.us.kg
+    network: ws
+    ws-opts:
+      path: /210.87.110.230
+      headers:
+        Host: ava.game.naver.com.vless.kominfo.us.kg
+    udp: true
+  - name: Oracle Corporation (SG)
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 4b44f4ff-d864-4d19-a491-75e741259bc5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /sg2
+      headers:
+        Host: ava.game.naver.com.vless.cfw-config.us.kg
+    udp: true
+  - name: Amazon.com, Inc. (SG)
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 072bdf69-6f30-405a-bb99-d7ed1cabf98c
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /sg4
+      headers:
+        Host: ava.game.naver.com.vless.cfw-config.us.kg
+    udp: true
+  - name: Evoxt Enterprise (MY) 2
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: b115205e-3790-446b-969c-513f5913edf6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /my2
+      headers:
+        Host: ava.game.naver.com.vless.cfw-config.us.kg
+    udp: true
+  - name: Alibaba us Technology Co., Ltd. (SG)
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: 67bcdd1d-a9f9-4768-b837-ca40bff702c1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /sg1
+      headers:
+        Host: ava.game.naver.com.vless.cfw-config.us.kg
+    udp: true
+  - name: Digitalocean, LLC (SG) 2
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: f19bc148-d9b0-4aa5-88b5-282359a79387
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /sg3
+      headers:
+        Host: ava.game.naver.com.vless.cfw-config.us.kg
+    udp: true
