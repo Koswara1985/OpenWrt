@@ -1,6 +1,6 @@
 PATH:
-  - &path1 /sg6
-  - &path2 ws://vless.cfw-config.us.kg/sg6
+  - &path1 /rotate
+  - &path2 ws://vless.cfw-config.us.kg/rotate
 
 Type:
   - &type1 vless
@@ -10,7 +10,7 @@ HOST:
   - &host2 space.byu.id
 
 UUID:
-  - &UUID1 1700f2e4-4585-493f-92ea-a1766105e76e
+  - &UUID1 34e22dff-563b-492a-b529-ba3f90d742c6
 
 BUG:
   - &ssl1 graph.facebook.com
