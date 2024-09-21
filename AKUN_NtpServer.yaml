@@ -11,7 +11,7 @@ BUG:
   - &bug10 104.18.2.2
 
 PATH:
-  - &path1 /sshkit/1788762246/66c52c045dbf6/
+  - &path1 /sshkit/1788762246/66ee29e962878/
 
 Type:
   - &type1 vmess
