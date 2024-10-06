@@ -20,7 +20,7 @@ HOST:
   - &host1 sg3-trojan.bonds.id
 
 UUID:
-  - &UUID1 ca795140-6d6b-11ef-ab05-1239d0255272
+  - &UUID1 85b108d0-83e6-11ef-abf5-1239d0255272
 
 INTERFACE:
   - &i eth1
