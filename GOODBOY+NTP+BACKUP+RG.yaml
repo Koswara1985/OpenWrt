@@ -1,0 +1,745 @@
+---
+Type:
+  - &type http
+
+proxy-providers:
+  Akun_IDN:
+    type: *type
+    path: "./proxy_provider/AKUN_INDONESIA.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/AKUN_INDONESIA.yaml
+    interval: 28800 # Update rules every 8 hours
+    health-check:
+      enable: true
+      url: https://cp.cloudflare.com/generate_204
+      interval: 100
+
+  Akun_SGP:
+    type: *type
+    path: "./proxy_provider/AKUN_SINGAPURA.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/AKUN_SINGAPURA.yaml
+    interval: 28800 # Update rules every 8 hours
+    health-check:
+      enable: true
+      url: https://cp.cloudflare.com/generate_204
+      interval: 100
+
+  Akun_BCK:
+    type: *type
+    path: "./proxy_provider/AKUN_BACKUP.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/AKUN_BACKUP_RG.yaml
+    interval: 28800 # Update rules every 8 hours
+    health-check:
+      enable: true
+      url: https://cp.cloudflare.com/generate_204
+      interval: 100
+
+  Akun_Ntp:
+    type: *type
+    path: "./proxy_provider/AKUN_Ntp.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/AKUN_ZEROTIER.yaml
+    interval: 28800 # Update rules every 8 hours
+    health-check:
+      enable: true
+      url: https://cp.cloudflare.com/generate_204
+      interval: 100
+
+  Akun_Zero:
+    type: *type
+    path: "./proxy_provider/AKUN_ZEROTIER.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/AKUN_ZEROTIER.yaml
+    interval: 28800 # Update rules every 8 hours
+    health-check:
+      enable: true
+      url: https://cp.cloudflare.com/generate_204
+      interval: 100
+
+proxy-groups:
+- name: ⚡️
+  type: url-test
+  disable-udp: false
+  proxies:
+  - "Url-Test\U0001F530"
+  - "LB\U0001F530"
+  - "Pilih\U0001F530"
+  - "Traffic-\U0001F1EE\U0001F1E9"
+  - "Traffic-\U0001F1F8\U0001F1EC"
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+  tolerance: '50'
+- name: Zerotier☢️
+  type: url-test
+  disable-udp: false
+  use:
+  - Akun_Zero
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: NtpServer🕑
+  type: url-test
+  disable-udp: false
+  use:
+  - Akun_Ntp
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: Universal🌍
+  type: select
+  disable-udp: false
+  proxies:
+  - "Url-Test\U0001F530"
+  - "LB\U0001F530"
+  - "Pilih\U0001F530"
+  - "Traffic-\U0001F1EE\U0001F1E9"
+  - "Traffic-\U0001F1F8\U0001F1EC"
+  - DIRECT
+  - REJECT
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: Sosmed📬
+  type: select
+  disable-udp: false
+  proxies:
+  - "Url-Test\U0001F530"
+  - "LB\U0001F530"
+  - "Pilih\U0001F530"
+  - "Traffic-\U0001F1EE\U0001F1E9"
+  - "Traffic-\U0001F1F8\U0001F1EC"
+  - DIRECT
+  - REJECT
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: Youtube📺
+  type: select
+  disable-udp: false
+  proxies:
+  - "Url-Test\U0001F530"
+  - "LB\U0001F530"
+  - "Pilih\U0001F530"
+  - "Traffic-\U0001F1EE\U0001F1E9"
+  - "Traffic-\U0001F1F8\U0001F1EC"
+  - DIRECT
+  - REJECT
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: TikTok💃
+  type: select
+  disable-udp: false
+  proxies:
+  - "Url-Test\U0001F530"
+  - "LB\U0001F530"
+  - "Pilih\U0001F530"
+  - "Traffic-\U0001F1EE\U0001F1E9"
+  - "Traffic-\U0001F1F8\U0001F1EC"
+  - DIRECT
+  - REJECT
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: Telegram🎩
+  type: select
+  disable-udp: false
+  proxies:
+  - "Url-Test\U0001F530"
+  - "LB\U0001F530"
+  - "Pilih\U0001F530"
+  - "Traffic-\U0001F1EE\U0001F1E9"
+  - "Traffic-\U0001F1F8\U0001F1EC"
+  - DIRECT
+  - REJECT
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: Auto-Spedtest🚀
+  type: select
+  disable-udp: false
+  proxies:
+  - "Url-Test\U0001F530"
+  - "LB\U0001F530"
+  - "Pilih\U0001F530"
+  - "Traffic-\U0001F1EE\U0001F1E9"
+  - "Traffic-\U0001F1F8\U0001F1EC"
+  - DIRECT
+  - REJECT
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: Olshop🛒
+  type: select
+  disable-udp: false
+  proxies:
+  - "Url-Test\U0001F530"
+  - "LB\U0001F530"
+  - "Pilih\U0001F530"
+  - "Traffic-\U0001F1EE\U0001F1E9"
+  - "Traffic-\U0001F1F8\U0001F1EC"
+  - DIRECT
+  - REJECT
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: Wallet-Bank💰
+  type: select
+  disable-udp: false
+  proxies:
+  - "Url-Test\U0001F530"
+  - "LB\U0001F530"
+  - "Pilih\U0001F530"
+  - "Traffic-\U0001F1EE\U0001F1E9"
+  - "Traffic-\U0001F1F8\U0001F1EC"
+  - DIRECT
+  - REJECT
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: WhatsappChat☎️
+  type: select
+  disable-udp: false
+  proxies:
+  - "Url-Test\U0001F530"
+  - "LB\U0001F530"
+  - "Pilih\U0001F530"
+  - "Traffic-\U0001F1EE\U0001F1E9"
+  - "Traffic-\U0001F1F8\U0001F1EC"
+  - DIRECT
+  - REJECT
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: WhatsappVc☎️
+  type: select
+  disable-udp: false
+  proxies:
+  - "Url-Test\U0001F530"
+  - "LB\U0001F530"
+  - "Pilih\U0001F530"
+  - "Traffic-\U0001F1EE\U0001F1E9"
+  - "Traffic-\U0001F1F8\U0001F1EC"
+  - DIRECT
+  - REJECT
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: Ads-Adult⛔
+  type: select
+  disable-udp: false
+  proxies:
+  - "Url-Test\U0001F530"
+  - "LB\U0001F530"
+  - "Pilih\U0001F530"
+  - "Traffic-\U0001F1EE\U0001F1E9"
+  - "Traffic-\U0001F1F8\U0001F1EC"
+  - DIRECT
+  - REJECT
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: Playstore📥
+  type: select
+  disable-udp: false
+  proxies:
+  - "Url-Test\U0001F530"
+  - "LB\U0001F530"
+  - "Pilih\U0001F530"
+  - "Traffic-\U0001F1EE\U0001F1E9"
+  - "Traffic-\U0001F1F8\U0001F1EC"
+  - DIRECT
+  - REJECT
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: GamingML-LOGIN🎮
+  type: select
+  disable-udp: false
+  proxies:
+  - NtpServer🕑
+  - "Url-Test\U0001F530"
+  - "LB\U0001F530"
+  - "Pilih\U0001F530"
+  - "Traffic-\U0001F1EE\U0001F1E9"
+  - "Traffic-\U0001F1F8\U0001F1EC"
+  - DIRECT
+  - REJECT
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: GamingML-MATCH🎮
+  type: select
+  disable-udp: false
+  proxies:
+  - NtpServer🕑
+  - "Url-Test\U0001F530"
+  - "LB\U0001F530"
+  - "Pilih\U0001F530"
+  - "Traffic-\U0001F1EE\U0001F1E9"
+  - "Traffic-\U0001F1F8\U0001F1EC"
+  - DIRECT
+  - REJECT
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: "Traffic-\U0001F1EE\U0001F1E9"
+  type: fallback
+  disable-udp: false
+  use:
+  - Akun_IDN
+  - Akun_BCK
+  - Akun_Zero
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: "Traffic-\U0001F1F8\U0001F1EC"
+  type: fallback
+  disable-udp: false
+  use:
+  - Akun_SGP
+  - Akun_BCK
+  - Akun_Zero
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: "Url-Test\U0001F530"
+  type: url-test
+  disable-udp: false
+  use:
+  - Akun_IDN
+  - Akun_SGP
+  - Akun_BCK
+  - Akun_Zero
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+  tolerance: '50'
+- name: "LB\U0001F530"
+  type: load-balance
+  strategy: round-robin
+  disable-udp: false
+  use:
+  - Akun_IDN
+  - Akun_SGP
+  - Akun_BCK
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+- name: "Pilih\U0001F530"
+  type: select
+  disable-udp: false
+  use:
+  - Akun_IDN
+  - Akun_SGP
+  - Akun_BCK
+  - Akun_Zero
+  url: https://cp.cloudflare.com/generate_204
+  interval: '100'
+
+redir-port: 7892
+port: 7890
+socks-port: 7891
+mixed-port: 7893
+mode: rule
+log-level: silent
+allow-lan: true
+unified-delay: true
+external-controller: 0.0.0.0:9090
+secret: reyre
+bind-address: "*"
+external-ui: "/usr/share/openclash/ui"
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  listen: 0.0.0.0:7874
+  nameserver:
+  - dhcp://"wwan1"
+  - dhcp://"wwan0"
+  - 192.168.9.1
+  - 192.168.8.1
+  - 8.8.8.8
+  - 8.8.4.4
+  default-nameserver:
+  - 192.168.8.1
+  - 8.8.8.8
+  - 8.8.4.4
+  - 192.168.9.1
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - "*.lan"
+  - "*.localdomain"
+  - "*.example"
+  - "*.invalid"
+  - "*.localhost"
+  - "*.test"
+  - "*.local"
+  - "*.home.arpa"
+  - time.*.com
+  - time.*.gov
+  - time.*.edu.cn
+  - time.*.apple.com
+  - time1.*.com
+  - time2.*.com
+  - time3.*.com
+  - time4.*.com
+  - time5.*.com
+  - time6.*.com
+  - time7.*.com
+  - ntp.*.com
+  - ntp1.*.com
+  - ntp2.*.com
+  - ntp3.*.com
+  - ntp4.*.com
+  - ntp5.*.com
+  - ntp6.*.com
+  - ntp7.*.com
+  - "*.time.edu.cn"
+  - "*.ntp.org.cn"
+  - "+.pool.ntp.org"
+  - time1.cloud.tencent.com
+  - music.163.com
+  - "*.music.163.com"
+  - "*.126.net"
+  - musicapi.taihe.com
+  - music.taihe.com
+  - songsearch.kugou.com
+  - trackercdn.kugou.com
+  - "*.kuwo.cn"
+  - api-jooxtt.sanook.com
+  - api.joox.com
+  - joox.com
+  - y.qq.com
+  - "*.y.qq.com"
+  - streamoc.music.tc.qq.com
+  - mobileoc.music.tc.qq.com
+  - isure.stream.qqmusic.qq.com
+  - dl.stream.qqmusic.qq.com
+  - aqqmusic.tc.qq.com
+  - amobile.music.tc.qq.com
+  - "*.xiami.com"
+  - "*.music.migu.cn"
+  - music.migu.cn
+  - "+.msftconnecttest.com"
+  - "+.msftncsi.com"
+  - msftconnecttest.com
+  - msftncsi.com
+  - localhost.ptlogin2.qq.com
+  - localhost.sec.qq.com
+  - "+.srv.nintendo.net"
+  - "+.stun.playstation.net"
+  - xbox.*.microsoft.com
+  - xnotify.xboxlive.com
+  - "+.battlenet.com.cn"
+  - "+.wotgame.cn"
+  - "+.wggames.cn"
+  - "+.wowsgame.cn"
+  - "+.wargaming.net"
+  - proxy.golang.org
+  - stun.*.*
+  - stun.*.*.*
+  - "+.stun.*.*"
+  - "+.stun.*.*.*"
+  - "+.stun.*.*.*.*"
+  - heartbeat.belkin.com
+  - "*.linksys.com"
+  - "*.linksyssmartwifi.com"
+  - "*.router.asus.com"
+  - mesu.apple.com
+  - swscan.apple.com
+  - swquery.apple.com
+  - swdownload.apple.com
+  - swcdn.apple.com
+  - swdist.apple.com
+  - lens.l.google.com
+  - stun.l.google.com
+  - "+.nflxvideo.net"
+  - "*.square-enix.com"
+  - "*.finalfantasyxiv.com"
+  - "*.ffxiv.com"
+  - "*.mcdn.bilivideo.cn"
+  - "+.media.dssott.com"
+fallback-filter:
+  geoip: true
+  geoip-code: ID
+  ipcidr:
+  - 0.0.0.0/8
+  - 10.0.0.0/8
+  - 100.64.0.0/10
+  - 127.0.0.0/8
+  - 169.254.0.0/16
+  - 172.16.0.0/12
+  - 192.0.0.0/24
+  - 192.0.2.0/24
+  - 192.88.99.0/24
+  - 192.168.0.0/16
+  - 198.18.0.0/15
+  - 198.51.100.0/24
+  - 203.0.113.0/24
+  - 224.0.0.0/4
+  - 240.0.0.0/4
+  - 255.255.255.255/32
+  domain:
+  - "+.google.com"
+  - "+.facebook.com"
+  - "+.youtube.com"
+  - "+.githubusercontent.com"
+  - "+.googlevideo.com"
+  nameserver:
+  - 127.0.0.1:5054
+  fallback:
+  - 127.0.0.1:5053
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - "*.lan"
+  - "*.localdomain"
+  - "*.example"
+  - "*.invalid"
+  - "*.localhost"
+  - "*.test"
+  - "*.local"
+  - "*.home.arpa"
+  - time.*.com
+  - time.*.gov
+  - time.*.edu.cn
+  - time.*.apple.com
+  - time1.*.com
+  - time2.*.com
+  - time3.*.com
+  - time4.*.com
+  - time5.*.com
+  - time6.*.com
+  - time7.*.com
+  - ntp.*.com
+  - ntp1.*.com
+  - ntp2.*.com
+  - ntp3.*.com
+  - ntp4.*.com
+  - ntp5.*.com
+  - ntp6.*.com
+  - ntp7.*.com
+  - "*.time.edu.cn"
+  - "*.ntp.org.cn"
+  - "+.pool.ntp.org"
+  - time1.cloud.tencent.com
+  - music.163.com
+  - "*.music.163.com"
+  - "*.126.net"
+  - musicapi.taihe.com
+  - music.taihe.com
+  - songsearch.kugou.com
+  - trackercdn.kugou.com
+  - "*.kuwo.cn"
+  - api-jooxtt.sanook.com
+  - api.joox.com
+  - joox.com
+  - y.qq.com
+  - "*.y.qq.com"
+  - streamoc.music.tc.qq.com
+  - mobileoc.music.tc.qq.com
+  - isure.stream.qqmusic.qq.com
+  - dl.stream.qqmusic.qq.com
+  - aqqmusic.tc.qq.com
+  - amobile.music.tc.qq.com
+  - "*.xiami.com"
+  - "*.music.migu.cn"
+  - music.migu.cn
+  - "+.msftconnecttest.com"
+  - "+.msftncsi.com"
+  - msftconnecttest.com
+  - msftncsi.com
+  - localhost.ptlogin2.qq.com
+  - localhost.sec.qq.com
+  - "+.srv.nintendo.net"
+  - "+.stun.playstation.net"
+  - xbox.*.microsoft.com
+  - xnotify.xboxlive.com
+  - "+.battlenet.com.cn"
+  - "+.wotgame.cn"
+  - "+.wggames.cn"
+  - "+.wowsgame.cn"
+  - "+.wargaming.net"
+  - proxy.golang.org
+  - stun.*.*
+  - stun.*.*.*
+  - "+.stun.*.*"
+  - "+.stun.*.*.*"
+  - "+.stun.*.*.*.*"
+  - heartbeat.belkin.com
+  - "*.linksys.com"
+  - "*.linksyssmartwifi.com"
+  - "*.router.asus.com"
+  - mesu.apple.com
+  - swscan.apple.com
+  - swquery.apple.com
+  - swdownload.apple.com
+  - swcdn.apple.com
+  - swdist.apple.com
+  - lens.l.google.com
+  - stun.l.google.com
+  - "+.nflxvideo.net"
+  - "*.square-enix.com"
+  - "*.finalfantasyxiv.com"
+  - "*.ffxiv.com"
+  - "*.mcdn.bilivideo.cn"
+  - "+.media.dssott.com"
+  default-nameserver:
+  - 127.0.0.1:5054
+  - 127.0.0.1:5053
+ipv6: false
+profile:
+  store-selected: true
+  store-fakeip: true
+  store-fake-ip: true
+tproxy-port: 7895
+
+rules:
+- DST-PORT,7895,REJECT
+- DST-PORT,7892,REJECT
+- DST-PORT,7895,REJECT
+- DST-PORT,7892,REJECT
+- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- RULE-SET,Rule_Browser,Universal🌍
+- RULE-SET,Rule_Telegram,Telegram🎩
+- RULE-SET,Rule_Zerotier,Zerotier☢️
+- RULE-SET,Rule_Youtube,Youtube📺
+- RULE-SET,Rule_Tiktok,TikTok💃
+- RULE-SET,Rule_NtpServer,NtpServer🕑
+- RULE-SET,Rule_WhatsappChat,WhatsappChat☎️
+- RULE-SET,Rule_WhatsappVc,WhatsappVc☎️
+- RULE-SET,Rule_MLLogin,GamingML-LOGIN🎮
+- RULE-SET,Rule_MLMatch,GamingML-MATCH🎮
+- RULE-SET,Rule_Sosmed,Sosmed📬
+- "RULE-SET,Rule_TrafficIndo,Traffic-\U0001F1EE\U0001F1E9"
+- RULE-SET,Rule-Adblock,Ads-Adult⛔
+- RULE-SET,Rule_Speedtest,Auto-Spedtest🚀
+- RULE-SET,Rule_Playstore,Playstore📥
+- RULE-SET,Rule_Olshop,Olshop🛒
+- RULE-SET,Rule_Ewallet_Mbanking,Wallet-Bank💰
+- DST-PORT,7895,REJECT
+- DST-PORT,7892,REJECT
+- RULE-SET,Reject,REJECT
+- MATCH,Universal🌍
+
+rule-providers:
+  Reject:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/reject.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/reject.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_Telegram:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/telegram.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/telegram.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_Zerotier:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/zerotier.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/zerotier.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_WhatsappChat:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/WhatsappChat.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/WhatsappChat.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_WhatsappVc:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/WhatsappVc.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/WhatsappVc.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_MLLogin:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/MobileLegendLogin.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/MobileLegendLogin.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_MLMatch:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/MobileLegendMatch.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/MobileLegendMatch.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_Pubg:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/pubgmobile.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/pubgmobile.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_FF:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/freefire.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/freefire.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_Gameumum:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/gameumum.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/gameumum.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_Browser:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/browsermaster.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/browsermaster.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_Streaming:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/streaming.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/streaming.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_Sosmed:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/sosmed.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/sosmed.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_TrafficIndo:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/TrafficIndo.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/TrafficIndo.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule-Adblock:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/adblock.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/adblock.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_Speedtest:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/speedtest.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/speedtest.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_Playstore:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/playstore.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/playstore.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_Olshop:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/olshop.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/olshop.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_Ewallet_Mbanking:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/Ewallet_Mbanking.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/Ewallet_Mbanking.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_NtpServer:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/ntp.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/ntp.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_Youtube:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/youtube.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/youtube.yaml
+    interval: 28800 # Update rules every 8 hours
+  Rule_Tiktok:
+    type: *type
+    behavior: classical
+    path: "./rule_provider/tiktok.yaml"
+    url: https://raw.githubusercontent.com/Koswara1985/OpenWrt/main/tiktok.yaml
+    interval: 28800 # Update rules every 8 hours
+
+geodata-mode: false
+geodata-loader: memconservative
+tcp-concurrent: true
+sniffer:
+  enable: true
+  sniffing:
+  - tls
+  - http
+
+
