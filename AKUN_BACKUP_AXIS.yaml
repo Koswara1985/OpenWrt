@@ -1,6 +1,36 @@
+
+
+BUG:
+  - &bug 104.16.106.96
+  - &bug1 104.18.3.2
+  - &bug2 104.18.24.139
+  - &bug3 104.18.25.139
+  - &bug4 104.20.74.141
+  - &bug5 io.ruangguru.com
+  - &bug6 orangtua.ruangguru.com
+  - &bug7 104.18.41.141
+  - &bug8 104.26.7.171
+  - &bug9 ruangguru.com
+  - &bug10 104.18.2.2
+
 proxies:
+  - name: Oracle Corporation 🇸🇬 (SG)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 5d0049c9-7e98-463a-bafb-468a0ca27aca
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /158.178.246.142=61731
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
   - name: Siamdata Communication 🇹🇭 (TH)
-    server: 104.16.106.96
+    server: *bug
     port: 80
     type: vless
     uuid: 174eac0c-a817-4494-9693-e85d7672b429
@@ -15,7 +45,7 @@ proxies:
         Host: aio.serverless.us.kg
     udp: true
   - name: Hetzner Online GmbH 🇩🇪 (DE)
-    server: 104.16.106.96
+    server: *bug
     port: 80
     type: vless
     uuid: 4cc5d3a1-8706-4606-b3fa-f4dd5c25890c
@@ -30,7 +60,7 @@ proxies:
         Host: aio.serverless.us.kg
     udp: true
   - name: Pt Cloud Teknologi 🇮🇩 (ID)
-    server: 104.16.106.96
+    server: *bug
     port: 80
     type: vless
     uuid: 7d4d85b7-61f1-4d25-9377-4071a30654eb
@@ -45,7 +75,7 @@ proxies:
         Host: aio.serverless.us.kg
     udp: true
   - name: Hetzner Online GmbH 🇩🇪 (DE) 2
-    server: 104.16.106.96
+    server: *bug
     port: 80
     type: vless
     uuid: ad0c7b14-4905-46d2-ada1-96b0d1801320
@@ -60,7 +90,7 @@ proxies:
         Host: aio.serverless.us.kg
     udp: true
   - name: SERVER SG3 [REGXA] (80)
-    server: 104.16.106.96
+    server: *bug
     port: 80
     type: vless
     uuid: 476802d2-2072-4316-8dd0-cf1dd4a9c791
@@ -75,7 +105,7 @@ proxies:
         Host: rgx2.kadanahija.xyz
     udp: true
   - name: CY Stark Industries Solutions
-    server: 104.16.106.96
+    server: *bug
     port: 443
     type: vless
     uuid: 22e3fa72-bb76-43f7-8f1f-e387ed2af0d6
@@ -90,7 +120,7 @@ proxies:
         Host: nautica.foolvpn.me
     udp: true
   - name: Instagram (SG) Amazon.com, Inc.
-    server: 104.16.106.96
+    server: *bug
     port: 443
     type: vless
     uuid: 00000000-0000-0000-0000-000000000000
@@ -105,7 +135,7 @@ proxies:
         Host: graph.instagram.com.uwu.cloudflere.us.kg
     udp: true
   - name: Instagram (US) Microsoft Corporation
-    server: 104.16.106.96
+    server: *bug
     port: 443
     type: vless
     uuid: 00000000-0000-0000-0000-000000000000
@@ -120,7 +150,7 @@ proxies:
         Host: graph.instagram.com.uwu.cloudflere.us.kg
     udp: true
   - name: Instagram (ID) Telekomunikasi Indonesia
-    server: 104.16.106.96
+    server: *bug
     port: 443
     type: vless
     uuid: 00000000-0000-0000-0000-000000000000
@@ -133,4 +163,170 @@ proxies:
       path: /104.99.183.32
       headers:
         Host: graph.instagram.com.uwu.cloudflere.us.kg
+    udp: true
+
+  - name: ROTATE VLESS ID 🇮🇩 N-TLS
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 4b6dfc5e-26ce-4a78-963c-e4f165b63833
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /ID
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: CGI GLOBAL LIMITED 🇺🇸 (US)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: cbd20e83-b70e-466c-90c5-d35edb2891ec
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /45.154.3.156=23443
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: Speedypage LTD 🇸🇬 (SG)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 3471efb5-f246-4b1e-af9f-f2aa64dd8e3c
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /194.9.62.132=57255
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: Upcloud LTD 🇸🇬 (SG)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 271fed7c-b452-4a62-bde1-8e90fb49fc72
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /94.237.75.31=62174
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: Shenzhen Tencent 🇮🇩 (ID)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: c6d68faa-bce4-4e91-a825-3b0c0f5dde5b
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /43.133.145.156=53136
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: Digitalocean, LLC 🇸🇬 (SG)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 9be392a8-6f01-41ba-b0cf-6177618c597c
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /104.248.146.212=2053
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: Google LLC 🇭🇰 (HK)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 81785870-bb6f-495c-9df0-946ebcb2c62e
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /34.92.35.61=37455
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: Jcom Co., Ltd. 🇯🇵 (JP)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 1c632469-73d0-4eb9-a336-51e2558a4a64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /124.144.137.154=19205
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: (SG) Alibaba 🇸🇬
+    server: *bug
+    port: 443
+    type: vless
+    uuid: aa06b9d5-949a-4941-b208-2b18785d92ff
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /8.219.197.113=45714
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: (ID) Google LLC 🇮🇩
+    server: *bug
+    port: 443
+    type: vless
+    uuid: 38f50511-7d4e-41a2-aa77-04ce56fbff63
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /35.219.50.99=443
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: (zaintest.vuclip.com) SG Alibaba
+    server: *bug
+    port: 443
+    type: vless
+    uuid: bfd2774d-69f3-424b-8589-23aede18bed6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: tp1.bmkg.xyz
+    network: ws
+    ws-opts:
+      path: /47.236.246.163-14108
+      headers:
+        Host: tp1.bmkg.xyz
     udp: true
