@@ -1,4 +1,5 @@
 
+
 BUG:
   - &bug orangtua.ruangguru.com
   - &bug1 104.18.3.2
@@ -162,4 +163,170 @@ proxies:
       path: /104.99.183.32
       headers:
         Host: graph.instagram.com.uwu.cloudflere.us.kg
+    udp: true
+
+  - name: ROTATE VLESS ID 🇮🇩 N-TLS
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 4b6dfc5e-26ce-4a78-963c-e4f165b63833
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /ID
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: CGI GLOBAL LIMITED 🇺🇸 (US)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: cbd20e83-b70e-466c-90c5-d35edb2891ec
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /45.154.3.156=23443
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: Speedypage LTD 🇸🇬 (SG)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 3471efb5-f246-4b1e-af9f-f2aa64dd8e3c
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /194.9.62.132=57255
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: Upcloud LTD 🇸🇬 (SG)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 271fed7c-b452-4a62-bde1-8e90fb49fc72
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /94.237.75.31=62174
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: Shenzhen Tencent 🇮🇩 (ID)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: c6d68faa-bce4-4e91-a825-3b0c0f5dde5b
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /43.133.145.156=53136
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: Digitalocean, LLC 🇸🇬 (SG)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 9be392a8-6f01-41ba-b0cf-6177618c597c
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /104.248.146.212=2053
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: Google LLC 🇭🇰 (HK)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 81785870-bb6f-495c-9df0-946ebcb2c62e
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /34.92.35.61=37455
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: Jcom Co., Ltd. 🇯🇵 (JP)
+    server: *bug
+    port: 80
+    type: vless
+    uuid: 1c632469-73d0-4eb9-a336-51e2558a4a64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /124.144.137.154=19205
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: (SG) Alibaba 🇸🇬
+    server: *bug
+    port: 443
+    type: vless
+    uuid: aa06b9d5-949a-4941-b208-2b18785d92ff
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /8.219.197.113=45714
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: (ID) Google LLC 🇮🇩
+    server: *bug
+    port: 443
+    type: vless
+    uuid: 38f50511-7d4e-41a2-aa77-04ce56fbff63
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /35.219.50.99=443
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: (zaintest.vuclip.com) SG Alibaba
+    server: *bug
+    port: 443
+    type: vless
+    uuid: bfd2774d-69f3-424b-8589-23aede18bed6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: tp1.bmkg.xyz
+    network: ws
+    ws-opts:
+      path: /47.236.246.163-14108
+      headers:
+        Host: tp1.bmkg.xyz
     udp: true
