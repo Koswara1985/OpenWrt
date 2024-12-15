@@ -1,0 +1,136 @@
+proxies:
+  - name: Siamdata Communication 🇹🇭 (TH)
+    server: 104.16.106.96
+    port: 80
+    type: vless
+    uuid: 174eac0c-a817-4494-9693-e85d7672b429
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /43.229.149.251=2053
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: Hetzner Online GmbH 🇩🇪 (DE)
+    server: 104.16.106.96
+    port: 80
+    type: vless
+    uuid: 4cc5d3a1-8706-4606-b3fa-f4dd5c25890c
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /91.107.242.65=3015
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: Pt Cloud Teknologi 🇮🇩 (ID)
+    server: 104.16.106.96
+    port: 80
+    type: vless
+    uuid: 7d4d85b7-61f1-4d25-9377-4071a30654eb
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /103.133.223.52=2096
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: Hetzner Online GmbH 🇩🇪 (DE) 2
+    server: 104.16.106.96
+    port: 80
+    type: vless
+    uuid: ad0c7b14-4905-46d2-ada1-96b0d1801320
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: aio.serverless.us.kg
+    network: ws
+    ws-opts:
+      path: /91.107.242.65=3015
+      headers:
+        Host: aio.serverless.us.kg
+    udp: true
+  - name: SERVER SG3 [REGXA] (80)
+    server: 104.16.106.96
+    port: 80
+    type: vless
+    uuid: 476802d2-2072-4316-8dd0-cf1dd4a9c791
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: rgx2.kadanahija.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: rgx2.kadanahija.xyz
+    udp: true
+  - name: CY Stark Industries Solutions
+    server: 104.16.106.96
+    port: 443
+    type: vless
+    uuid: 22e3fa72-bb76-43f7-8f1f-e387ed2af0d6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nautica.foolvpn.me
+    network: ws
+    ws-opts:
+      path: /3.97.173.206-80
+      headers:
+        Host: nautica.foolvpn.me
+    udp: true
+  - name: Instagram (SG) Amazon.com, Inc.
+    server: 104.16.106.96
+    port: 443
+    type: vless
+    uuid: 00000000-0000-0000-0000-000000000000
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: graph.instagram.com.uwu.cloudflere.us.kg
+    network: ws
+    ws-opts:
+      path: /52.74.101.26
+      headers:
+        Host: graph.instagram.com.uwu.cloudflere.us.kg
+    udp: true
+  - name: Instagram (US) Microsoft Corporation
+    server: 104.16.106.96
+    port: 443
+    type: vless
+    uuid: 00000000-0000-0000-0000-000000000000
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: graph.instagram.com.uwu.cloudflere.us.kg
+    network: ws
+    ws-opts:
+      path: /13.88.29.102
+      headers:
+        Host: graph.instagram.com.uwu.cloudflere.us.kg
+    udp: true
+  - name: Instagram (ID) Telekomunikasi Indonesia
+    server: 104.16.106.96
+    port: 443
+    type: vless
+    uuid: 00000000-0000-0000-0000-000000000000
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: graph.instagram.com.uwu.cloudflere.us.kg
+    network: ws
+    ws-opts:
+      path: /104.99.183.32
+      headers:
+        Host: graph.instagram.com.uwu.cloudflere.us.kg
+    udp: true
