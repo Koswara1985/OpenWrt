@@ -1,21 +1,6 @@
 proxies:
-  - name: CY Stark Industries Solutions
-    server: ruangguru.com
-    port: 443
-    type: vless
-    uuid: 22e3fa72-bb76-43f7-8f1f-e387ed2af0d6
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: nautica.foolvpn.me
-    network: ws
-    ws-opts:
-      path: /3.97.173.206-80
-      headers:
-        Host: nautica.foolvpn.me
-    udp: true
-  - name: (ID) Pt Cloud Teknologi 🇮🇩
-    server: ruangguru.com
+  - name: 1️⃣(ID) Pt Cloud Teknologi 🇮🇩
+    server: 104.18.3.2
     port: 443
     type: vless
     uuid: 04cc53f9-5d52-4a50-a140-35854a8d57eb
