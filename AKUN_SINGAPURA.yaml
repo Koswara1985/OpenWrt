@@ -1,17 +1,17 @@
 PATH:
-  - &path1 /52.74.101.26
-  - &path2 ws://vless.cfw-config.us.kg/sg6
+  - &path1 /51.79.254.182=443
+  - &path2 ws://aio.serverless.us.kg
 
 Type:
   - &type1 vless
 
 HOST:
-  - &host1 graph.instagram.com.uwu.cloudflere.us.kg
+  - &host1 aio.serverless.us.kg
   - &host2 space.byu.id
 
 UUID:
-  - &UUID1 00000000-0000-0000-0000-000000000000
-
+  - &UUID1 86808149-fa38-407f-8907-aa70cb11a3f8
+  
 # Instagram (SG) Amazon.com, Inc.
 
 BUG:
