@@ -1,6 +1,6 @@
 proxies:
-  - name: CY Stark Industries Solutions
-    server: ruangguru.com
+  - name: 2️⃣CY Stark Industries Solutions
+    server: 104.18.3.2
     port: 443
     type: vless
     uuid: 22e3fa72-bb76-43f7-8f1f-e387ed2af0d6
@@ -13,19 +13,4 @@ proxies:
       path: /3.97.173.206-80
       headers:
         Host: nautica.foolvpn.me
-    udp: true
-  - name: (ID) Pt Cloud Teknologi 🇮🇩
-    server: ruangguru.com
-    port: 443
-    type: vless
-    uuid: 04cc53f9-5d52-4a50-a140-35854a8d57eb
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: aio.serverless.us.kg
-    network: ws
-    ws-opts:
-      path: /103.133.223.50=2096
-      headers:
-        Host: aio.serverless.us.kg
     udp: true
