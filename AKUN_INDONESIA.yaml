@@ -1,18 +1,18 @@
 PATH:
-  - &path1 /3.97.173.206-80
-  - &path2 ws://nautica.foolvpn.me
+  - &path1 /ID10
+  - &path2 ws://aio.bitzblack.v6.navy/ID10
 
 Type:
   - &type1 vless
 
 HOST:
-  - &host1 nautica.foolvpn.me
+  - &host1 aio.bitzblack.v6.navy
   - &host2 space.byu.id
 
 UUID:
-  - &UUID1 22e3fa72-bb76-43f7-8f1f-e387ed2af0d6
+  - &UUID1 49814134-b58e-4f33-a06e-979e40680e25
 
-# CY Stark Industries Solutions
+# (ID) Pt Herza Digital 🇮🇩
 
 BUG:
   - &ssl1 graph.facebook.com
