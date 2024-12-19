@@ -1,5 +1,5 @@
 BUG:
-  - &bug1 104.16.106.96
+  - &bug1 ruangguru.com
   - &bug2 104.26.7.171
   - &bug3 104.18.25.139
   - &bug4 104.20.74.141
@@ -7,8 +7,8 @@ BUG:
   - &bug6 orangtua.ruangguru.com
   - &bug7 104.18.41.141
   - &bug8 104.18.3.2
-  - &bug9 ruangguru.com
-  - &bug10 104.18.2.2
+  - &bug9 104.18.2.2
+  - &bug10 104.16.106.96
 
 PATH:
   - &path1 /howdy
