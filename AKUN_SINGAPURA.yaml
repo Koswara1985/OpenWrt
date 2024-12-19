@@ -1,18 +1,18 @@
 PATH:
-  - &path1 /51.79.254.182=443
-  - &path2 ws://aio.serverless.us.kg
+  - &path1 /3.97.173.206-80
+  - &path2 ws://nautica.foolvpn.me
 
 Type:
   - &type1 vless
 
 HOST:
-  - &host1 aio.serverless.us.kg
+  - &host1 nautica.foolvpn.me
   - &host2 space.byu.id
 
 UUID:
-  - &UUID1 86808149-fa38-407f-8907-aa70cb11a3f8
+  - &UUID1 22e3fa72-bb76-43f7-8f1f-e387ed2af0d6
   
-# Instagram (SG) Amazon.com, Inc.
+# CY Stark Industries Solutions.
 
 BUG:
   - &ssl1 graph.facebook.com
