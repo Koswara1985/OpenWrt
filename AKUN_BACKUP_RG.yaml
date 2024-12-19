@@ -1,5 +1,4 @@
 
-
 BUG:
   - &bug 104.16.106.96
   - &bug1 104.18.3.2
@@ -366,6 +365,183 @@ proxies:
       headers:
         Host: nautica.foolvpn.me
     udp: true
+
+  - name: (ID) Pt Pusat Media 🇮🇩
+    server: *bug
+    port: 443
+    type: vless
+    uuid: 51ba77d5-9622-4cd3-a487-477007aab140
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aio.bitzblack.v6.navy
+    network: ws
+    ws-opts:
+      path: /ID11
+      headers:
+        Host: aio.bitzblack.v6.navy
+    udp: true
+
+  - name: 1(ID) Pt Pusat Media 🇮🇩
+    server: *bug1
+    port: 443
+    type: vless
+    uuid: 51ba77d5-9622-4cd3-a487-477007aab140
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aio.bitzblack.v6.navy
+    network: ws
+    ws-opts:
+      path: /ID11
+      headers:
+        Host: aio.bitzblack.v6.navy
+    udp: true
+
+  - name: 2(ID) Pt Pusat Media 🇮🇩
+    server: *bug2
+    port: 443
+    type: vless
+    uuid: 51ba77d5-9622-4cd3-a487-477007aab140
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aio.bitzblack.v6.navy
+    network: ws
+    ws-opts:
+      path: /ID11
+      headers:
+        Host: aio.bitzblack.v6.navy
+    udp: true
+
+  - name: 3(ID) Pt Pusat Media 🇮🇩
+    server: *bug3
+    port: 443
+    type: vless
+    uuid: 51ba77d5-9622-4cd3-a487-477007aab140
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aio.bitzblack.v6.navy
+    network: ws
+    ws-opts:
+      path: /ID11
+      headers:
+        Host: aio.bitzblack.v6.navy
+    udp: true
+
+  - name: 4(ID) Pt Pusat Media 🇮🇩
+    server: *bug4
+    port: 443
+    type: vless
+    uuid: 51ba77d5-9622-4cd3-a487-477007aab140
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aio.bitzblack.v6.navy
+    network: ws
+    ws-opts:
+      path: /ID11
+      headers:
+        Host: aio.bitzblack.v6.navy
+    udp: true
+
+  - name: 5(ID) Pt Pusat Media 🇮🇩
+    server: *bug5
+    port: 443
+    type: vless
+    uuid: 51ba77d5-9622-4cd3-a487-477007aab140
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aio.bitzblack.v6.navy
+    network: ws
+    ws-opts:
+      path: /ID11
+      headers:
+        Host: aio.bitzblack.v6.navy
+    udp: true
+
+  - name: 6(ID) Pt Pusat Media 🇮🇩
+    server: *bug6
+    port: 443
+    type: vless
+    uuid: 51ba77d5-9622-4cd3-a487-477007aab140
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aio.bitzblack.v6.navy
+    network: ws
+    ws-opts:
+      path: /ID11
+      headers:
+        Host: aio.bitzblack.v6.navy
+    udp: true
+
+  - name: 7(ID) Pt Pusat Media 🇮🇩
+    server: *bug7
+    port: 443
+    type: vless
+    uuid: 51ba77d5-9622-4cd3-a487-477007aab140
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aio.bitzblack.v6.navy
+    network: ws
+    ws-opts:
+      path: /ID11
+      headers:
+        Host: aio.bitzblack.v6.navy
+    udp: true
+
+  - name: 8(ID) Pt Pusat Media 🇮🇩
+    server: *bug8
+    port: 443
+    type: vless
+    uuid: 51ba77d5-9622-4cd3-a487-477007aab140
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aio.bitzblack.v6.navy
+    network: ws
+    ws-opts:
+      path: /ID11
+      headers:
+        Host: aio.bitzblack.v6.navy
+    udp: true
+
+  - name: 9(ID) Pt Pusat Media 🇮🇩
+    server: *bug9
+    port: 443
+    type: vless
+    uuid: 51ba77d5-9622-4cd3-a487-477007aab140
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aio.bitzblack.v6.navy
+    network: ws
+    ws-opts:
+      path: /ID11
+      headers:
+        Host: aio.bitzblack.v6.navy
+    udp: true
+
+  - name: 10(ID) Pt Pusat Media 🇮🇩
+    server: *bug10
+    port: 443
+    type: vless
+    uuid: 51ba77d5-9622-4cd3-a487-477007aab140
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aio.bitzblack.v6.navy
+    network: ws
+    ws-opts:
+      path: /ID11
+      headers:
+        Host: aio.bitzblack.v6.navy
+    udp: true
+
 
 
     
