@@ -190,3 +190,182 @@ proxies:
       headers:
         Host: aio.bitzblack.v6.navy
     udp: true
+
+  - name: CY Stark Industries Solutions
+    server: *bug
+    port: 443
+    type: vless
+    uuid: 22e3fa72-bb76-43f7-8f1f-e387ed2af0d6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nautica.foolvpn.me
+    network: ws
+    ws-opts:
+      path: /3.97.173.206-80
+      headers:
+        Host: nautica.foolvpn.me
+    udp: true
+
+  - name: 1 CY Stark Industries Solutions
+    server: *bug1
+    port: 443
+    type: vless
+    uuid: 22e3fa72-bb76-43f7-8f1f-e387ed2af0d6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nautica.foolvpn.me
+    network: ws
+    ws-opts:
+      path: /3.97.173.206-80
+      headers:
+        Host: nautica.foolvpn.me
+    udp: true
+
+  - name: 2 CY Stark Industries Solutions
+    server: *bug2
+    port: 443
+    type: vless
+    uuid: 22e3fa72-bb76-43f7-8f1f-e387ed2af0d6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nautica.foolvpn.me
+    network: ws
+    ws-opts:
+      path: /3.97.173.206-80
+      headers:
+        Host: nautica.foolvpn.me
+    udp: true
+
+  - name: 3 CY Stark Industries Solutions
+    server: *bug3
+    port: 443
+    type: vless
+    uuid: 22e3fa72-bb76-43f7-8f1f-e387ed2af0d6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nautica.foolvpn.me
+    network: ws
+    ws-opts:
+      path: /3.97.173.206-80
+      headers:
+        Host: nautica.foolvpn.me
+    udp: true
+
+  - name: 4 CY Stark Industries Solutions
+    server: *bug4
+    port: 443
+    type: vless
+    uuid: 22e3fa72-bb76-43f7-8f1f-e387ed2af0d6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nautica.foolvpn.me
+    network: ws
+    ws-opts:
+      path: /3.97.173.206-80
+      headers:
+        Host: nautica.foolvpn.me
+    udp: true
+
+  - name: 5 CY Stark Industries Solutions
+    server: *bug5
+    port: 443
+    type: vless
+    uuid: 22e3fa72-bb76-43f7-8f1f-e387ed2af0d6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nautica.foolvpn.me
+    network: ws
+    ws-opts:
+      path: /3.97.173.206-80
+      headers:
+        Host: nautica.foolvpn.me
+    udp: true
+
+  - name: 6 CY Stark Industries Solutions
+    server: *bug6
+    port: 443
+    type: vless
+    uuid: 22e3fa72-bb76-43f7-8f1f-e387ed2af0d6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nautica.foolvpn.me
+    network: ws
+    ws-opts:
+      path: /3.97.173.206-80
+      headers:
+        Host: nautica.foolvpn.me
+    udp: true
+
+  - name: 7 CY Stark Industries Solutions
+    server: *bug7
+    port: 443
+    type: vless
+    uuid: 22e3fa72-bb76-43f7-8f1f-e387ed2af0d6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nautica.foolvpn.me
+    network: ws
+    ws-opts:
+      path: /3.97.173.206-80
+      headers:
+        Host: nautica.foolvpn.me
+    udp: true
+
+  - name: 8 CY Stark Industries Solutions
+    server: *bug8
+    port: 443
+    type: vless
+    uuid: 22e3fa72-bb76-43f7-8f1f-e387ed2af0d6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nautica.foolvpn.me
+    network: ws
+    ws-opts:
+      path: /3.97.173.206-80
+      headers:
+        Host: nautica.foolvpn.me
+    udp: true
+
+  - name: 9 CY Stark Industries Solutions
+    server: *bug9
+    port: 443
+    type: vless
+    uuid: 22e3fa72-bb76-43f7-8f1f-e387ed2af0d6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nautica.foolvpn.me
+    network: ws
+    ws-opts:
+      path: /3.97.173.206-80
+      headers:
+        Host: nautica.foolvpn.me
+    udp: true
+
+  - name: 10 CY Stark Industries Solutions
+    server: *bug10
+    port: 443
+    type: vless
+    uuid: 22e3fa72-bb76-43f7-8f1f-e387ed2af0d6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nautica.foolvpn.me
+    network: ws
+    ws-opts:
+      path: /3.97.173.206-80
+      headers:
+        Host: nautica.foolvpn.me
+    udp: true
+
+
+    
