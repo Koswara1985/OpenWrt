@@ -192,7 +192,7 @@ BUG:
 
 # Expired 09 Sep 2023
 proxies:
-  - name: 1️⃣bug1 SG3
+  - name: 1️⃣bug1 SG31
     server: *bug1
     port: 443
     type: *type1
