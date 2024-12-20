@@ -1,18 +1,18 @@
 PATH:
-  - &path1 /ID10
-  - &path2 ws://aio.bitzblack.v6.navy/ID10
+  - &path1 /vless-ws
+  - &path2 ws://rgx2.kadanahija.xyz
 
 Type:
   - &type1 vless
 
 HOST:
-  - &host1 aio.bitzblack.v6.navy
+  - &host1 rgx2.kadanahija.xyz
   - &host2 space.byu.id
 
 UUID:
-  - &UUID1 49814134-b58e-4f33-a06e-979e40680e25
+  - &UUID1 476802d2-2072-4316-8dd0-cf1dd4a9c791
 
-# (ID) Pt Herza Digital 🇮🇩
+# SERVER SG3 [REGXA] (80) 🇸🇬
 
 BUG:
   - &ssl1 graph.facebook.com
@@ -192,7 +192,7 @@ BUG:
 
 # Expired 09 Sep 2023
 proxies:
-  - name: 1️⃣bug1
+  - name: 1️⃣bug1 SG3
     server: *bug1
     port: 443
     type: *type1
