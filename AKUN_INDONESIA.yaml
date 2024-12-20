@@ -1,5 +1,5 @@
 PATH:
-  - &path1 /vless-ws
+  - &path1 /vless
   - &path2 ws://rgx2.kadanahija.xyz
 
 Type:
