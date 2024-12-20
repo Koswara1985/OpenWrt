@@ -1,1702 +1,291 @@
 BUG:
-  - &bug1 104.18.3.2
-  - &bug2 104.18.24.139
+  - &bug1 ruangguru.com
+  - &bug2 104.26.7.171
   - &bug3 104.18.25.139
   - &bug4 104.20.74.141
   - &bug5 io.ruangguru.com
   - &bug6 orangtua.ruangguru.com
   - &bug7 104.18.41.141
-  - &bug8 104.26.6.171
-  - &bug9 ruangguru.com
-  - &bug10 104.18.2.2
+  - &bug8 104.18.3.2
+  - &bug9 104.18.2.2
+  - &bug10 104.16.106.96
+
+PATH:
+  - &path1 /howdy
+
+Type:
+  - &type1 trojan
+
+HOST:
+  - &host1 sg3-trojan.bonds.id
+  - &host2 sg2-trojan.bonds.id
+
+UUID:
+  - &UUID1 59579a70-ac87-11ef-8142-1239d0255272
+  - &UUID2 d0f83be0-be67-11ef-9006-1239d0255272
+
+INTERFACE:
+  - &i eth1
 
 proxies:
-
-  - name: tsg6.pages.dev bug1
-    server: *bug1
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg6.pages.dev
-    udp: true
-
-  - name: tsg5.pages.dev bug1
-    server: *bug1
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg5.pages.dev
-    udp: true
-
-  - name: tsg4.pages.dev bug1
-    server: *bug1
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg4.pages.dev
-    udp: true
-
-  - name: tsg3.pages.dev bug1
-    server: *bug1
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg3.pages.dev
-    udp: true
-
-  - name: tsg2.pages.dev bug1
-    server: *bug1
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg2.pages.dev
-    udp: true
-
-  - name: tsg1.pages.dev bug1
-    server: *bug1
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg1.pages.dev
-    udp: true
-
-  - name: tidz6.pages.dev bug1
-    server: *bug1
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz6.pages.dev
-    udp: true
-
-  - name: tidz5.pages.dev bug1
-    server: *bug1
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz5.pages.dev
-    udp: true
-
-  - name: tidz4.pages.dev bug1
-    server: *bug1
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz4.pages.dev
-    udp: true
-
-  - name: tidz3.pages.dev bug1
-    server: *bug1
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz3.pages.dev
-    udp: true
-
-  - name: idzt2.pages.dev bug1
-    server: *bug1
-    port: 443
-    type: trojan
-    password: shinhye
-    skip-cert-verify: true
-    sni: idzt2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: idzt2.pages.dev
-    udp: true
-
-  - name: tidz1.pages.dev bug1
-    server: *bug1
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz1.pages.dev
-    udp: true
-
-
-  - name: tsg6.pages.dev bug2
-    server: *bug2
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg6.pages.dev
-    udp: true
-
-  - name: tsg5.pages.dev bug2
-    server: *bug2
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg5.pages.dev
-    udp: true
-
-  - name: tsg4.pages.dev bug2
-    server: *bug2
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg4.pages.dev
-    udp: true
-
-  - name: tsg3.pages.dev bug2
-    server: *bug2
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg3.pages.dev
-    udp: true
-
-  - name: tsg2.pages.dev bug2
-    server: *bug2
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg2.pages.dev
-    udp: true
-
-  - name: tsg1.pages.dev bug2
-    server: *bug2
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg1.pages.dev
-    udp: true
-
-  - name: tidz6.pages.dev bug2
-    server: *bug2
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz6.pages.dev
-    udp: true
-
-  - name: tidz5.pages.dev bug2
-    server: *bug2
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz5.pages.dev
-    udp: true
-
-  - name: tidz4.pages.dev bug2
-    server: *bug2
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz4.pages.dev
-    udp: true
-
-  - name: tidz3.pages.dev bug2
-    server: *bug2
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz3.pages.dev
-    udp: true
-
-  - name: idzt2.pages.dev bug2
-    server: *bug2
-    port: 443
-    type: trojan
-    password: shinhye
-    skip-cert-verify: true
-    sni: idzt2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: idzt2.pages.dev
-    udp: true
-
-  - name: tidz1.pages.dev bug2
-    server: *bug2
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz1.pages.dev
-    udp: true
-
-
-  - name: tsg6.pages.dev bug3
-    server: *bug3
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg6.pages.dev
-    udp: true
-
-  - name: tsg5.pages.dev bug3
-    server: *bug3
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg5.pages.dev
-    udp: true
-
-  - name: tsg4.pages.dev bug3
-    server: *bug3
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg4.pages.dev
-    udp: true
-
-  - name: tsg3.pages.dev bug3
-    server: *bug3
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg3.pages.dev
-    udp: true
-
-  - name: tsg2.pages.dev bug3
-    server: *bug3
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg2.pages.dev
-    udp: true
-
-  - name: tsg1.pages.dev bug3
-    server: *bug3
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg1.pages.dev
-    udp: true
-
-  - name: tidz6.pages.dev bug3
-    server: *bug3
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz6.pages.dev
-    udp: true
-
-  - name: tidz5.pages.dev bug3
-    server: *bug3
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz5.pages.dev
-    udp: true
-
-  - name: tidz4.pages.dev bug3
-    server: *bug3
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz4.pages.dev
-    udp: true
-
-  - name: tidz3.pages.dev bug3
-    server: *bug3
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz3.pages.dev
-    udp: true
-
-  - name: idzt2.pages.dev bug3
-    server: *bug3
-    port: 443
-    type: trojan
-    password: shinhye
-    skip-cert-verify: true
-    sni: idzt2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: idzt2.pages.dev
-    udp: true
-
-  - name: tidz1.pages.dev bug3
-    server: *bug3
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz1.pages.dev
-    udp: true
-
-
-  - name: tsg6.pages.dev bug4
-    server: *bug4
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg6.pages.dev
-    udp: true
-
-  - name: tsg5.pages.dev bug4
-    server: *bug4
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg5.pages.dev
-    udp: true
-
-  - name: tsg4.pages.dev bug4
-    server: *bug4
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg4.pages.dev
-    udp: true
-
-  - name: tsg3.pages.dev bug4
-    server: *bug4
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg3.pages.dev
-    udp: true
-
-  - name: tsg2.pages.dev bug4
-    server: *bug4
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg2.pages.dev
-    udp: true
-
-  - name: tsg1.pages.dev bug4
-    server: *bug4
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg1.pages.dev
-    udp: true
-
-  - name: tidz6.pages.dev bug4
-    server: *bug4
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz6.pages.dev
-    udp: true
-
-  - name: tidz5.pages.dev bug4
-    server: *bug4
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz5.pages.dev
-    udp: true
-
-  - name: tidz4.pages.dev bug4
-    server: *bug4
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz4.pages.dev
-    udp: true
-
-  - name: tidz3.pages.dev bug4
-    server: *bug4
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz3.pages.dev
-    udp: true
-
-  - name: idzt2.pages.dev bug4
-    server: *bug4
-    port: 443
-    type: trojan
-    password: shinhye
-    skip-cert-verify: true
-    sni: idzt2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: idzt2.pages.dev
-    udp: true
-
-  - name: tidz1.pages.dev bug4
-    server: *bug4
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz1.pages.dev
-    udp: true
-
-
-  - name: tsg6.pages.dev bug5
-    server: *bug5
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg6.pages.dev
-    udp: true
-
-  - name: tsg5.pages.dev bug5
-    server: *bug5
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg5.pages.dev
-    udp: true
-
-  - name: tsg4.pages.dev bug5
-    server: *bug5
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg4.pages.dev
-    udp: true
-
-  - name: tsg3.pages.dev bug5
-    server: *bug5
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg3.pages.dev
-    udp: true
-
-  - name: tsg2.pages.dev bug5
-    server: *bug5
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg2.pages.dev
-    udp: true
-
-  - name: tsg1.pages.dev bug5
-    server: *bug5
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg1.pages.dev
-    udp: true
-
-  - name: tidz6.pages.dev bug5
-    server: *bug5
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz6.pages.dev
-    udp: true
-
-  - name: tidz5.pages.dev bug5
-    server: *bug5
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz5.pages.dev
-    udp: true
-
-  - name: tidz4.pages.dev bug5
-    server: *bug5
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz4.pages.dev
-    udp: true
-
-  - name: tidz3.pages.dev bug5
-    server: *bug5
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz3.pages.dev
-    udp: true
-
-  - name: idzt2.pages.dev bug5
-    server: *bug5
-    port: 443
-    type: trojan
-    password: shinhye
-    skip-cert-verify: true
-    sni: idzt2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: idzt2.pages.dev
-    udp: true
-
-  - name: tidz1.pages.dev bug5
-    server: *bug5
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz1.pages.dev
-    udp: true
-
-
-  - name: tsg6.pages.dev bug6
-    server: *bug6
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg6.pages.dev
-    udp: true
-
-  - name: tsg5.pages.dev bug6
-    server: *bug6
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg5.pages.dev
-    udp: true
-
-  - name: tsg4.pages.dev bug6
-    server: *bug6
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg4.pages.dev
-    udp: true
-
-  - name: tsg3.pages.dev bug6
-    server: *bug6
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg3.pages.dev
-    udp: true
-
-  - name: tsg2.pages.dev bug6
-    server: *bug6
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg2.pages.dev
-    udp: true
-
-  - name: tsg1.pages.dev bug6
-    server: *bug6
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg1.pages.dev
-    udp: true
-
-  - name: tidz6.pages.dev bug6
-    server: *bug6
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz6.pages.dev
-    udp: true
-
-  - name: tidz5.pages.dev bug6
-    server: *bug6
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz5.pages.dev
-    udp: true
-
-  - name: tidz4.pages.dev bug6
-    server: *bug6
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz4.pages.dev
-    udp: true
-
-  - name: tidz3.pages.dev bug6
-    server: *bug6
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz3.pages.dev
-    udp: true
-
-  - name: idzt2.pages.dev bug6
-    server: *bug6
-    port: 443
-    type: trojan
-    password: shinhye
-    skip-cert-verify: true
-    sni: idzt2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: idzt2.pages.dev
-    udp: true
-
-  - name: tidz1.pages.dev bug6
-    server: *bug6
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz1.pages.dev
-    udp: true
-
-
-  - name: tsg6.pages.dev bug7
-    server: *bug7
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg6.pages.dev
-    udp: true
-
-  - name: tsg5.pages.dev bug7
-    server: *bug7
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg5.pages.dev
-    udp: true
-
-  - name: tsg4.pages.dev bug7
-    server: *bug7
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg4.pages.dev
-    udp: true
-
-  - name: tsg3.pages.dev bug7
-    server: *bug7
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg3.pages.dev
-    udp: true
-
-  - name: tsg2.pages.dev bug7
-    server: *bug7
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg2.pages.dev
-    udp: true
-
-  - name: tsg1.pages.dev bug7
-    server: *bug7
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg1.pages.dev
-    udp: true
-
-  - name: tidz6.pages.dev bug7
-    server: *bug7
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz6.pages.dev
-    udp: true
-
-  - name: tidz5.pages.dev bug7
-    server: *bug7
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz5.pages.dev
-    udp: true
-
-  - name: tidz4.pages.dev bug7
-    server: *bug7
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz4.pages.dev
-    udp: true
-
-  - name: tidz3.pages.dev bug7
-    server: *bug7
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz3.pages.dev
-    udp: true
-
-  - name: idzt2.pages.dev bug7
-    server: *bug7
-    port: 443
-    type: trojan
-    password: shinhye
-    skip-cert-verify: true
-    sni: idzt2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: idzt2.pages.dev
-    udp: true
-
-  - name: tidz1.pages.dev bug7
-    server: *bug7
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz1.pages.dev
-    udp: true
-
-
-  - name: tsg6.pages.dev bug8
-    server: *bug8
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg6.pages.dev
-    udp: true
-
-  - name: tsg5.pages.dev bug8
-    server: *bug8
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg5.pages.dev
-    udp: true
-
-  - name: tsg4.pages.dev bug8
-    server: *bug8
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg4.pages.dev
-    udp: true
-
-  - name: tsg3.pages.dev bug8
-    server: *bug8
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg3.pages.dev
-    udp: true
-
-  - name: tsg2.pages.dev bug8
-    server: *bug8
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg2.pages.dev
-    udp: true
-
-  - name: tsg1.pages.dev bug8
-    server: *bug8
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg1.pages.dev
-    udp: true
-
-  - name: tidz6.pages.dev bug8
-    server: *bug8
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz6.pages.dev
-    udp: true
-
-  - name: tidz5.pages.dev bug8
-    server: *bug8
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz5.pages.dev
-    udp: true
-
-  - name: tidz4.pages.dev bug8
-    server: *bug8
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz4.pages.dev
-    udp: true
-
-  - name: tidz3.pages.dev bug8
-    server: *bug8
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz3.pages.dev
-    udp: true
-
-  - name: idzt2.pages.dev bug8
-    server: *bug8
-    port: 443
-    type: trojan
-    password: shinhye
-    skip-cert-verify: true
-    sni: idzt2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: idzt2.pages.dev
-    udp: true
-
-  - name: tidz1.pages.dev bug8
-    server: *bug8
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz1.pages.dev
-    udp: true
-
-
-  - name: tsg6.pages.dev bug9
-    server: *bug9
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg6.pages.dev
-    udp: true
-
-  - name: tsg5.pages.dev bug9
-    server: *bug9
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg5.pages.dev
-    udp: true
-
-  - name: tsg4.pages.dev bug9
-    server: *bug9
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg4.pages.dev
-    udp: true
-
-  - name: tsg3.pages.dev bug9
-    server: *bug9
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg3.pages.dev
-    udp: true
-
-  - name: tsg2.pages.dev bug9
-    server: *bug9
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg2.pages.dev
-    udp: true
-
-  - name: tsg1.pages.dev bug9
-    server: *bug9
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg1.pages.dev
-    udp: true
-
-  - name: tidz6.pages.dev bug9
-    server: *bug9
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz6.pages.dev
-    udp: true
-
-  - name: tidz5.pages.dev bug9
-    server: *bug9
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz5.pages.dev
-    udp: true
-
-  - name: tidz4.pages.dev bug9
-    server: *bug9
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz4.pages.dev
-    udp: true
-
-  - name: tidz3.pages.dev bug9
-    server: *bug9
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz3.pages.dev
-    udp: true
-
-  - name: idzt2.pages.dev bug9
-    server: *bug9
-    port: 443
-    type: trojan
-    password: shinhye
-    skip-cert-verify: true
-    sni: idzt2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: idzt2.pages.dev
-    udp: true
-
-  - name: tidz1.pages.dev bug9
-    server: *bug9
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz1.pages.dev
-    udp: true
-
-
-  - name: tsg6.pages.dev bug10
-    server: *bug10
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg6.pages.dev
-    udp: true
-
-  - name: tsg5.pages.dev bug10
-    server: *bug10
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg5.pages.dev
-    udp: true
-
-  - name: tsg4.pages.dev bug10
-    server: *bug10
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg4.pages.dev
-    udp: true
-
-  - name: tsg3.pages.dev bug10
-    server: *bug10
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg3.pages.dev
-    udp: true
-
-  - name: tsg2.pages.dev bug10
-    server: *bug10
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg2.pages.dev
-    udp: true
-
-  - name: tsg1.pages.dev bug10
-    server: *bug10
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tsg1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tsg1.pages.dev
-    udp: true
-
-  - name: tidz6.pages.dev bug10
-    server: *bug10
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz6.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz6.pages.dev
-    udp: true
-
-  - name: tidz5.pages.dev bug10
-    server: *bug10
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz5.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz5.pages.dev
-    udp: true
-
-  - name: tidz4.pages.dev bug10
-    server: *bug10
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz4.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz4.pages.dev
-    udp: true
-
-  - name: tidz3.pages.dev bug10
-    server: *bug10
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz3.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz3.pages.dev
-    udp: true
-
-  - name: idzt2.pages.dev bug10
-    server: *bug10
-    port: 443
-    type: trojan
-    password: shinhye
-    skip-cert-verify: true
-    sni: idzt2.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: idzt2.pages.dev
-    udp: true
-
-  - name: tidz1.pages.dev bug10
-    server: *bug10
-    port: 443
-    type: trojan
-    password: reinz
-    skip-cert-verify: true
-    sni: tidz1.pages.dev
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: tidz1.pages.dev
-    udp: true
+- name:  BUG1 TROJAN
+  server: *bug1
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG2 TROJAN
+  server: *bug2
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG3 TROJAN
+  server: *bug3
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG4 TROJAN
+  server: *bug4
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG5 TROJAN
+  server: *bug5
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG6 TROJAN
+  server: *bug6
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG7 TROJAN
+  server: *bug7
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG8 TROJAN
+  server: *bug8
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG9 TROJAN
+  server: *bug9
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG10 TROJAN
+  server: *bug10
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+#
+- name:  BUG1 TROJAN2
+  server: *bug1
+  port: 443
+  type: *type1
+  password: *UUID2
+  skip-cert-verify: true
+  sni: *host2
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host2
+  udp: true
+- name:  BUG2 TROJAN2
+  server: *bug2
+  port: 443
+  type: *type1
+  password: *UUID2
+  skip-cert-verify: true
+  sni: *host2
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host2
+  udp: true
+- name:  BUG3 TROJAN2
+  server: *bug3
+  port: 443
+  type: *type1
+  password: *UUID2
+  skip-cert-verify: true
+  sni: *host2
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host2
+  udp: true
+- name:  BUG4 TROJAN2
+  server: *bug4
+  port: 443
+  type: *type1
+  password: *UUID2
+  skip-cert-verify: true
+  sni: *host2
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host2
+  udp: true
+- name:  BUG5 TROJAN2
+  server: *bug5
+  port: 443
+  type: *type1
+  password: *UUID2
+  skip-cert-verify: true
+  sni: *host2
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host2
+  udp: true
+- name:  BUG6 TROJAN2
+  server: *bug6
+  port: 443
+  type: *type1
+  password: *UUID2
+  skip-cert-verify: true
+  sni: *host2
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host2
+  udp: true
+- name:  BUG7 TROJAN2
+  server: *bug7
+  port: 443
+  type: *type1
+  password: *UUID2
+  skip-cert-verify: true
+  sni: *host2
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host2
+  udp: true
+- name:  BUG8 TROJAN2
+  server: *bug8
+  port: 443
+  type: *type1
+  password: *UUID2
+  skip-cert-verify: true
+  sni: *host2
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host2
+  udp: true
+- name:  BUG9 TROJAN2
+  server: *bug9
+  port: 443
+  type: *type1
+  password: *UUID2
+  skip-cert-verify: true
+  sni: *host2
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host2
+  udp: true
+- name:  BUG10 TROJAN2
+  server: *bug10
+  port: 443
+  type: *type1
+  password: *UUID2
+  skip-cert-verify: true
+  sni: *host2
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host2
+  udp: true
