@@ -1,3 +1,4 @@
 payload:
   - IP-CIDR,162.159.138.78/24
   - IP-CIDR,162.159.138.79/24
+  - DOMAIN-KEYWORD,space.byu.id
