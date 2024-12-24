@@ -1,18 +1,18 @@
 PATH:
-  - &path1 /vless
+  - &path1 /103.168.146.169=20132
   - &path2 ws://neva.vip-ninacantik.cloud
 
 Type:
   - &type1 vless
 
 HOST:
-  - &host1 neva.vip-ninacantik.cloud
+  - &host1 mau.bansos.Biz.id
   - &host2 space.byu.id
 
 UUID:
-  - &UUID1 4a8cc527-9526-4091-995b-ca522cb7f2f0
+  - &UUID1 375ab758-a0ce-4406-a870-e91fd458e1ba
 
-# TRIAL
+# ID) Pt Herza Digital 🇮🇩
 
 BUG:
   - &ssl1 graph.facebook.com
@@ -192,7 +192,7 @@ BUG:
 
 # Expired 09 Sep 2023
 proxies:
-  - name: 1️⃣bug1
+  - name: 1️⃣bug1 ID) Pt Herza Digital 🇮🇩
     server: *bug1
     port: 443
     type: *type1
