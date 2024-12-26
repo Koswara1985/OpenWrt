@@ -1,6 +1,6 @@
 PATH:
   - &path1 /ID
-  - &path2 ws://mau.bansos.bix
+  - &path2 ws://mau.bansos.biz
 
 Type:
   - &type1 vless
@@ -192,7 +192,7 @@ BUG:
 
 # Expired 09 Sep 2023
 proxies:
-  - name: 1️⃣bug1 ID) Pt Herza Digital 🇮🇩
+  - name: 1️⃣bug1 ID) ROTATE VLESS ID 🇮🇩 N-TLS
     server: *bug1
     port: 443
     type: *type1
