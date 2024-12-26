@@ -1,6 +1,6 @@
 PATH:
-  - &path1 /103.168.146.169=20132
-  - &path2 ws://neva.vip-ninacantik.cloud
+  - &path1 /ID
+  - &path2 ws://mau.bansos.bix
 
 Type:
   - &type1 vless
@@ -10,9 +10,9 @@ HOST:
   - &host2 space.byu.id
 
 UUID:
-  - &UUID1 375ab758-a0ce-4406-a870-e91fd458e1ba
+  - &UUID1 80cc68cc-dce6-4c3d-8dc7-d54b84c6ffc5
 
-# ID) Pt Herza Digital 🇮🇩
+# ROTATE VLESS ID 🇮🇩 N-TLS
 
 BUG:
   - &ssl1 graph.facebook.com
