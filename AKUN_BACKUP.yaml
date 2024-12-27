@@ -1,7 +1,7 @@
 
 
 BUG:
-  - &bug 104.16.106.96
+  - &bug 104.26.7.171
   - &bug1 104.18.3.2
   - &bug2 104.18.24.139
   - &bug3 104.18.25.139
@@ -9,7 +9,7 @@ BUG:
   - &bug5 io.ruangguru.com
   - &bug6 orangtua.ruangguru.com
   - &bug7 104.18.41.141
-  - &bug8 104.26.7.171
+  - &bug8 104.16.106.96
   - &bug9 ruangguru.com
   - &bug10 104.18.2.2
 
