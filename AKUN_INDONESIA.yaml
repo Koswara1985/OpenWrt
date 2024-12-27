@@ -18,7 +18,7 @@ BUG:
   - &ssl1 graph.facebook.com
   - &ssl2 event.mobilelegends.com
   - &ssl3 play.mobilelegends.com
-  - &bug1 104.16.106.96
+  - &bug1 104.26.7.171
   - &bug2 104.16.51.111
   - &bug3 162.159.128.7
   - &bug4 162.159.128.79
