@@ -1344,4 +1344,305 @@ proxies:
       headers:
         Host: mau.bansos.Biz.id
     udp: true
+
 #
+
+  - name: (Affahiyaah) [Trojan - ws] TLS ✅
+    server: *bug
+    port: 443
+    type: trojan
+    password: -PSUQbDQ-36RSwZ-MBYLIA
+    skip-cert-verify: true
+    sni: rumah-1.hendra.fun
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: rumah-1.hendra.fun
+    udp: true
+  - name: (Affahiyaah) [Trojan - ws] nonTLS ✅
+    server: *bug
+    port: 80
+    type: trojan
+    password: -PSUQbDQ-36RSwZ-MBYLIA
+    skip-cert-verify: true
+    sni: rumah-1.hendra.fun
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: rumah-1.hendra.fun
+    udp: true
+  - name: (Affahiyaah) [VMess - ws] TLS ✅
+    server: *bug
+    port: 443
+    type: vmess
+    uuid: 2077602f-9ee8-4e5e-8f00-6e510a643468
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: rumah-1.hendra.fun
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: rumah-1.hendra.fun
+    udp: true
+  - name: (Affahiyaah) [VMess - ws] nonTLS ✅
+    server: *bug
+    port: 80
+    type: vmess
+    uuid: 2077602f-9ee8-4e5e-8f00-6e510a643468
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: rumah-1.hendra.fun
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: rumah-1.hendra.fun
+    udp: true
+  - name: (Affahiyaah) [VLESS - ws] TLS ✅
+    server: *bug
+    port: 443
+    type: vless
+    uuid: eef6b0a4-7022-4f85-86df-3b577ccc03a7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: rumah-1.hendra.fun
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: rumah-1.hendra.fun
+    udp: true
+  - name: (Affahiyaah) [VLESS - ws] nonTLS ✅
+    server: *bug
+    port: 80
+    type: vless
+    uuid: eef6b0a4-7022-4f85-86df-3b577ccc03a7
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: rumah-1.hendra.fun
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: rumah-1.hendra.fun
+    udp: true
+  - name: (Affahiyaah) [Trojan - grpc] TLS ✅
+    server: *bug
+    port: 443
+    type: trojan
+    password: -PSUQbDQ-36RSwZ-MBYLIA
+    skip-cert-verify: true
+    sni: rumah-1.hendra.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-service
+    udp: true
+  - name: (Affahiyaah) [VMess - grpc] TLS ✅
+    server: *bug
+    port: 443
+    type: vmess
+    uuid: 2077602f-9ee8-4e5e-8f00-6e510a643468
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: rumah-1.hendra.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-service
+    udp: true
+  - name: (Affahiyaah) [VLESS - grpc] TLS ✅
+    server: *bug
+    port: 443
+    type: vless
+    uuid: eef6b0a4-7022-4f85-86df-3b577ccc03a7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: rumah-1.hendra.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vless-service
+    udp: true
+  - name: (Affahiyaah) [Trojan - httpupgrade] TLS ✅
+    server: *bug
+    port: 443
+    type: trojan
+    password: -PSUQbDQ-36RSwZ-MBYLIA
+    skip-cert-verify: true
+    sni: rumah-1.hendra.fun
+    udp: true
+  - name: (Affahiyaah) [Trojan - httpupgrade] nTLS ✅
+    server: *bug
+    port: 80
+    type: trojan
+    password: -PSUQbDQ-36RSwZ-MBYLIA
+    skip-cert-verify: true
+    sni: rumah-1.hendra.fun
+    udp: true
+  - name: (Affahiyaah) [Shadowsocks - tcp] OUTLINE ✅
+    server: *bug
+    port: 1080
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ZyZjvFtALzXgWvX-FVQZag
+    udp: true
+#
+  - name: (Affahiyaah) [Trojan - ws] TLS ✅5
+    server: *bug5
+    port: 443
+    type: trojan
+    password: -PSUQbDQ-36RSwZ-MBYLIA
+    skip-cert-verify: true
+    sni: rumah-1.hendra.fun
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: rumah-1.hendra.fun
+    udp: true
+  - name: (Affahiyaah) [Trojan - ws] nonTLS ✅5
+    server: *bug5
+    port: 80
+    type: trojan
+    password: -PSUQbDQ-36RSwZ-MBYLIA
+    skip-cert-verify: true
+    sni: rumah-1.hendra.fun
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: rumah-1.hendra.fun
+    udp: true
+  - name: (Affahiyaah) [VMess - ws] TLS ✅5
+    server: *bug5
+    port: 443
+    type: vmess
+    uuid: 2077602f-9ee8-4e5e-8f00-6e510a643468
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: rumah-1.hendra.fun
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: rumah-1.hendra.fun
+    udp: true
+  - name: (Affahiyaah) [VMess - ws] nonTLS ✅5
+    server: *bug5
+    port: 80
+    type: vmess
+    uuid: 2077602f-9ee8-4e5e-8f00-6e510a643468
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: rumah-1.hendra.fun
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: rumah-1.hendra.fun
+    udp: true
+  - name: (Affahiyaah) [VLESS - ws] TLS ✅5
+    server: *bug5
+    port: 443
+    type: vless
+    uuid: eef6b0a4-7022-4f85-86df-3b577ccc03a7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: rumah-1.hendra.fun
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: rumah-1.hendra.fun
+    udp: true
+  - name: (Affahiyaah) [VLESS - ws] nonTLS ✅5
+    server: *bug5
+    port: 80
+    type: vless
+    uuid: eef6b0a4-7022-4f85-86df-3b577ccc03a7
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: rumah-1.hendra.fun
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: rumah-1.hendra.fun
+    udp: true
+  - name: (Affahiyaah) [Trojan - grpc] TLS ✅5
+    server: *bug5
+    port: 443
+    type: trojan
+    password: -PSUQbDQ-36RSwZ-MBYLIA
+    skip-cert-verify: true
+    sni: rumah-1.hendra.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-service
+    udp: true
+  - name: (Affahiyaah) [VMess - grpc] TLS ✅5
+    server: *bug5
+    port: 443
+    type: vmess
+    uuid: 2077602f-9ee8-4e5e-8f00-6e510a643468
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: rumah-1.hendra.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-service
+    udp: true
+  - name: (Affahiyaah) [VLESS - grpc] TLS ✅5
+    server: *bug5
+    port: 443
+    type: vless
+    uuid: eef6b0a4-7022-4f85-86df-3b577ccc03a7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: rumah-1.hendra.fun
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vless-service
+    udp: true
+  - name: (Affahiyaah) [Trojan - httpupgrade] TLS ✅5
+    server: *bug5
+    port: 443
+    type: trojan
+    password: -PSUQbDQ-36RSwZ-MBYLIA
+    skip-cert-verify: true
+    sni: rumah-1.hendra.fun
+    udp: true
+  - name: (Affahiyaah) [Trojan - httpupgrade] nTLS ✅5
+    server: *bug5
+    port: 80
+    type: trojan
+    password: -PSUQbDQ-36RSwZ-MBYLIA
+    skip-cert-verify: true
+    sni: rumah-1.hendra.fun
+    udp: true
+  - name: (Affahiyaah) [Shadowsocks - tcp] OUTLINE ✅5
+    server: *bug5
+    port: 1080
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ZyZjvFtALzXgWvX-FVQZag
+    udp: true
