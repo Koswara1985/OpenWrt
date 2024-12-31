@@ -1,291 +1,49 @@
-BUG:
-  - &bug1 ruangguru.com
-  - &bug2 104.26.7.171
-  - &bug3 104.18.25.139
-  - &bug4 104.20.74.141
-  - &bug5 io.ruangguru.com
-  - &bug6 orangtua.ruangguru.com
-  - &bug7 104.18.41.141
-  - &bug8 104.18.3.2
-  - &bug9 104.18.2.2
-  - &bug10 104.16.106.96
-
-PATH:
-  - &path1 /howdy
-
-Type:
-  - &type1 trojan
-
-HOST:
-  - &host1 sg3-trojan.bonds.id
-  - &host2 sg2-trojan.bonds.id
-
-UUID:
-  - &UUID1 59579a70-ac87-11ef-8142-1239d0255272
-  - &UUID2 d0f83be0-be67-11ef-9006-1239d0255272
-
-INTERFACE:
-  - &i eth1
-
 proxies:
-- name:  BUG1 TROJAN
-  server: *bug1
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG2 TROJAN
-  server: *bug2
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG3 TROJAN
-  server: *bug3
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG4 TROJAN
-  server: *bug4
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG5 TROJAN
-  server: *bug5
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG6 TROJAN
-  server: *bug6
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG7 TROJAN
-  server: *bug7
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG8 TROJAN
-  server: *bug8
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG9 TROJAN
-  server: *bug9
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG10 TROJAN
-  server: *bug10
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-#
-- name:  BUG1 TROJAN2
-  server: *bug1
-  port: 443
-  type: *type1
-  password: *UUID2
-  skip-cert-verify: true
-  sni: *host2
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host2
-  udp: true
-- name:  BUG2 TROJAN2
-  server: *bug2
-  port: 443
-  type: *type1
-  password: *UUID2
-  skip-cert-verify: true
-  sni: *host2
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host2
-  udp: true
-- name:  BUG3 TROJAN2
-  server: *bug3
-  port: 443
-  type: *type1
-  password: *UUID2
-  skip-cert-verify: true
-  sni: *host2
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host2
-  udp: true
-- name:  BUG4 TROJAN2
-  server: *bug4
-  port: 443
-  type: *type1
-  password: *UUID2
-  skip-cert-verify: true
-  sni: *host2
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host2
-  udp: true
-- name:  BUG5 TROJAN2
-  server: *bug5
-  port: 443
-  type: *type1
-  password: *UUID2
-  skip-cert-verify: true
-  sni: *host2
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host2
-  udp: true
-- name:  BUG6 TROJAN2
-  server: *bug6
-  port: 443
-  type: *type1
-  password: *UUID2
-  skip-cert-verify: true
-  sni: *host2
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host2
-  udp: true
-- name:  BUG7 TROJAN2
-  server: *bug7
-  port: 443
-  type: *type1
-  password: *UUID2
-  skip-cert-verify: true
-  sni: *host2
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host2
-  udp: true
-- name:  BUG8 TROJAN2
-  server: *bug8
-  port: 443
-  type: *type1
-  password: *UUID2
-  skip-cert-verify: true
-  sni: *host2
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host2
-  udp: true
-- name:  BUG9 TROJAN2
-  server: *bug9
-  port: 443
-  type: *type1
-  password: *UUID2
-  skip-cert-verify: true
-  sni: *host2
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host2
-  udp: true
-- name:  BUG10 TROJAN2
-  server: *bug10
-  port: 443
-  type: *type1
-  password: *UUID2
-  skip-cert-verify: true
-  sni: *host2
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host2
-  udp: true
+  - name: 104.26.7.171 (Affahiyaah) [VMess - ws] nonTLS ✅
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: 2077602f-9ee8-4e5e-8f00-6e510a643468
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: rumah-1.hendra.fun
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: rumah-1.hendra.fun
+    udp: true
+  - name: io.ruangguru.com (Affahiyaah) [VMess - ws] nonTLS ✅ 2
+    server: io.ruangguru.com
+    port: 80
+    type: vmess
+    uuid: 2077602f-9ee8-4e5e-8f00-6e510a643468
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: rumah-1.hendra.fun
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: rumah-1.hendra.fun
+    udp: true
+  - name: 104.20.74.141 (Affahiyaah) [VMess - ws] nonTLS ✅ 3
+    server: 104.20.74.141
+    port: 80
+    type: vmess
+    uuid: 2077602f-9ee8-4e5e-8f00-6e510a643468
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: rumah-1.hendra.fun
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: rumah-1.hendra.fun
+    udp: true
