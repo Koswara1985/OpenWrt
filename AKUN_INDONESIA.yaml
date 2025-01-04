@@ -1,18 +1,18 @@
 PATH:
-  - &path1 /vless
-  - &path2 ws://rumah-1.hendra.fun/vless
+  - &path1 /172.232.239.151=587
+  - &path2 ws://mau.bansos.Biz.id
 
 Type:
   - &type1 vless
 
 HOST:
-  - &host1 rumah-1.hendra.fun
+  - &host1 mau.bansos.Biz.id
   - &host2 space.byu.id
 
 UUID:
-  - &UUID1 eef6b0a4-7022-4f85-86df-3b577ccc03a7
+  - &UUID1 5a4078f9-ace1-4976-830d-e55a63d678e0
 
-# (Affahiyaah) [VLESS - ws] TLS ✅
+# Akamai Technologies, 🇮🇩 (ID)
 
 BUG:
   - &ssl1 graph.facebook.com
@@ -192,7 +192,7 @@ BUG:
 
 # Expired 09 Sep 2023
 proxies:
-  - name: 1️⃣bug1 ID) (Affahiyaah) [VLESS - ws] TLS ✅
+  - name: 1️⃣bug1 Akamai Technologies, 🇮🇩 (ID)
     server: *bug1
     port: 443
     type: *type1
