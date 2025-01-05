@@ -1,42 +1,159 @@
+BUG:
+  - &bug1 ruangguru.com
+  - &bug2 104.26.7.171
+  - &bug3 104.18.25.139
+  - &bug4 104.20.74.141
+  - &bug5 io.ruangguru.com
+  - &bug6 orangtua.ruangguru.com
+  - &bug7 104.18.41.141
+  - &bug8 104.18.3.2
+  - &bug9 104.18.2.2
+  - &bug10 104.16.106.96
+
+PATH:
+  - &path1 /ID
+
+Type:
+  - &type1 trojan
+
+HOST:
+  - &host1 mau.bansos.Biz.id
+
+UUID:
+  - &UUID1 afba04d2-ccd5-455f-92c9-ba123fdc81ad
+
+INTERFACE:
+  - &i eth1
+
 proxies:
-  - name: 104.20.74.141 ROTATE TROJAN ID 🇮🇩 TLS
-    server: 104.20.74.141
-    port: 443
-    type: trojan
-    password: afba04d2-ccd5-455f-92c9-ba123fdc81ad
-    skip-cert-verify: true
-    sni: mau.bansos.Biz.id
-    network: ws
-    ws-opts:
-      path: /ID
-      headers:
-        Host: mau.bansos.Biz.id
-    udp: true
-
-  - name: 104.26.7.171 ROTATE TROJAN ID 🇮🇩 TLS
-    server: 104.26.7.171
-    port: 443
-    type: trojan
-    password: afba04d2-ccd5-455f-92c9-ba123fdc81ad
-    skip-cert-verify: true
-    sni: mau.bansos.Biz.id
-    network: ws
-    ws-opts:
-      path: /ID
-      headers:
-        Host: mau.bansos.Biz.id
-    udp: true
-
-  - name: io.ruangguru.com ROTATE TROJAN ID 🇮🇩 TLS
-    server: io.ruangguru.com
-    port: 443
-    type: trojan
-    password: afba04d2-ccd5-455f-92c9-ba123fdc81ad
-    skip-cert-verify: true
-    sni: mau.bansos.Biz.id
-    network: ws
-    ws-opts:
-      path: /ID
-      headers:
-        Host: mau.bansos.Biz.id
-    udp: true
+- name:  BUG1 TROJAN
+  server: *bug1
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG2 TROJAN
+  server: *bug2
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG3 TROJAN
+  server: *bug3
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG4 TROJAN
+  server: *bug4
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG5 TROJAN
+  server: *bug5
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG6 TROJAN
+  server: *bug6
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG7 TROJAN
+  server: *bug7
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG8 TROJAN
+  server: *bug8
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG9 TROJAN
+  server: *bug9
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG10 TROJAN
+  server: *bug10
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+#
