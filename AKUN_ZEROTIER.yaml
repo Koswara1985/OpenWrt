@@ -1,49 +1,42 @@
 proxies:
-  - name: 104.26.7.171 (Affahiyaah) [VMess - ws] nonTLS ✅
-    server: 104.26.7.171
-    port: 80
-    type: vmess
-    uuid: 2077602f-9ee8-4e5e-8f00-6e510a643468
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: rumah-1.hendra.fun
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: rumah-1.hendra.fun
-    udp: true
-  - name: io.ruangguru.com (Affahiyaah) [VMess - ws] nonTLS ✅ 2
-    server: io.ruangguru.com
-    port: 80
-    type: vmess
-    uuid: 2077602f-9ee8-4e5e-8f00-6e510a643468
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: rumah-1.hendra.fun
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: rumah-1.hendra.fun
-    udp: true
-  - name: 104.20.74.141 (Affahiyaah) [VMess - ws] nonTLS ✅ 3
+  - name: 104.20.74.141 ROTATE TROJAN ID 🇮🇩 TLS
     server: 104.20.74.141
-    port: 80
-    type: vmess
-    uuid: 2077602f-9ee8-4e5e-8f00-6e510a643468
-    alterId: 0
-    cipher: auto
-    tls: false
+    port: 443
+    type: trojan
+    password: afba04d2-ccd5-455f-92c9-ba123fdc81ad
     skip-cert-verify: true
-    servername: rumah-1.hendra.fun
+    sni: mau.bansos.Biz.id
     network: ws
     ws-opts:
-      path: /vmess
+      path: /ID
       headers:
-        Host: rumah-1.hendra.fun
+        Host: mau.bansos.Biz.id
+    udp: true
+
+  - name: 104.26.7.171 ROTATE TROJAN ID 🇮🇩 TLS
+    server: 104.26.7.171
+    port: 443
+    type: trojan
+    password: afba04d2-ccd5-455f-92c9-ba123fdc81ad
+    skip-cert-verify: true
+    sni: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+
+  - name: io.ruangguru.com ROTATE TROJAN ID 🇮🇩 TLS
+    server: io.ruangguru.com
+    port: 443
+    type: trojan
+    password: afba04d2-ccd5-455f-92c9-ba123fdc81ad
+    skip-cert-verify: true
+    sni: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID
+      headers:
+        Host: mau.bansos.Biz.id
     udp: true
