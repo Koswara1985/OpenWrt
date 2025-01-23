@@ -1347,302 +1347,1096 @@ proxies:
 
 #
 
-  - name: (Affahiyaah) [Trojan - ws] TLS ✅
-    server: *bug
+  - name: (ID) Pt Cloud Teknologi 🇮🇩d
+    server: 104.26.7.171
     port: 443
-    type: trojan
-    password: -PSUQbDQ-36RSwZ-MBYLIA
-    skip-cert-verify: true
-    sni: rumah-1.hendra.fun
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: rumah-1.hendra.fun
-    udp: true
-  - name: (Affahiyaah) [Trojan - ws] nonTLS ✅
-    server: *bug
-    port: 80
-    type: trojan
-    password: -PSUQbDQ-36RSwZ-MBYLIA
-    skip-cert-verify: true
-    sni: rumah-1.hendra.fun
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: rumah-1.hendra.fun
-    udp: true
-  - name: (Affahiyaah) [VMess - ws] TLS ✅
-    server: *bug
-    port: 443
-    type: vmess
-    uuid: 2077602f-9ee8-4e5e-8f00-6e510a643468
-    alterId: 0
+    type: vless
+    uuid: 41fe7303-02b7-4c93-afa0-b5e5efa6f86c
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: rumah-1.hendra.fun
+    servername: mau.bansos.Biz.id
     network: ws
     ws-opts:
-      path: /vmess
+      path: /103.133.223.50=2096
       headers:
-        Host: rumah-1.hendra.fun
+        Host: mau.bansos.Biz.id
     udp: true
-  - name: (Affahiyaah) [VMess - ws] nonTLS ✅
-    server: *bug
+  - name: (ID) Pt Cloud Teknologi 🇮🇩 2d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: e57f426c-b6a2-4654-aa7a-f296c0cba3f9
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /103.133.223.52=2096
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Google LLC 🇮🇩d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: c63b0461-6485-4141-a094-196aa563a38e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /35.219.50.99=443
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (SG) Oracle Cloud 🇸🇬d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 7dcbeafb-bc7b-4d57-b28f-80d643dbd316
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /138.2.89.238=43254
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Shenzhen Tencent 🇮🇩d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 33745508-874f-45e3-8a6a-09c2a6cd7ed9
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /43.133.145.156=53136
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Akamai Technologies, 🇮🇩 (ID)d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: e27bb86f-9495-4423-a77b-3b5fa94a1198
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.239.151=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Pt Pusat Media 🇮🇩d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 447a5429-2fdd-474e-9ede-3ef9d8e3a2bb
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /103.6.207.108=8080
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (KR) KT 🇰🇷d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: aa3317ef-7aed-4c3e-aa4c-826666c4b495
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /59.12.130.171=13851
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Pt Cloud Teknologi 🇮🇩 3d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 6c5b3b13-26ea-4925-b23a-4798e4276cd4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /103.133.223.51=2096
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Pt Pusat Media 🇮🇩 2d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 89c739d9-ba3e-4249-8514-288548668120
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /103.6.207.108=8080
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Akamai Technologies, 🇮🇩 (ID) 2d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: c623e28d-40a7-4450-85d2-bdfc02f24f4d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.239.249=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Pt Cloud Teknologi 🇮🇩 4d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: ff2389ea-cbfa-4419-8dd6-d1490bc3b440
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /103.133.223.52=2096
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Akamai Technologies 🇮🇩d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 53d7d423-418e-46c5-917e-31b73b47242f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.239.147=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: ROTATE VLESS SG 🇸🇬 TLSd
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: f10c519c-a267-4fc1-b584-10037eb7f247
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /SG
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Akamai Technologies, 🇮🇩 (ID) 3d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: a8e80bd5-a7cb-4fe1-be27-accb53dcebc9
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.239.249=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: ROTATE VLESS ID 🇮🇩 TLSd
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 4fdcc1ef-59ae-43ef-9f47-a20f412904ae
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: ROTATE VLESS SG 🇸🇬 TLS 2d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 4f2fac0b-5bcd-470b-8db6-a446f4f45c89
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /SG
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: ROTATE VLESS ID 🇮🇩 TLS 2d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: e62822c5-bb43-46e8-bf23-a513d4e40f06
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Shenzhen Tencent 🇮🇩 (ID)d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 378d4ee0-5ae5-4113-8106-821e6ec410c0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /43.133.145.156=53136
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Shenzhen Tencent 🇮🇩 (ID) 2d
+    server: 104.26.7.171
+    port: 443
+    type: trojan
+    password: 18618ca2-6c49-46e1-8a44-b997637b1c28
+    skip-cert-verify: true
+    sni: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /43.133.145.156=53136
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Akamai Technologies, 🇮🇩 (ID) 4d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 0c4ea611-b7d5-4cb8-b6b0-cd907db56efe
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.239.249=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Digitalocean, LLC 🇸🇬 (SG)d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: f8d5199a-730b-4050-9fb0-0545b856d477
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /68.183.179.5=8443
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Pt Pusat Media 🇮🇩 3d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: e59fefd9-38bd-46a1-a6c5-8fc41d5a7641
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /103.6.207.108=8080
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Akamai Technologies 🇮🇩 2d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 601574e6-f11e-4f02-b0dd-a804286d1238
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.239.147=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (US) Cloudflare Warp 🇺🇸d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: a8df2996-8ba6-4f94-b63e-d863510f8dd5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /154.9.241.153=37160
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Google LLC 🇮🇩 (ID)d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 89ec143a-b627-461c-8e38-9636026aa260
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /35.219.50.99=443
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Akamai Technologies 🇮🇩 3d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: b90a3c48-a06d-4946-ae1b-c4f9202821c4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.239.151=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (TH) Siamdata Communication Co 🇹🇭d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: ebba51ad-dad9-4506-b07d-832b9b0a2fec
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /43.229.149.251=8443
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Google LLC 🇮🇩 2d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: d2661ba1-dc8b-4f34-ae71-c249d2c0d84f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /35.219.50.99=443
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Pt Pusat Media 🇮🇩 4d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: dfd61f89-3516-408f-bfa8-af99be2f68d8
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /103.6.207.108=8080
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Akamai Technologies, 🇮🇩 (ID) 5d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 0d8d4128-fb2e-4218-a235-64854917e5b5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.239.151=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (HK) Alibaba 🇭🇰d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: e4331440-e87e-4dd8-8b0c-6ce06b879eb8
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /47.242.171.138=37021
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Akamai Technologies 🇮🇩 4d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 00bb5218-3497-4537-90d1-e83934e8053f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.239.175=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Akamai Technologies 🇮🇩 5d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: ab9a38dd-8302-4361-8fc6-6856589af568
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.239.147=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Alibaba us Technology 🇮🇩 (ID)d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: e67af1c5-39c1-406a-8617-4964a38f193f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /8.215.196.18=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Alibaba us Technology 🇮🇩 (ID) 2d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 7d8c4a07-4e81-4a74-babb-41485743af24
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /8.215.196.18=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Akamai Technologies, 🇮🇩 (ID) 6d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: b9495988-8e21-49c1-a9b1-eb1b95729b7b
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.239.151=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: ROTATE VLESS ID 🇮🇩 TLS 3d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 74f5929c-e9ea-4ced-ae49-99b10f8f65e7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: ROTATE VLESS ID 🇮🇩 TLS 4d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 6a14195e-edb7-4be9-a662-f5a113e89492
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Pt Cloud Teknologi 🇮🇩 (ID)d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 425a50ab-87cb-4d9f-882a-f7e109941b15
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /103.133.223.50=2096
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Pt Cloud Teknologi 🇮🇩 (ID) 2d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: bb0f1d42-6310-45b9-ae71-0141d2deecae
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /103.133.223.50=2096
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Pt Cloud Teknologi 🇮🇩 (ID) 3d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: bfa4833e-5027-4e81-a0f8-29fc9dd390d6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /103.133.223.50=2096
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Akamai Technologies, 🇮🇩 (ID) 7d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: e87f5267-ac56-4248-b458-929c8d497854
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.239.249=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Akamai Technologies, 🇮🇩 (ID) 8d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: f56fa46b-0c2e-4bc5-8188-6e7b93e215c5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.239.151=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: ROTATE VLESS SG 🇸🇬 TLS 3d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 033eac31-79a1-48c4-a53c-d9d203f79511
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /SG
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: ROTATE VLESS ID 🇮🇩 TLS 5d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 22797cd5-baf5-48ba-828b-7524c472e390
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Pt Cloud Teknologi 🇮🇩 5d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: ecb0a715-02bc-4de9-a0b4-8cd21ca91045
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /103.133.223.51=2096
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Akamai Technologies 🇮🇩 6d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 7bc5e4b8-81d4-40ed-ada7-be3ce3412108
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.231.24=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Akamai Technologies, 🇮🇩 (ID) 9d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 53617311-9faa-46b7-8142-c182cdac7928
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.231.24=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: ROTATE VLESS ID 🇮🇩 TLS 6d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 12399e16-852a-4f43-8c61-b7588a6df663
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Akamai Technologies, 🇮🇩 (ID) 10d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: c1f599f9-76f0-4915-bfa2-4ec2fc55ada4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.239.175=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Akamai Technologies 🇮🇩 7d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 71244693-af69-4c96-88fe-06d5ad37e662
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.239.147=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Pt Pusat Media 🇮🇩 5d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 3f1faeff-dcda-4900-a6c6-173548406cda
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /103.6.207.108=8080
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Akamai Technologies, 🇮🇩 (ID) 11d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 01c4f96f-47a3-4424-8ae8-745acc5aeab6
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.239.175=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Akamai Technologies, 🇮🇩 (ID) 12d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: f256243f-05df-453a-802f-c43776664d1e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.239.175=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Akamai Technologies, 🇮🇩 (ID) 13d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 86022211-726f-4fa2-95dc-3634af1a40c0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.239.175=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Akamai Technologies, 🇮🇩 (ID) 14d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: eeccd716-36ec-4e08-ab1a-939519af02cd
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.239.175=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (SG) Oracle Cloud 🇸🇬 2d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 910871fb-fcea-4ab8-885a-1be1f5f82201
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /146.235.19.79=28983
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Google LLC 🇮🇩 3d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 1ecab184-b94a-4525-9a1c-3f4eacbe7ea8
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /35.219.50.99=443
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Google LLC 🇮🇩 (ID) 2d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 6320c027-9317-41ca-a1c5-6443aae06853
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /35.219.50.99=443
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Akamai Technologies, 🇮🇩 (ID) 15d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 35e0d02b-c37a-4165-99e3-8a8c09bd8644
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.231.24=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: Akamai Technologies, 🇮🇩 (ID) 16d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 6ca07866-5c76-41ba-bb2a-8c58a3ab4cfb
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /172.232.231.24=587
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: (ID) Pt Pusat Media 🇮🇩 6d
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 0528b961-1064-4961-a1b3-b9c68d7e0dbc
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /103.6.207.108=8080
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: SG3 vless.cfw-config.us.kgd
+    server: 104.26.7.171
     port: 80
-    type: vmess
-    uuid: 2077602f-9ee8-4e5e-8f00-6e510a643468
-    alterId: 0
+    type: vless
+    uuid: 58c63d49-9671-4021-8d0b-fdf94ad4f043
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: rumah-1.hendra.fun
+    servername: vless.cfw-config.us.kg
     network: ws
     ws-opts:
-      path: /vmess
+      path: /sg3
       headers:
-        Host: rumah-1.hendra.fun
+        Host: vless.cfw-config.us.kg
     udp: true
-  - name: (Affahiyaah) [VLESS - ws] TLS ✅
-    server: *bug
-    port: 443
-    type: vless
-    uuid: eef6b0a4-7022-4f85-86df-3b577ccc03a7
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: rumah-1.hendra.fun
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: rumah-1.hendra.fun
-    udp: true
-  - name: (Affahiyaah) [VLESS - ws] nonTLS ✅
-    server: *bug
+  - name: Akamai International B.V. (SG) vless.cfw-config.us.kg
+    server: 104.26.7.171
     port: 80
     type: vless
-    uuid: eef6b0a4-7022-4f85-86df-3b577ccc03a7
+    uuid: 1700f2e4-4585-493f-92ea-a1766105e76e
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: rumah-1.hendra.fun
+    servername: vless.cfw-config.us.kg
     network: ws
     ws-opts:
-      path: /vless
+      path: /sg6
       headers:
-        Host: rumah-1.hendra.fun
+        Host: vless.cfw-config.us.kg
     udp: true
-  - name: (Affahiyaah) [Trojan - grpc] TLS ✅
-    server: *bug
-    port: 443
-    type: trojan
-    password: -PSUQbDQ-36RSwZ-MBYLIA
-    skip-cert-verify: true
-    sni: rumah-1.hendra.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan-service
-    udp: true
-  - name: (Affahiyaah) [VMess - grpc] TLS ✅
-    server: *bug
-    port: 443
-    type: vmess
-    uuid: 2077602f-9ee8-4e5e-8f00-6e510a643468
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: rumah-1.hendra.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vmess-service
-    udp: true
-  - name: (Affahiyaah) [VLESS - grpc] TLS ✅
-    server: *bug
-    port: 443
+  - name: OVH SAS (SG) vless.cfw-config.us.kg
+    server: 104.26.7.171
+    port: 80
     type: vless
-    uuid: eef6b0a4-7022-4f85-86df-3b577ccc03a7
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: rumah-1.hendra.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vless-service
-    udp: true
-  - name: (Affahiyaah) [Trojan - httpupgrade] TLS ✅
-    server: *bug
-    port: 443
-    type: trojan
-    password: -PSUQbDQ-36RSwZ-MBYLIA
-    skip-cert-verify: true
-    sni: rumah-1.hendra.fun
-    udp: true
-  - name: (Affahiyaah) [Trojan - httpupgrade] nTLS ✅
-    server: *bug
-    port: 80
-    type: trojan
-    password: -PSUQbDQ-36RSwZ-MBYLIA
-    skip-cert-verify: true
-    sni: rumah-1.hendra.fun
-    udp: true
-  - name: (Affahiyaah) [Shadowsocks - tcp] OUTLINE ✅
-    server: *bug
-    port: 1080
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ZyZjvFtALzXgWvX-FVQZag
-    udp: true
-#
-  - name: (Affahiyaah) [Trojan - ws] TLS ✅5
-    server: *bug5
-    port: 443
-    type: trojan
-    password: -PSUQbDQ-36RSwZ-MBYLIA
-    skip-cert-verify: true
-    sni: rumah-1.hendra.fun
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: rumah-1.hendra.fun
-    udp: true
-  - name: (Affahiyaah) [Trojan - ws] nonTLS ✅5
-    server: *bug5
-    port: 80
-    type: trojan
-    password: -PSUQbDQ-36RSwZ-MBYLIA
-    skip-cert-verify: true
-    sni: rumah-1.hendra.fun
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: rumah-1.hendra.fun
-    udp: true
-  - name: (Affahiyaah) [VMess - ws] TLS ✅5
-    server: *bug5
-    port: 443
-    type: vmess
-    uuid: 2077602f-9ee8-4e5e-8f00-6e510a643468
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: rumah-1.hendra.fun
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: rumah-1.hendra.fun
-    udp: true
-  - name: (Affahiyaah) [VMess - ws] nonTLS ✅5
-    server: *bug5
-    port: 80
-    type: vmess
-    uuid: 2077602f-9ee8-4e5e-8f00-6e510a643468
-    alterId: 0
+    uuid: 78aae060-0125-4dc8-90e2-0ede89697848
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: rumah-1.hendra.fun
+    servername: vless.cfw-config.us.kg
     network: ws
     ws-opts:
-      path: /vmess
+      path: /sg5
       headers:
-        Host: rumah-1.hendra.fun
+        Host: vless.cfw-config.us.kg
     udp: true
-  - name: (Affahiyaah) [VLESS - ws] TLS ✅5
-    server: *bug5
-    port: 443
-    type: vless
-    uuid: eef6b0a4-7022-4f85-86df-3b577ccc03a7
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: rumah-1.hendra.fun
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: rumah-1.hendra.fun
-    udp: true
-  - name: (Affahiyaah) [VLESS - ws] nonTLS ✅5
-    server: *bug5
+  - name: Amazon.com, Inc. (SG) vless.cfw-config.us.kg
+    server: 104.26.7.171
     port: 80
     type: vless
-    uuid: eef6b0a4-7022-4f85-86df-3b577ccc03a7
+    uuid: bb8b768a-b8cf-4920-ab16-c16ae537d91b
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: rumah-1.hendra.fun
+    servername: vless.cfw-config.us.kg
     network: ws
     ws-opts:
-      path: /vless
+      path: /sg4
       headers:
-        Host: rumah-1.hendra.fun
+        Host: vless.cfw-config.us.kg
     udp: true
-  - name: (Affahiyaah) [Trojan - grpc] TLS ✅5
-    server: *bug5
-    port: 443
-    type: trojan
-    password: -PSUQbDQ-36RSwZ-MBYLIA
-    skip-cert-verify: true
-    sni: rumah-1.hendra.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: trojan-service
-    udp: true
-  - name: (Affahiyaah) [VMess - grpc] TLS ✅5
-    server: *bug5
-    port: 443
-    type: vmess
-    uuid: 2077602f-9ee8-4e5e-8f00-6e510a643468
-    alterId: 0
+  - name: Digitalocean, LLC (SG) vless.cfw-config.us.kg
+    server: 104.26.7.171
+    port: 80
+    type: vless
+    uuid: 58c63d49-9671-4021-8d0b-fdf94ad4f043
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    servername: rumah-1.hendra.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vmess-service
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /sg3
+      headers:
+        Host: vless.cfw-config.us.kg
     udp: true
-  - name: (Affahiyaah) [VLESS - grpc] TLS ✅5
-    server: *bug5
+  - name: SERVER SG3 [REGXA] rgx2.kadanahija.xyz
+    server: 104.26.7.171
     port: 443
     type: vless
-    uuid: eef6b0a4-7022-4f85-86df-3b577ccc03a7
+    uuid: 476802d2-2072-4316-8dd0-cf1dd4a9c791
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: rumah-1.hendra.fun
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vless-service
+    servername: rgx2.kadanahija.xyz
+    network: ws
+    ws-opts:
+      path: /vless-ws
+      headers:
+        Host: rgx2.kadanahija.xyz
     udp: true
-  - name: (Affahiyaah) [Trojan - httpupgrade] TLS ✅5
-    server: *bug5
+  - name: CY Stark Industries Solutions nautica.foolvpn.me
+    server: 104.26.7.171
     port: 443
-    type: trojan
-    password: -PSUQbDQ-36RSwZ-MBYLIA
+    type: vless
+    uuid: 22e3fa72-bb76-43f7-8f1f-e387ed2af0d6
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: rumah-1.hendra.fun
+    servername: nautica.foolvpn.me
+    network: ws
+    ws-opts:
+      path: /3.97.173.206-80
+      headers:
+        Host: nautica.foolvpn.me
     udp: true
-  - name: (Affahiyaah) [Trojan - httpupgrade] nTLS ✅5
-    server: *bug5
+  - name: ROTATE PROXY vless.cfw-config.us.kg
+    server: 104.26.7.171
     port: 80
-    type: trojan
-    password: -PSUQbDQ-36RSwZ-MBYLIA
+    type: vless
+    uuid: 844fcd98-a8bf-4b69-a82a-a1194f14f34b
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    sni: rumah-1.hendra.fun
+    servername: vless.cfw-config.us.kg
+    network: ws
+    ws-opts:
+      path: /rotate
+      headers:
+        Host: vless.cfw-config.us.kg
     udp: true
-  - name: (Affahiyaah) [Shadowsocks - tcp] OUTLINE ✅5
-    server: *bug5
-    port: 1080
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ZyZjvFtALzXgWvX-FVQZag
+  - name: ROTATE VLESS ID 🇮🇩 TLS mau.bansos.Biz.id
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 3c74cc85-64d2-4e28-907c-c731eb3a4ce2
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mau.bansos.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID
+      headers:
+        Host: mau.bansos.Biz.id
+    udp: true
+  - name: AUTO ROTATE IP ID xray.jrmpv.Biz.id
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
     udp: true
