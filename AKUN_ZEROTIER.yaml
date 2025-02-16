@@ -11,16 +11,16 @@ BUG:
   - &bug10 104.16.106.96
 
 PATH:
-  - &path1 /ID
+  - &path1 /howdy
 
 Type:
   - &type1 trojan
 
 HOST:
-  - &host1 mau.bansos.Biz.id
+  - &host1 sg3.6n6.net
 
 UUID:
-  - &UUID1 afba04d2-ccd5-455f-92c9-ba123fdc81ad
+  - &UUID1 0807ca60-e357-11ef-a67a-1239d0255272
 
 INTERFACE:
   - &i eth1
