@@ -157,3 +157,17 @@ proxies:
       Host: *host1
   udp: true
 #
+
+- name: SG1
+  server: ruangguru.com
+  port: 443
+  type: trojan
+  password: 93d1f1a0-ef85-11ef-9c3e-1239d0255272
+  skip-cert-verify: true
+  sni: sg1.6n6.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg1.6n6.net
+  udp: true
