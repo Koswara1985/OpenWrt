@@ -20,7 +20,7 @@ HOST:
   - &host1 sg3.6n6.net
 
 UUID:
-  - &UUID1 0807ca60-e357-11ef-a67a-1239d0255272
+  - &UUID1 79116750-fc1f-11ef-a472-1239d0255272
 
 INTERFACE:
   - &i eth1
