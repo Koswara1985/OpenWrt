@@ -171,3 +171,17 @@ proxies:
     headers:
       Host: sg1.6n6.net
   udp: true
+  
+  - name: sg3 new
+    server: orangtua.ruangguru.com
+    port: 443
+    type: trojan
+    password: 79116750-fc1f-11ef-a472-1239d0255272
+    skip-cert-verify: true
+    sni: sg3.6n6.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg3.6n6.net
+    udp: true
