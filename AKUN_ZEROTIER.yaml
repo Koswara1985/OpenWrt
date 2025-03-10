@@ -26,7 +26,7 @@ INTERFACE:
   - &i eth1
 
 proxies:
-- name:  BUG1 TROJAN
+- name:  BUG1 TROJAN new
   server: *bug1
   port: 443
   type: *type1
