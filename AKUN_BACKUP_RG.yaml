@@ -2440,3 +2440,575 @@ proxies:
       headers:
         Host: xray.jrmpv.Biz.id
     udp: true
+
+
+  - name: (ID) 🇮🇩 AUTO IP
+    server: 104.18.2.2
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 2
+    server: 104.18.25.139
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 3
+    server: 104.18.24.139
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 4
+    server: 104.18.3.2
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 5
+    server: ruangguru.com
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 6
+    server: ads.ruangguru.com
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 7
+    server: orangtua.ruangguru.com
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 8
+    server: 172.67.68.152
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 9
+    server: 172.67.71.22
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 10
+    server: 104.21.11.175
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 11
+    server: 172.67.166.180
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 12
+    server: 104.26.6.172
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 13
+    server: 104.26.7.172
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 14
+    server: 172.67.71.127
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 15
+    server: 172.67.21.177
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 16
+    server: 104.26.6.14
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 17
+    server: 104.26.7.14
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 18
+    server: 188.114.97.3
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 19
+    server: gw.ruangguru.com
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 20
+    server: www.udemy.com
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 21
+    server: telkomsel.udemy.com
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 22
+    server: chat.sociomile.com
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 23
+    server: xlcare.sociomile.com
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 24
+    server: chat-xlcare.sociomile.com
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 25
+    server: 104.22.60.94
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 26
+    server: 104.22.61.94
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 27
+    server: 104.26.4.12
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 28
+    server: 104.26.5.12
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 29
+    server: 104.22.24.131
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 30
+    server: 104.22.25.131
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 31
+    server: 104.26.7.171
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 32
+    server: 104.26.6.171
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 33
+    server: 172.67.38.66
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 34
+    server: 172.67.183.130
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 35
+    server: 172.67.70.124
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 36
+    server: 172.67.73.5
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 37
+    server: 172.67.73.39
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 38
+    server: 188.114.96.3
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
