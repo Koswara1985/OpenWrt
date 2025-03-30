@@ -38,6 +38,17 @@ BUG:
   - &bug37 104.26.6.14
   - &bug38 104.26.7.14
   - &bug39 172.67.68.152
+  - &bug40 104.17.71.206
+  - &bug41 youtube.zendesk.com
+  - &bug42 tiktok1.zendesk.com
+  - &bug43 zendesk1.garena.com
+  - &bug44 104.16.108.96
+  - &bug45 support-whatsapp.zendesk.com
+  - &bug46 info.microsoft.com
+  - &bug47 104.16.106.96
+  - &bug48 www.sushiroll.co.id
+  - &bug49 zendesk1.appsflyer.com
+  - &bug50 104.17.71.206
 
 PATH:
   - &path1 /howdy
@@ -560,6 +571,136 @@ proxies:
   udp: true
 - name:  BUG39 TROJAN
   server: *bug39
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG40 TROJAN
+  server: *bug40
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG41 TROJAN
+  server: *bug41
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG42 TROJAN
+  server: *bug42
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG43 TROJAN
+  server: *bug43
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG44 TROJAN
+  server: *bug44
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG45 TROJAN
+  server: *bug45
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG46 TROJAN
+  server: *bug46
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG47 TROJAN
+  server: *bug47
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG48 TROJAN
+  server: *bug48
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG49 TROJAN
+  server: *bug49
   port: 443
   type: *type1
   password: *UUID1
