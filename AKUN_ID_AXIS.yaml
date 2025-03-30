@@ -1,0 +1,136 @@
+proxies:
+  - name: (ID) 🇮🇩 AUTO IP
+    server: 104.16.106.96
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 2
+    server: 104.17.71.206
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 3
+    server: zendesk1.appsflyer.com
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 4
+    server: tiktok1.zendesk.com
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 5
+    server: zendesk1.garena.com
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 6
+    server: youtube.zendesk.com
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 7
+    server: support-whatsapp.zendesk.com
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 8
+    server: info.microsoft.com
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇮🇩 AUTO IP 9
+    server: 104.16.108.96
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID1
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
