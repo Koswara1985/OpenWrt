@@ -1,0 +1,196 @@
+proxies:
+  - name: (ID) First Cagayan
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.free.aabb.nyc.mn
+    network: ws
+    ws-opts:
+      path: /Free/TG-at-BitzBlack/203.194.112.119-8443
+      headers:
+        Host: ava.game.naver.com.free.aabb.nyc.mn
+    udp: true
+  - name: FREE-CF SG Melbikomas UAB
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.privasi.bmkg.xyz
+    network: ws
+    ws-opts:
+      path: /Free-CF-Proxy-SG1
+      headers:
+        Host: ava.game.naver.com.privasi.bmkg.xyz
+    udp: true
+  - name: FREE-CF SG Digital Ocean
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.privasi.bmkg.xyz
+    network: ws
+    ws-opts:
+      path: /Free-CF-Proxy-SG2
+      headers:
+        Host: ava.game.naver.com.privasi.bmkg.xyz
+    udp: true
+  - name: FREE-CF ID Alibaba
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.privasi.bmkg.xyz
+    network: ws
+    ws-opts:
+      path: /Free-CF-Proxy-ID2
+      headers:
+        Host: ava.game.naver.com.privasi.bmkg.xyz
+    udp: true
+  - name: FREE-CF ID Google Cloud
+    server: ava.game.naver.com
+    port: 443
+    type: vless
+    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.privasi.bmkg.xyz
+    network: ws
+    ws-opts:
+      path: /Free-CF-Proxy-ID1
+      headers:
+        Host: ava.game.naver.com.privasi.bmkg.xyz
+    udp: true
+  - name: 8 🇸🇬 Digital Ocean WS TLS [auto]
+    server: 104.16.106.96
+    port: 443
+    type: vless
+    uuid: a9f72298-39ec-4b88-9d0f-38af19cbd122
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: auto.bosmusik.com
+    network: ws
+    ws-opts:
+      path: /178.128.80.43-443
+      headers:
+        Host: auto.bosmusik.com
+    udp: true
+  - name: 4 🇸🇬 Amazon.com WS TLS [auto]
+    server: 104.16.106.96
+    port: 443
+    type: vless
+    uuid: a9f72298-39ec-4b88-9d0f-38af19cbd122
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: auto.bosmusik.com
+    network: ws
+    ws-opts:
+      path: /54.169.229.188-443
+      headers:
+        Host: auto.bosmusik.com
+    udp: true
+  - name: 7 🇮🇩 Amazon.com WS TLS [auto]
+    server: 104.16.106.96
+    port: 443
+    type: vless
+    uuid: 97189151-b48d-42a8-b8b9-1bd5caa93e73
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: auto.bosmusik.com
+    network: ws
+    ws-opts:
+      path: /43.218.77.16-443
+      headers:
+        Host: auto.bosmusik.com
+    udp: true
+  - name: 2 🇮🇩 Google Cloud WS TLS [auto]
+    server: 104.16.106.96
+    port: 443
+    type: vless
+    uuid: 97189151-b48d-42a8-b8b9-1bd5caa93e73
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: auto.bosmusik.com
+    network: ws
+    ws-opts:
+      path: /35.219.50.99-443
+      headers:
+        Host: auto.bosmusik.com
+    udp: true
+  - name: 8 🇸🇬 Digital Ocean WS TLS [nautica]
+    server: 104.16.106.96
+    port: 443
+    type: vless
+    uuid: c686436b-6c55-4bc5-8b1d-fdb2d81672cc
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nautica.foolvpn.me
+    network: ws
+    ws-opts:
+      path: /178.128.80.43-443
+      headers:
+        Host: nautica.foolvpn.me
+    udp: true
+  - name: 4 🇸🇬 Amazon.com WS TLS [nautica]
+    server: 104.16.106.96
+    port: 443
+    type: vless
+    uuid: c686436b-6c55-4bc5-8b1d-fdb2d81672cc
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nautica.foolvpn.me
+    network: ws
+    ws-opts:
+      path: /54.169.229.188-443
+      headers:
+        Host: nautica.foolvpn.me
+    udp: true
+  - name: 9 🇮🇩 Google Cloud WS TLS [nautica]
+    server: 104.16.106.96
+    port: 443
+    type: vless
+    uuid: ae1b053a-0372-4875-8954-4c3beeed2a6f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nautica.foolvpn.me
+    network: ws
+    ws-opts:
+      path: /35.219.15.90-443
+      headers:
+        Host: nautica.foolvpn.me
+    udp: true
+  - name: 1 🇮🇩 Amazon.com WS TLS [nautica]
+    server: 104.16.106.96
+    port: 443
+    type: vless
+    uuid: ae1b053a-0372-4875-8954-4c3beeed2a6f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: nautica.foolvpn.me
+    network: ws
+    ws-opts:
+      path: /43.218.77.16-1443
+      headers:
+        Host: nautica.foolvpn.me
+    udp: true
