@@ -55,7 +55,8 @@ PATH:
   - &path1 /ID
 
 Type:
-  - &type1 trojan
+  - &type trojan
+  - &type1 vless
 
 HOST:
   - &host1 xray.jrmpv.Biz.id
@@ -68,649 +69,1588 @@ INTERFACE:
   - &i eth1
 
 proxies:
-- name:  BUG1 TROJAN🔰
-  server: *bug1
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG2 TROJAN🔰
-  server: *bug2
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG3 TROJAN🔰
-  server: *bug3
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG4 TROJAN🔰
-  server: *bug4
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG5 TROJAN🔰
-  server: *bug5
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG6 TROJAN🔰
-  server: *bug6
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG7 TROJAN🔰
-  server: *bug7
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG8 TROJAN🔰
-  server: *bug8
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG9 TROJAN🔰
-  server: *bug9
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG10 TROJAN🔰
-  server: *bug10
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
+  - name: TROJAN BUG1
+    server: *bug1
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
 
-#
+  - name: TROJAN BUG2
+    server: *bug2
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
 
-- name:  BUG11 TROJAN🔰
-  server: *bug11
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG12 TROJAN🔰
-  server: *bug12
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG13 TROJAN🔰
-  server: *bug13
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG14 TROJAN🔰
-  server: *bug14
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG15 TROJAN🔰
-  server: *bug15
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG16 TROJAN🔰
-  server: *bug16
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG17 TROJAN🔰
-  server: *bug17
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG18 TROJAN🔰
-  server: *bug18
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG19 TROJAN🔰
-  server: *bug19
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
+  - name: TROJAN BUG3
+    server: *bug3
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
 
-#
+  - name: TROJAN BUG4
+    server: *bug4
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
 
-- name:  BUG20 TROJAN🔰
-  server: *bug20
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG21 TROJAN🔰
-  server: *bug21
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG22 TROJAN🔰
-  server: *bug22
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG23 TROJAN🔰
-  server: *bug23
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG24 TROJAN🔰
-  server: *bug24
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG25 TROJAN🔰
-  server: *bug25
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG26 TROJAN🔰
-  server: *bug26
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG27 TROJAN🔰
-  server: *bug27
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG28 TROJAN🔰
-  server: *bug28
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG29 TROJAN🔰
-  server: *bug29
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
+  - name: TROJAN BUG5
+    server: *bug5
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
 
-#
+  - name: TROJAN BUG6
+    server: *bug6
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
 
-- name:  BUG30 TROJAN🔰
-  server: *bug30
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG31 TROJAN🔰
-  server: *bug31
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG32 TROJAN🔰
-  server: *bug32
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG33 TROJAN🔰
-  server: *bug33
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG34 TROJAN🔰
-  server: *bug34
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG35 TROJAN🔰
-  server: *bug35
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG36 TROJAN🔰
-  server: *bug36
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG37 TROJAN🔰
-  server: *bug37
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG38 TROJAN🔰
-  server: *bug38
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG39 TROJAN🔰
-  server: *bug39
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG40 TROJAN🔰
-  server: *bug40
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG41 TROJAN🔰
-  server: *bug41
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG42 TROJAN🔰
-  server: *bug42
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG43 TROJAN🔰
-  server: *bug43
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG44 TROJAN🔰
-  server: *bug44
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG45 TROJAN🔰
-  server: *bug45
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG46 TROJAN🔰
-  server: *bug46
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG47 TROJAN🔰
-  server: *bug47
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG48 TROJAN🔰
-  server: *bug48
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
-- name:  BUG49 TROJAN🔰
-  server: *bug49
-  port: 443
-  type: *type1
-  password: *UUID1
-  skip-cert-verify: true
-  sni: *host1
-  network: ws
-  ws-opts:
-    path: *path1
-    headers:
-      Host: *host1
-  udp: true
+  - name: TROJAN BUG7
+    server: *bug7
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG8
+    server: *bug8
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG9
+    server: *bug9
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG10
+    server: *bug10
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG11
+    server: *bug11
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG12
+    server: *bug12
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG13
+    server: *bug13
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG14
+    server: *bug14
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG15
+    server: *bug15
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG16
+    server: *bug16
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG17
+    server: *bug17
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG18
+    server: *bug18
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG19
+    server: *bug19
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG20
+    server: *bug20
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG21
+    server: *bug21
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG22
+    server: *bug22
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG23
+    server: *bug23
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG24
+    server: *bug24
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG25
+    server: *bug25
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG26
+    server: *bug26
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG27
+    server: *bug27
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG28
+    server: *bug28
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG29
+    server: *bug29
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG30
+    server: *bug30
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG31
+    server: *bug31
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG32
+    server: *bug32
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG33
+    server: *bug33
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG34
+    server: *bug34
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG35
+    server: *bug35
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG36
+    server: *bug36
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG37
+    server: *bug37
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG38
+    server: *bug38
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG39
+    server: *bug39
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG40
+    server: *bug40
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG41
+    server: *bug41
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG42
+    server: *bug42
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG43
+    server: *bug43
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG44
+    server: *bug44
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG45
+    server: *bug45
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG46
+    server: *bug46
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG47
+    server: *bug47
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG48
+    server: *bug48
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+  - name: TROJAN BUG49
+    server: *bug49
+    port: 443
+    type: *type
+    password: *UUID1
+    skip-cert-verify: true
+    sni: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+
+    
+  - name: 1️⃣bug1
+    server: *bug1
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug2
+    server: *bug2
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug3
+    server: *bug3
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug4
+    server: *bug4
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug5
+    server: *bug5
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug6
+    server: *bug6
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug7
+    server: *bug7
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug8
+    server: *bug8
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug9
+    server: *bug9
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug10
+    server: *bug10
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+#===========================10=========================
+
+  - name: 1️⃣bug11
+    server: *bug11
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug12
+    server: *bug12
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug13
+    server: *bug13
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug14
+    server: *bug14
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug15
+    server: *bug15
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug16
+    server: *bug16
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug17
+    server: *bug17
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug18
+    server: *bug18
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug19
+    server: *bug19
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+#========================20==========================
+  - name: 1️⃣bug20
+    server: *bug20
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug21
+    server: *bug21
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug22
+    server: *bug22
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug23
+    server: *bug23
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug24
+    server: *bug24
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug25
+    server: *bug25
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug26
+    server: *bug26
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug27
+    server: *bug27
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug28
+    server: *bug28
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug29
+    server: *bug29
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+#==============================30======================
+  - name: 1️⃣bug30
+    server: *bug30
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug31
+    server: *bug31
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+  - name: 1️⃣bug32
+    server: *bug32
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+
+  - name: 1️⃣bug33
+    server: *bug33
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+
+  - name: 1️⃣bug34
+    server: *bug34
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+
+  - name: 1️⃣bug35
+    server: *bug35
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+
+  - name: 1️⃣bug36
+    server: *bug36
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+
+  - name: 1️⃣bug37
+    server: *bug37
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+
+  - name: 1️⃣bug38
+    server: *bug38
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+
+  - name: 1️⃣bug39
+    server: *bug39
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+#=========================40======================$$
+  - name: 1️⃣bug40
+    server: *bug40
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+
+  - name: 1️⃣bug41
+    server: *bug41
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+
+  - name: 1️⃣bug42
+    server: *bug42
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+
+  - name: 1️⃣bug43
+    server: *bug43
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+
+  - name: 1️⃣bug44
+    server: *bug44
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+
+  - name: 1️⃣bug45
+    server: *bug45
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+
+  - name: 1️⃣bug46
+    server: *bug46
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+
+  - name: 1️⃣bug47
+    server: *bug47
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+
+  - name: 1️⃣bug48
+    server: *bug48
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    
+
+
+  - name: 1️⃣bug49
+    server: *bug49
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
