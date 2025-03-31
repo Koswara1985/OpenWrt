@@ -69,7 +69,7 @@ INTERFACE:
   - &i eth1
 
 proxies:
-  - name: TROJAN BUG1
+  - name: TROJAN BUG1🇲🇨
     server: *bug1
     port: 443
     type: *type
@@ -83,7 +83,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG2
+  - name: TROJAN BUG2🇲🇨
     server: *bug2
     port: 443
     type: *type
@@ -97,7 +97,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG3
+  - name: TROJAN BUG3🇲🇨
     server: *bug3
     port: 443
     type: *type
@@ -111,7 +111,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG4
+  - name: TROJAN BUG4🇲🇨
     server: *bug4
     port: 443
     type: *type
@@ -125,7 +125,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG5
+  - name: TROJAN BUG5🇲🇨
     server: *bug5
     port: 443
     type: *type
@@ -139,7 +139,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG6
+  - name: TROJAN BUG6🇲🇨
     server: *bug6
     port: 443
     type: *type
@@ -153,7 +153,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG7
+  - name: TROJAN BUG7🇲🇨
     server: *bug7
     port: 443
     type: *type
@@ -167,7 +167,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG8
+  - name: TROJAN BUG8🇲🇨
     server: *bug8
     port: 443
     type: *type
@@ -181,7 +181,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG9
+  - name: TROJAN BUG9🇲🇨
     server: *bug9
     port: 443
     type: *type
@@ -195,7 +195,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG10
+  - name: TROJAN BUG10🇲🇨
     server: *bug10
     port: 443
     type: *type
@@ -209,7 +209,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG11
+  - name: TROJAN BUG11🇲🇨
     server: *bug11
     port: 443
     type: *type
@@ -223,7 +223,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG12
+  - name: TROJAN BUG12🇲🇨
     server: *bug12
     port: 443
     type: *type
@@ -237,7 +237,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG13
+  - name: TROJAN BUG13🇲🇨
     server: *bug13
     port: 443
     type: *type
@@ -251,7 +251,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG14
+  - name: TROJAN BUG14🇲🇨
     server: *bug14
     port: 443
     type: *type
@@ -265,7 +265,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG15
+  - name: TROJAN BUG15🇲🇨
     server: *bug15
     port: 443
     type: *type
@@ -279,7 +279,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG16
+  - name: TROJAN BUG16🇲🇨
     server: *bug16
     port: 443
     type: *type
@@ -293,7 +293,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG17
+  - name: TROJAN BUG17🇲🇨
     server: *bug17
     port: 443
     type: *type
@@ -307,7 +307,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG18
+  - name: TROJAN BUG18🇲🇨
     server: *bug18
     port: 443
     type: *type
@@ -321,7 +321,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG19
+  - name: TROJAN BUG19🇲🇨
     server: *bug19
     port: 443
     type: *type
@@ -335,7 +335,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG20
+  - name: TROJAN BUG20🇲🇨
     server: *bug20
     port: 443
     type: *type
@@ -349,7 +349,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG21
+  - name: TROJAN BUG21🇲🇨
     server: *bug21
     port: 443
     type: *type
@@ -363,7 +363,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG22
+  - name: TROJAN BUG22🇲🇨
     server: *bug22
     port: 443
     type: *type
@@ -377,7 +377,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG23
+  - name: TROJAN BUG23🇲🇨
     server: *bug23
     port: 443
     type: *type
@@ -391,7 +391,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG24
+  - name: TROJAN BUG24🇲🇨
     server: *bug24
     port: 443
     type: *type
@@ -405,7 +405,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG25
+  - name: TROJAN BUG25🇲🇨
     server: *bug25
     port: 443
     type: *type
@@ -419,7 +419,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG26
+  - name: TROJAN BUG26🇲🇨
     server: *bug26
     port: 443
     type: *type
@@ -433,7 +433,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG27
+  - name: TROJAN BUG27🇲🇨
     server: *bug27
     port: 443
     type: *type
@@ -447,7 +447,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG28
+  - name: TROJAN BUG28🇲🇨
     server: *bug28
     port: 443
     type: *type
@@ -461,7 +461,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG29
+  - name: TROJAN BUG29🇲🇨
     server: *bug29
     port: 443
     type: *type
@@ -475,7 +475,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG30
+  - name: TROJAN BUG30🇲🇨
     server: *bug30
     port: 443
     type: *type
@@ -489,7 +489,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG31
+  - name: TROJAN BUG31🇲🇨
     server: *bug31
     port: 443
     type: *type
@@ -503,7 +503,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG32
+  - name: TROJAN BUG32🇲🇨
     server: *bug32
     port: 443
     type: *type
@@ -517,7 +517,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG33
+  - name: TROJAN BUG33🇲🇨
     server: *bug33
     port: 443
     type: *type
@@ -531,7 +531,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG34
+  - name: TROJAN BUG34🇲🇨
     server: *bug34
     port: 443
     type: *type
@@ -545,7 +545,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG35
+  - name: TROJAN BUG35🇲🇨
     server: *bug35
     port: 443
     type: *type
@@ -559,7 +559,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG36
+  - name: TROJAN BUG36🇲🇨
     server: *bug36
     port: 443
     type: *type
@@ -573,7 +573,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG37
+  - name: TROJAN BUG37🇲🇨
     server: *bug37
     port: 443
     type: *type
@@ -587,7 +587,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG38
+  - name: TROJAN BUG38🇲🇨
     server: *bug38
     port: 443
     type: *type
@@ -601,7 +601,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG39
+  - name: TROJAN BUG39🇲🇨
     server: *bug39
     port: 443
     type: *type
@@ -615,7 +615,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG40
+  - name: TROJAN BUG40🇲🇨
     server: *bug40
     port: 443
     type: *type
@@ -629,7 +629,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG41
+  - name: TROJAN BUG41🇲🇨
     server: *bug41
     port: 443
     type: *type
@@ -643,7 +643,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG42
+  - name: TROJAN BUG42🇲🇨
     server: *bug42
     port: 443
     type: *type
@@ -657,7 +657,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG43
+  - name: TROJAN BUG43🇲🇨
     server: *bug43
     port: 443
     type: *type
@@ -671,7 +671,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG44
+  - name: TROJAN BUG44🇲🇨
     server: *bug44
     port: 443
     type: *type
@@ -685,7 +685,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG45
+  - name: TROJAN BUG45🇲🇨
     server: *bug45
     port: 443
     type: *type
@@ -699,7 +699,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG46
+  - name: TROJAN BUG46🇲🇨
     server: *bug46
     port: 443
     type: *type
@@ -713,7 +713,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG47
+  - name: TROJAN BUG47🇲🇨
     server: *bug47
     port: 443
     type: *type
@@ -727,7 +727,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG48
+  - name: TROJAN BUG48🇲🇨
     server: *bug48
     port: 443
     type: *type
@@ -741,7 +741,7 @@ proxies:
         Host: *host1
     udp: true
 
-  - name: TROJAN BUG49
+  - name: TROJAN BUG49🇲🇨
     server: *bug49
     port: 443
     type: *type
