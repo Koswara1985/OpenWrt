@@ -1,181 +1,175 @@
+BUG:
+  - &bug39 172.67.68.152
+  - &bug40 104.17.71.206
+  - &bug41 youtube.zendesk.com
+  - &bug42 tiktok1.zendesk.com
+  - &bug43 zendesk1.garena.com
+  - &bug44 104.16.108.96
+  - &bug45 support-whatsapp.zendesk.com
+  - &bug46 info.microsoft.com
+  - &bug47 104.16.106.96
+  - &bug48 www.sushiroll.co.id
+  - &bug49 zendesk1.appsflyer.com
+  - &bug50 104.17.71.206
+
+
+PATH:
+  - &path1 /ID
+
+Type:
+  - &type1 trojan
+
+HOST:
+  - &host1 xray.jrmpv.Biz.id
+
+UUID:
+  - &UUID1 248e98dc-0dc7-422a-b238-26f762e44925
+
+INTERFACE:
+  - &i eth1
+
 proxies:
-  - name: (ID) 🇮🇩 AUTO IP graph.facebook.com
-    server: graph.facebook.com.xray.jrmpv.Biz.id
-    port: 443
-    type: vless
-    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: graph.facebook.com.xray.jrmpv.Biz.id
-    network: ws
-    ws-opts:
-      path: /ID
-      headers:
-        Host: graph.facebook.com.xray.jrmpv.Biz.id
-    udp: true
-  - name: (ID) 🇮🇩 AUTO IP unnes.ac.id
-    server: unnes.ac.id.xray.jrmpv.Biz.id
-    port: 443
-    type: vless
-    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: unnes.ac.id.xray.jrmpv.Biz.id
-    network: ws
-    ws-opts:
-      path: /ID
-      headers:
-        Host: unnes.ac.id.xray.jrmpv.Biz.id
-    udp: true
-  - name: (ID) 🇮🇩 AUTO IP bakrie.ac.id
-    server: bakrie.ac.id.xray.jrmpv.Biz.id
-    port: 443
-    type: vless
-    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: bakrie.ac.id.xray.jrmpv.Biz.id
-    network: ws
-    ws-opts:
-      path: /ID
-      headers:
-        Host: bakrie.ac.id.xray.jrmpv.Biz.id
-    udp: true
-  - name: (ID) 🇮🇩 AUTO IP api.midtrans.com
-    server: api.midtrans.com.xray.jrmpv.Biz.id
-    port: 443
-    type: vless
-    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: api.midtrans.com.xray.jrmpv.Biz.id
-    network: ws
-    ws-opts:
-      path: /ID
-      headers:
-        Host: api.midtrans.com.xray.jrmpv.Biz.id
-    udp: true
-  - name: (ID) 🇮🇩 AUTO IP ads.ruangguru.com
-    server: ads.ruangguru.com.xray.jrmpv.Biz.id
-    port: 443
-    type: vless
-    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ads.ruangguru.com.xray.jrmpv.Biz.id
-    network: ws
-    ws-opts:
-      path: /ID
-      headers:
-        Host: ads.ruangguru.com.xray.jrmpv.Biz.id
-    udp: true
-  - name: (ID) 🇮🇩 AUTO IP zaintest.vuclip.com
-    server: zaintest.vuclip.com.xray.jrmpv.Biz.id
-    port: 443
-    type: vless
-    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: zaintest.vuclip.com.xray.jrmpv.Biz.id
-    network: ws
-    ws-opts:
-      path: /ID
-      headers:
-        Host: zaintest.vuclip.com.xray.jrmpv.Biz.id
-    udp: true
-  - name: (ID) 🇮🇩 AUTO IP cache.netflix.com
-    server: cache.netflix.com.xray.jrmpv.Biz.id
-    port: 443
-    type: vless
-    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: cache.netflix.com.xray.jrmpv.Biz.id
-    network: ws
-    ws-opts:
-      path: /ID
-      headers:
-        Host: cache.netflix.com.xray.jrmpv.Biz.id
-    udp: true
-  - name: (ID) 🇮🇩 AUTO IP investors.spotify.com
-    server: investors.spotify.com.xray.jrmpv.Biz.id
-    port: 443
-    type: vless
-    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: investors.spotify.com.xray.jrmpv.Biz.id
-    network: ws
-    ws-opts:
-      path: /ID
-      headers:
-        Host: investors.spotify.com.xray.jrmpv.Biz.id
-    udp: true
-  - name: (ID) 🇮🇩 AUTO IP blog.webex.com
-    server: blog.webex.com.xray.jrmpv.Biz.id
-    port: 443
-    type: vless
-    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: blog.webex.com.xray.jrmpv.Biz.id
-    network: ws
-    ws-opts:
-      path: /ID
-      headers:
-        Host: blog.webex.com.xray.jrmpv.Biz.id
-    udp: true
-  - name: (ID) 🇮🇩 AUTO IP support.zoom.us
-    server: support.zoom.us.xray.jrmpv.Biz.id
-    port: 443
-    type: vless
-    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: support.zoom.us.xray.jrmpv.Biz.id
-    network: ws
-    ws-opts:
-      path: /ID
-      headers:
-        Host: support.zoom.us.xray.jrmpv.Biz.id
-    udp: true
-  - name: (ID) 🇮🇩 AUTO IP graph.instagram.com
-    server: graph.instagram.com.xray.jrmpv.Biz.id
-    port: 443
-    type: vless
-    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: graph.instagram.com.xray.jrmpv.Biz.id
-    network: ws
-    ws-opts:
-      path: /ID
-      headers:
-        Host: graph.instagram.com.xray.jrmpv.Biz.id
-    udp: true
-  - name: (ID) 🇮🇩 AUTO IP ava.game.naver.com
-    server: ava.game.naver.com.xray.jrmpv.Biz.id
-    port: 443
-    type: vless
-    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ava.game.naver.com.xray.jrmpv.Biz.id
-    network: ws
-    ws-opts:
-      path: /ID
-      headers:
-        Host: ava.game.naver.com.xray.jrmpv.Biz.id
-    udp: true
+
+- name:  BUG139 TROJAN
+  server: *bug39
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG140 TROJAN
+  server: *bug40
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG141 TROJAN
+  server: *bug41
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG142 TROJAN
+  server: *bug42
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG143 TROJAN
+  server: *bug43
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG144 TROJAN
+  server: *bug44
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG145 TROJAN
+  server: *bug45
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG146 TROJAN
+  server: *bug46
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG147 TROJAN
+  server: *bug47
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG148 TROJAN
+  server: *bug48
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
+- name:  BUG149 TROJAN
+  server: *bug49
+  port: 443
+  type: *type1
+  password: *UUID1
+  skip-cert-verify: true
+  sni: *host1
+  network: ws
+  ws-opts:
+    path: *path1
+    headers:
+      Host: *host1
+  udp: true
