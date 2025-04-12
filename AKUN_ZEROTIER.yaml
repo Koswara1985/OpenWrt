@@ -713,7 +713,7 @@ proxies:
       Host: *host1
   udp: true
 
-- name: SG1
+- name: SG13
   server: ruangguru.com
   port: 443
   type: trojan
@@ -740,3 +740,32 @@ proxies:
     headers:
       Host: sg3.6n6.net
   udp: true
+
+- name: MELBI
+  server: ruangguru.com
+  port: 443
+  type: trojan
+  password: 22000700-1749-11f0-b1b1-1239d0255272
+  skip-cert-verify: true
+  sni: sg4.6n6.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg4.6n6.net
+  udp: true
+
+- name: SG1
+  server: ruangguru.com
+  port: 443
+  type: trojan
+  password: 6503e730-1749-11f0-8257-1239d0255272
+  skip-cert-verify: true
+  sni: sg1.6n6.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg1.6n6.net
+  udp: true
+
