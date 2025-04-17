@@ -1,5 +1,5 @@
 PATH:
-  - &path1 /ID
+  - &path1 /ID1
   - &path2 ws://xray.jrmpv.Biz.id/ID
 
 Type:
