@@ -1,18 +1,18 @@
 PATH:
-  - &path1 /3.97.173.206-80
-  - &path2 ws://nautica.foolvpn.me
+  - &path1 /SG
+  - &path2 ws://xray.jrmpv.Biz.id/ID
 
 Type:
   - &type1 vless
 
 HOST:
-  - &host1 nautica.foolvpn.me
+  - &host1 xray.jrmpv.Biz.id
   - &host2 space.byu.id
 
 UUID:
-  - &UUID1 22e3fa72-bb76-43f7-8f1f-e387ed2af0d6
-  
-# CY Stark Industries Solutions.
+  - &UUID1 248e98dc-0dc7-422a-b238-26f762e44925
+
+# AUTO IP LIFETIME
 
 BUG:
   - &ssl1 graph.facebook.com
