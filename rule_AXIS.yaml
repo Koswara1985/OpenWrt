@@ -1,3 +1,4 @@
 payload:
   - IP-CIDR,104.16.106.96/24
   - DOMAIN-KEYWORD,www.sushiroll.co.id
+  - DOMAIN-KEYWORD,youtube.zendesk.com
