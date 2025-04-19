@@ -1,6 +1,6 @@
 PATH:
-  - &path1 /SG
-  - &path2 ws://xray.jrmpv.Biz.id/ID
+  - &path1 /MY
+  - &path2 ws://xray.jrmpv.Biz.id/MY
 
 Type:
   - &type1 vless
