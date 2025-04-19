@@ -1,5 +1,5 @@
 PATH:
-  - &path1 /MY
+  - &path1 /SG
   - &path2 ws://xray.jrmpv.Biz.id/MY
 
 Type:
