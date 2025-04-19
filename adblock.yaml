@@ -1,13 +1,13 @@
 payload:
 #PI NETWORK
-  - DOMAIN-SUFFIX,googleads.g.doubleclick.net
-  - DOMAIN-SUFFIX,cdn.iads.unity3d.com
-  - DOMAIN-SUFFIX,events.ads.vungle.com
-  - DOMAIN-SUFFIX,config.ads.vungle.com
-  - DOMAIN-SUFFIX,ae.iads.unity3d.com
-  - DOMAIN-KEYWORD,iads.unity3d.com
-  - DOMAIN-KEYWORD,ads.vungle.com
-  - DOMAIN-KEYWORD,unityads.unity3d.com
+#  - DOMAIN-SUFFIX,googleads.g.doubleclick.net
+ # - DOMAIN-SUFFIX,cdn.iads.unity3d.com
+ # - DOMAIN-SUFFIX,events.ads.vungle.com
+ # - DOMAIN-SUFFIX,config.ads.vungle.com
+ # - DOMAIN-SUFFIX,ae.iads.unity3d.com
+#  - DOMAIN-KEYWORD,iads.unity3d.com
+ # - DOMAIN-KEYWORD,ads.vungle.com
+#  - DOMAIN-KEYWORD,unityads.unity3d.com
 
 #VIA BROWSER
   - DOMAIN-KEYWORD,lyingleisurelycontagious.com
