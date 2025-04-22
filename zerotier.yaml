@@ -1,6 +1,5 @@
 payload:
     # > Zerotier
-  - DOMAIN-SUFFIX,dns.quad9.net
   - DOMAIN,my.zerotier.com
   - DOMAIN-SUFFIX,zerotier.com
   - IP-CIDR,103.195.103.0/24
