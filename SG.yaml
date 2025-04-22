@@ -63,7 +63,7 @@ UUID:
   - &UUID1 248e98dc-0dc7-422a-b238-26f762e44925
 
 INTERFACE:
-  - &i wlan0
+  - &i eth1
 
 proxies:
 - name: SG BUG1 TROJAN
@@ -79,7 +79,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG2 TROJAN
   server: *bug2
@@ -94,7 +94,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG3 TROJAN
   server: *bug3
@@ -109,7 +109,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG4 TROJAN
   server: *bug4
@@ -124,7 +124,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG5 TROJAN
   server: *bug5
@@ -139,7 +139,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG6 TROJAN
   server: *bug6
@@ -154,7 +154,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG7 TROJAN
   server: *bug7
@@ -169,7 +169,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG8 TROJAN
   server: *bug8
@@ -184,7 +184,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG9 TROJAN
   server: *bug9
@@ -199,7 +199,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG10 TROJAN
   server: *bug10
@@ -230,7 +230,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG12 TROJAN
   server: *bug12
@@ -245,7 +245,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG13 TROJAN
   server: *bug13
@@ -260,7 +260,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG14 TROJAN
   server: *bug14
@@ -275,7 +275,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG15 TROJAN
   server: *bug15
@@ -290,7 +290,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG16 TROJAN
   server: *bug16
@@ -305,7 +305,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG17 TROJAN
   server: *bug17
@@ -320,7 +320,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG18 TROJAN
   server: *bug18
@@ -335,7 +335,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG19 TROJAN
   server: *bug19
@@ -350,7 +350,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 
 #
@@ -368,7 +368,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG21 TROJAN
   server: *bug21
@@ -383,7 +383,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG22 TROJAN
   server: *bug22
@@ -398,7 +398,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG23 TROJAN
   server: *bug23
@@ -413,7 +413,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG24 TROJAN
   server: *bug24
@@ -428,7 +428,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG25 TROJAN
   server: *bug25
@@ -443,7 +443,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG26 TROJAN
   server: *bug26
@@ -458,7 +458,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG27 TROJAN
   server: *bug27
@@ -473,7 +473,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG28 TROJAN
   server: *bug28
@@ -488,7 +488,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG29 TROJAN
   server: *bug29
@@ -503,7 +503,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 
 #
@@ -521,7 +521,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG31 TROJAN
   server: *bug31
@@ -536,7 +536,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG32 TROJAN
   server: *bug32
@@ -551,7 +551,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG33 TROJAN
   server: *bug33
@@ -566,7 +566,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG34 TROJAN
   server: *bug34
@@ -581,7 +581,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG35 TROJAN
   server: *bug35
@@ -596,7 +596,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG36 TROJAN
   server: *bug36
@@ -611,7 +611,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG37 TROJAN
   server: *bug37
@@ -626,7 +626,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG38 TROJAN
   server: *bug38
@@ -641,7 +641,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG39 TROJAN
   server: *bug39
@@ -656,7 +656,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG40 TROJAN
   server: *bug40
@@ -671,7 +671,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG41 TROJAN
   server: *bug41
@@ -686,7 +686,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG42 TROJAN
   server: *bug42
@@ -701,7 +701,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG43 TROJAN
   server: *bug43
@@ -716,7 +716,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG44 TROJAN
   server: *bug44
@@ -731,7 +731,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG45 TROJAN
   server: *bug45
@@ -746,7 +746,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG46 TROJAN
   server: *bug46
@@ -761,7 +761,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG47 TROJAN
   server: *bug47
@@ -776,7 +776,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG48 TROJAN
   server: *bug48
@@ -791,7 +791,7 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
 - name: SG BUG49 TROJAN
   server: *bug49
@@ -806,5 +806,5 @@ proxies:
     headers:
       Host: *host1
   udp: true
-  interface-name: *i
+  
 
