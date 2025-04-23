@@ -63,7 +63,7 @@ UUID:
   - &UUID1 248e98dc-0dc7-422a-b238-26f762e44925
 
 INTERFACE:
-  - &i eth1
+  - &i wlan0
 
 proxies:
 - name: SG BUG1 TROJAN
