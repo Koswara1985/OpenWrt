@@ -1,16 +1,16 @@
 PATH:
-  - &path1 /vless
-  - &path2 ws://id.vless.sbs/vless
+  - &path1 /ID
+  - &path2 ws://xray.jrmpv.Biz.id/ID
 
 Type:
   - &type1 vless
 
 HOST:
-  - &host1 ddng1.pages.dev
+  - &host1 xray.jrmpv.Biz.id
   - &host2 space.byu.id
 
 UUID:
-  - &UUID1 989d33c1-7671-48c5-8a9e-88d891f42ac8
+  - &UUID1 248e98dc-0dc7-422a-b238-26f762e44925
 
 
 BUG:
