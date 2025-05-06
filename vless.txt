@@ -1,0 +1,6 @@
+vless://248e98dc-0dc7-422a-b238-26f762e44925@space.byu.id:443?path=ws%3A%2F%2Fxray.jrmpv.Biz.id%2FID&security=tls&encryption=none&host=space.byu.id&type=ws&sni=xray.jrmpv.Biz.id#AUTO+IP+WS
+vless://248e98dc-0dc7-422a-b238-26f762e44925@space.byu.id:443?path=%2FID&security=tls&encryption=none&host=xray.jrmpv.Biz.id&type=ws&sni=xray.jrmpv.Biz.id#AUTO+IP
+vless://248e98dc-0dc7-422a-b238-26f762e44925@ava.game.naver.com:443?path=%2FID1&security=tls&encryption=none&host=xray.jrmpv.Biz.id&type=ws&sni=xray.jrmpv.Biz.id#AUTO+IP
+vless://aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1@ava.game.naver.com:443?path=%2FFree%2FTG-at-BitzBlack%2F43.218.77.16-443&security=tls&encryption=none&host=ava.game.naver.com.free.c-stuff.WEB.id&type=ws&sni=ava.game.naver.com.free.c-stuff.WEB.id#%28ID%29+Amazoncom
+vless://aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1@space.byu.id:443?path=%2FFree%2FTG-at-BitzBlack%2F43.218.77.16-443&security=tls&encryption=none&host=ava.game.naver.com.free.c-stuff.WEB.id&type=ws&sni=ava.game.naver.com.free.c-stuff.WEB.id#%28ID%29+Amazoncom
+vless://aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1@104.16.16.243:443?path=%2FFree%2FTG-at-BitzBlack%2F43.218.77.16-443&security=tls&encryption=none&host=ava.game.naver.com.free.c-stuff.WEB.id&type=ws&sni=ava.game.naver.com.free.c-stuff.WEB.id#%28ID%29+Amazoncom
