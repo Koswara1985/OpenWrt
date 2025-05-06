@@ -1,0 +1,2909 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7895
+ipv6: false
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+secret: ""
+bind-address: "*"
+unified-delay: true
+profile:
+  store-selected: true
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  listen: 0.0.0.0:7874
+  nameserver:
+    - 8.8.8.8
+    - 1.0.0.1
+    - https://dns.google/dns-query
+  fallback:
+    - 1.1.1.1
+    - 8.8.4.4
+    - https://cloudflare-dns.com/dns-query
+    - 112.215.203.254
+  default-nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 112.215.203.254
+
+
+BUG:
+  - &ssl1 graph.facebook.com
+  - &ssl2 event.mobilelegends.com
+  - &ssl3 play.mobilelegends.com
+  - &bug1 104.16.106.96
+  - &bug2 104.16.51.111
+  - &bug3 162.159.128.7
+  - &bug4 162.159.128.79
+  - &bug5 172.67.213.134
+  - &bug6 104.22.24.131
+  - &bug7 104.16.53.111
+  - &bug8 162.159.128.7
+  - &bug9 162.159.138.6
+  - &bug10 chat.sociomile.com
+  - &bug11 zendesk4.grabtaxi.com
+  - &bug12 zendesk1.appsflyer.com
+  - &bug13 104.18.30.185
+  - &bug14 104.22.2.25
+  - &bug15 199.60.103.228
+  - &bug16 104.21.69.223
+  - &bug17 cdn.noice.id
+  - &bug18 104.18.3.2
+  - &bug19 104.16.85.20
+  - &bug20 172.67.38.66
+  - &bug21 172.67.146.74
+  - &bug22 199.60.103.28
+  - &bug23 104.17.3.81
+  - &bug24 104.18.12.78
+  - &bug25 104.18.30.9
+  - &bug26 104.26.4.192
+  - &bug27 170.114.45.0
+  - &bug28 104.26.6.171
+  - &bug29 104.18.24.139
+  - &bug30 106.112.18.3
+  - &bug31 104.18.10.39
+  - &bug32 104.19.142.108
+  - &bug33 104.19.143.108
+  - &bug34 104.17.70.206
+  - &bug35 104.18.25.139
+  - &bug36 104.16.66.85
+  - &bug37 141.193.213.21
+  - &bug38 170.114.52.3
+  - &bug39 141.193.213.10
+  - &bug40 162.159.135.42
+  - &bug41 104.20.74.141
+  - &bug42 162.159.138.6
+  - &bug43 investors.spotify.com
+  - &bug44 beacon.liveon.id
+  - &bug45 info.microsoft.com
+  - &bug46 support-whatsapp.zendesk.com
+  - &bug47 res-odx.op-mobile.opera.com
+  - &bug48 104.18.36.140
+  - &bug49 v27.tiktokcdn.com
+  - &bug50 104.19.143.108
+  - &bug51 104.16.85.20
+  - &bug52 104.16.108.96
+  - &bug53 104.18.20.94
+  - &bug54 zendesk1.garena.com
+  - &bug55 io.ruangguru.com
+  - &bug56 162.159.138.6
+  - &bug57 172.64.149.82
+  - &bug58 support.zoom.us
+  - &bug59 104.16.226.91
+  - &bug60 gomarketplacecontent-cf.zoom.us
+  - &bug61 www.sushiroll.co.id
+  - &bug62 creativeservices.netflix.com
+  - &bug63 tiktok1.zendesk.com
+  - &bug64 104.16.226.91
+  - &bug65 172.67.70.101
+  - &bug66 104.26.7.171
+  - &bug67 m.nimo.tv
+  - &bug68 104.18.41.141
+  - &bug69 sogood.linefriends.com
+  - &bug70 orangtua.ruangguru.com
+  - &bug71 104.19.143.108
+  - &bug72 youtube.zendesk.com
+  - &bug73 cdnodeb.visionplus.id
+  - &bug74 quiz.int.vidio.com
+  - &bug75 104.18.2.198
+  - &bug76 104.18.1.196
+  - &bug77 skillacademy.com
+  - &bug78 104.16.109.96
+  - &bug79 zoom.us
+  - &bug80 104.17.78.107
+  - &bug81 104.17.74.91
+  - &bug82 104.21.21.104
+  - &bug83 104.16.87.20
+  - &bug84 104.16.66.85
+  - &bug85 104.22.24.131
+  - &bug86 104.18.2.2
+  - &bug87 104.27.3.171
+  - &bug88 104.17.3.81
+  - &bug89 104.18.160.90
+  - &bug90 104.17.71.206
+  - &bug91 104.18.24.139
+  - &bug92 104.16.226.91
+  - &bug93 104.18.160.90
+  - &bug94 104.16.66.85
+  - &bug95 104.16.86.20
+  - &bug96 104.26.4.12
+  - &bug97 104.26.5.12
+  - &bug98 172.67.71.22
+  - &bug99 104.21.11.175
+  - &bug100 172.67.166.180
+  - &bug101 104.21.78.142
+  - &bug102 172.67.222.11
+  - &bug103 104.26.6.172
+  - &bug104 104.26.7.172
+  - &bug105 172.67.71.127
+  - &bug106 104.22.60.94
+  - &bug107 104.22.61.94
+  - &bug108 172.67.21.177
+  - &bug109 162.159.134.42
+  - &bug110 104.26.6.14
+  - &bug111 104.26.7.14
+  - &bug112 172.67.68.152
+  - &bug113 104.21.29.99
+  - &bug114 172.67.148.190
+  - &bug115 104.21.21.104
+  - &bug116 104.16.53.111
+  - &bug117 ruangguru.com
+  - &bug118 midtrans.com
+  - &bug119 tawk.to
+  - &bug120 104.26.6.172
+  - &bug121 104.16.226.91
+  - &bug122 104.18.160.90
+  - &bug123 104.17.3.81
+  - &bug124 104.21.21.104
+  - &bug125 104.16.87.20
+  - &bug126 104.17.78.107
+  - &bug127 104.17.74.91
+  - &bug128 104.21.21.104
+  - &bug129 104.16.87.20
+  - &bug130 104.16.66.85
+  - &bug131 104.27.3.171
+  - &bug132 104.18.160.90
+  - &bug133 104.18.2.2
+  - &bug134 104.18.18.229
+  - &bug135 104.16.85.20
+  - &bug136 104.17.78.107
+
+PATH:
+  - &path1 /ID
+  - &path2 ws://xray.jrmpv.Biz.id/ID
+
+Type:
+  - &type1 vless
+
+HOST:
+  - &host1 xray.jrmpv.Biz.id
+  - &host2 space.byu.id
+
+UUID:
+  - &UUID1 248e98dc-0dc7-422a-b238-26f762e44925
+
+INTERFACE:
+  - &i eth1
+  - &i2 eth2
+  - &i3 wlan0
+
+# Expired 09 Sep 2023
+
+proxies:
+  - name: Byu
+    server: *host2
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host2
+    network: ws
+    ws-opts:
+      path: *path2
+      headers:
+        Host: *host2
+    udp: true
+    interface-name: *i
+
+  - name: ssl1
+    server: *host1
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *ssl1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: ssl2
+    server: *host1
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *ssl2
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: ssl3
+    server: *host1
+    port: 443
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: *ssl3
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug1
+    server: *bug1
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug2
+    server: *bug2
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug3
+    server: *bug3
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug4
+    server: *bug4
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug5
+    server: *bug5
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug6
+    server: *bug6
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug7
+    server: *bug7
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug8
+    server: *bug8
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug9
+    server: *bug9
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug10
+    server: *bug10
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+#===========================10=========================
+
+  - name: bug11
+    server: *bug11
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug12
+    server: *bug12
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug13
+    server: *bug13
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug14
+    server: *bug14
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug15
+    server: *bug15
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug16
+    server: *bug16
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug17
+    server: *bug17
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug18
+    server: *bug18
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug19
+    server: *bug19
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+#========================20==========================
+  - name: bug20
+    server: *bug20
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug21
+    server: *bug21
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug22
+    server: *bug22
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug23
+    server: *bug23
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug24
+    server: *bug24
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug25
+    server: *bug25
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug26
+    server: *bug26
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug27
+    server: *bug27
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug28
+    server: *bug28
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug29
+    server: *bug29
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+#==============================30======================
+  - name: bug30
+    server: *bug30
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug31
+    server: *bug31
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug32
+    server: *bug32
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug33
+    server: *bug33
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug34
+    server: *bug34
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug35
+    server: *bug35
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug36
+    server: *bug36
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug37
+    server: *bug37
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug38
+    server: *bug38
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug39
+    server: *bug39
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+#=========================40======================$$
+  - name: bug40
+    server: *bug40
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug41
+    server: *bug41
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug42
+    server: *bug42
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug43
+    server: *bug43
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug44
+    server: *bug44
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug45
+    server: *bug45
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug46
+    server: *bug46
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug47
+    server: *bug47
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug48
+    server: *bug48
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug49
+    server: *bug49
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+#=========================50===================
+  - name: bug50
+    server: *bug50
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug51
+    server: *bug51
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug52
+    server: *bug52
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug53
+    server: *bug53
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug54
+    server: *bug54
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug55
+    server: *bug55
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug56
+    server: *bug56
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug57
+    server: *bug57
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug58
+    server: *bug58
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug59
+    server: *bug59
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+#=========================60========================
+  - name: bug60
+    server: *bug60
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug61
+    server: *bug61
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug62
+    server: *bug62
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug63
+    server: *bug63
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug64
+    server: *bug64
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug65
+    server: *bug65
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug66
+    server: *bug66
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug67
+    server: *bug67
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug68
+    server: *bug68
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug69
+    server: *bug69
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+#==========================70======================
+  - name: bug70
+    server: *bug70
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug71
+    server: *bug71
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug72
+    server: *bug72
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug73
+    server: *bug73
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug74
+    server: *bug74
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug75
+    server: *bug75
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug76
+    server: *bug76
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug77
+    server: *bug77
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug78
+    server: *bug78
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug79
+    server: *bug79
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+#==============================80=====================
+  - name: bug80
+    server: *bug80
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug81
+    server: *bug81
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug82
+    server: *bug82
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug83
+    server: *bug83
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug84
+    server: *bug84
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug85
+    server: *bug85
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug86
+    server: *bug86
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug87
+    server: *bug87
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug88
+    server: *bug88
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug89
+    server: *bug89
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+#========================90===============
+
+  - name: bug90
+    server: *bug90
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug91
+    server: *bug91
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug92
+    server: *bug92
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug93
+    server: *bug93
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug94
+    server: *bug94
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug95
+    server: *bug95
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug96
+    server: *bug96
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug97
+    server: *bug97
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug98
+    server: *bug98
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug99
+    server: *bug99
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+#==========================100===================
+
+  - name: bug100
+    server: *bug100
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug101
+    server: *bug101
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug102
+    server: *bug102
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug103
+    server: *bug103
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug104
+    server: *bug104
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug105
+    server: *bug105
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug106
+    server: *bug106
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug107
+    server: *bug107
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug108
+    server: *bug108
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug109
+    server: *bug109
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+#=========================110====================
+
+  - name: bug110
+    server: *bug110
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug111
+    server: *bug111
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug112
+    server: *bug112
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug113
+    server: *bug113
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug114
+    server: *bug114
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug115
+    server: *bug115
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug116
+    server: *bug116
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug117
+    server: *bug117
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug118
+    server: *bug118
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug119
+    server: *bug119
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+#====================120==============================
+
+  - name: bug120
+    server: *bug120
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug121
+    server: *bug121
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug122
+    server: *bug122
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug123
+    server: *bug123
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug124
+    server: *bug124
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug125
+    server: *bug125
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug126
+    server: *bug126
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug127
+    server: *bug127
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug128
+    server: *bug128
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+  - name: bug129
+    server: *bug129
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+#====================130==================
+  - name: bug130
+    server: *bug130
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug131
+    server: *bug131
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug132
+    server: *bug132
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug133
+    server: *bug133
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug134
+    server: *bug134
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug135
+    server: *bug135
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+  - name: bug136
+    server: *bug136
+    port: 80
+    type: *type1
+    uuid: *UUID1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: *host1
+    network: ws
+    ws-opts:
+      path: *path1
+      headers:
+        Host: *host1
+    udp: true
+    interface-name: *i
+
+
+proxy-groups:
+  - name: FASTSSH-SSHKIT-HOWDY
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    proxies:
+      - Byu
+      - ssl1
+      - ssl2
+      - ssl3
+      - bug1
+      - bug2
+      - bug3
+      - bug4
+      - bug5
+      - bug6
+      - bug7
+      - bug8
+      - bug9
+      - bug10
+      - bug11
+      - bug12
+      - bug13
+      - bug14
+      - bug15
+      - bug16
+      - bug17
+      - bug18
+      - bug19
+      - bug20
+      - bug21
+      - bug22
+      - bug23
+      - bug24
+      - bug25
+      - bug26
+      - bug27
+      - bug28
+      - bug29
+      - bug30
+      - bug31
+      - bug32
+      - bug33
+      - bug34
+      - bug35
+      - bug36
+      - bug37
+      - bug38
+      - bug39
+      - bug40
+      - bug41
+      - bug42
+      - bug43
+      - bug44
+      - bug45
+      - bug46
+      - bug47
+      - bug48
+      - bug49
+      - bug50
+      - bug51
+      - bug52
+      - bug53
+      - bug54
+      - bug55
+      - bug56
+      - bug57
+      - bug58
+      - bug59
+      - bug60
+      - bug61
+      - bug62
+      - bug63
+      - bug64
+      - bug65
+      - bug66
+      - bug67
+      - bug68
+      - bug69
+      - bug70
+      - bug71
+      - bug72
+      - bug73
+      - bug74
+      - bug75
+      - bug76
+      - bug77
+      - bug78
+      - bug79
+      - bug80
+      - bug81
+      - bug82
+      - bug83
+      - bug84
+      - bug85
+      - bug86
+      - bug87
+      - bug88
+      - bug89
+      - bug90
+      - bug91
+      - bug92
+      - bug93
+      - bug94
+      - bug95
+      - bug96
+      - bug97
+      - bug98
+      - bug99
+      - bug100
+      - bug101
+      - bug102
+      - bug103
+      - bug104
+      - bug105
+      - bug106
+      - bug107
+      - bug108
+      - bug109
+      - bug110
+      - bug111
+      - bug112
+      - bug113
+      - bug114
+      - bug115
+      - bug116
+      - bug117
+      - bug118
+      - bug119
+      - bug120
+      - bug121
+      - bug122
+      - bug123
+      - bug124
+      - bug125
+      - bug126
+      - bug127
+      - bug128
+      - bug129
+      - bug130
+      - bug131
+      - bug132
+      - bug133
+      - bug134
+      - bug135
+      - bug136
+rules:
+  - MATCH,FASTSSH-SSHKIT-HOWDY
