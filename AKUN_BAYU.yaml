@@ -1,0 +1,62 @@
+proxies:
+  - name: (SG) 🇸🇬 AUTO
+    server: xray.jrmpv.Biz.id
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /SG
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (SG) 🇸🇬 AUTO WS
+    server: space.byu.id
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: ws://xray.jrmpv.Biz.id/SG
+      headers:
+        Host: space.byu.id
+    udp: true
+
+  - name: (ID) 🇲🇨 AUTO
+    server: xray.jrmpv.Biz.id
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: /ID
+      headers:
+        Host: xray.jrmpv.Biz.id
+    udp: true
+  - name: (ID) 🇲🇨 AUTO WS
+    server: space.byu.id
+    port: 443
+    type: vless
+    uuid: 248e98dc-0dc7-422a-b238-26f762e44925
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: xray.jrmpv.Biz.id
+    network: ws
+    ws-opts:
+      path: ws://xray.jrmpv.Biz.id/ID
+      headers:
+        Host: space.byu.id
+    udp: true
